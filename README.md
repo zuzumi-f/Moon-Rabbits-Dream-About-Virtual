@@ -3,7 +3,7 @@
 A theme based on the art cover from Tsukino Mito Album Moon Rabbits Dream About Virtual!
 
 # Image Light
-![1](https://user-images.githubusercontent.com/79029257/130958839-c587fc1b-caa7-4989-9141-12bf038e8a85.png)
+![1](https://user-images.githubusercontent.com/79029257/130959994-fc29b4bf-6361-4573-b55a-307cebf1f459.png)
 
 # Image Dark (work in progress)
 
