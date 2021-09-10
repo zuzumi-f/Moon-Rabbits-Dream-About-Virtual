@@ -1,0 +1,13 @@
+/**
+ * @name Moon Rabbits Dream About Virtual
+ * @description Based in Tsukinomito Album cover
+ * @author zuzumi#8097
+ * @version 1.0 AutoUpdate
+*/
+
+/* Import [DONT TOUCH] */
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/tsukinomito.base.css')
+
+:root {
+    --a-custom-text: "TSUKINO MITO"; /* The text that appear in top, "" if you dont want any [write in "(text)"] */
+}
