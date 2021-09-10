@@ -1,0 +1,79 @@
+/* Pop by Ultra[devinkid1] (edited) */
+:root {
+/* Hover Scale */
+    
+--HoverScale: 1.025;
+    
+/* Transition Time */
+    
+--TransitionTime: 0.25s;
+    
+/* Ease Type */
+    
+--EaseType: cubic-bezier(0, 0.75, 0, 1.75);
+}
+
+/* ---- Hover Animations ---- */
+/* Buttons */ .button-1PXUl0:hover, .button-G2dHuB.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.fullWidth-1orjjo.grow-q77ONN:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN:hover, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .button-1h8W6d:hover, .button-1h8W6d, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeLarge-1vSeWK.grow-q77ONN:hover, .button-38aScr.lookFilled-1Gx00P.colorWhite-rEQuAQ.sizeMedium-1AC_Sl.grow-q77ONN:hover, .fieldButton-27bJrp.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeSmall-2cSMqn.grow-q77ONN:hover,
+/* Settings List Items */ .side-8zPYf6 .item-PXvHYJ:hover,
+/* Stage discovery */ .container-S9SaVf:hover,
+/* Active now card */ .itemCard-v9viV7:hover,
+/* Activity button */ .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
+/* Friendlist */ .peopleListItem-2nzedh:hover,
+/* Direct Message List Items */ .channel-2QD9_O:hover,
+/* Member List Items */ .member-3-YXUe:hover,
+/* Context Menu Items */ .item-1tOPte:hover,
+/* Message Profile Pictures */ .avatar-1BDn8e:hover,
+/* Topbar Items */ .toolbar-1t6TWx > .iconWrapper-2OrFZ1:hover > svg > path, .toolbar-1t6TWx > .inviteToolbar-3F-l2g > .iconWrapper-2OrFZ1:hover > svg > path, .toolbar-1t6TWx > a > .iconWrapper-2OrFZ1:hover > svg > path,
+/* Server Channels */ .content-1x5b-n:hover,
+/* Nitro Tab Feature Cards */ .feature-2w65J5:hover,
+/* Quick Switcher List Items */ .resultFocused-3aIoYe:hover,
+/* Quick Switcher Search Box */ .input-2VB9rf:hover,
+/* Sidebar in Discover */ .categoryItem-1QIroW:hover,
+/* Discovery Tab List Items */ .categoryItem-3zFJns:hover,
+/* Discovery Tab Cards */ .card-3DjzTQ:hover,
+/* Message Options */ .button-1ZiXG9:hover > svg > path,
+/* Gift Nitro */ .giftAction-yhDLaW:hover,
+/* Call users */ .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX
+{
+    transform-origin: center;
+    transform: scale(var(--HoverScale));
+    box-shadow: var(--elevation-high);
+}
+  
+/* ---- Static Animations ---- */
+/* Buttons */ .button-1PXUl0, .button-G2dHuB.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.fullWidth-1orjjo.grow-q77ONN, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN, .lookFilled-1Gx00P.colorGreen-29iAKY, .button-1h8W6d, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeLarge-1vSeWK.grow-q77ONN, .button-38aScr.lookFilled-1Gx00P.colorWhite-rEQuAQ.sizeMedium-1AC_Sl.grow-q77ONN, .fieldButton-27bJrp.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeSmall-2cSMqn.grow-q77ONN,
+/* Settings List Items */ .side-8zPYf6 .item-PXvHYJ,
+/* Stage discovery */ .container-S9SaVf,
+/* Active now card */ .itemCard-v9viV7,
+/* Activity button */ .lookFilled-1Gx00P.colorGrey-2DXtkV,
+/* Friendlist */ .peopleListItem-2nzedh,
+/* Direct Message List Items */ .channel-2QD9_O,
+/* Member List Items */ .member-3-YXUe,
+/* Context Menu Items */ .item-1tOPte,
+/* Message Profile Pictures */ .avatar-1BDn8e,
+/* Topbar Items */ .toolbar-1t6TWx > .iconWrapper-2OrFZ1 > svg > path, .toolbar-1t6TWx > .inviteToolbar-3F-l2g > .iconWrapper-2OrFZ1 > svg > path, .toolbar-1t6TWx > a > .iconWrapper-2OrFZ1 > svg > path,
+/* Server Channels */ .content-1x5b-n,
+/* Nitro Tab Feature Cards */ .feature-2w65J5,
+/* Quick Switcher List Items */ .resultFocused-3aIoYe,
+/* Quick Switcher Search Box */ .input-2VB9rf,
+/* Sidebar in Discover */ .categoryItem-1QIroW,
+/* Discovery Tab List Items */ .categoryItem-3zFJns,
+/* Discovery Tab Cards */ .card-3DjzTQ,
+/* Message Options */ .button-1ZiXG9 > svg > path,
+/* Gift Nitro */ .giftAction-yhDLaW,
+/* Call users */ .content-1Wq3SX
+{
+    transition: var(--EaseType) var(--TransitionTime);
+    box-shadow: none;
+}
+
+/* ---- When Active ---- */
+/* Friend list */ .peopleListItem-2nzedh.active-rhSpJJ,
+/* Active now */ .outer-1AjyKL.active-1xchHY,
+/* Memberlist */ .member-3-YXUe.container-2Pjhx-.selected-aXhQR6 
+{
+    transform-origin: center;
+    transform: scale(var(--HoverScale));
+    box-shadow: var(--elevation-high);
+}
