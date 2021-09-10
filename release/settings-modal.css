@@ -1,0 +1,180 @@
+/* Settings Modal */
+:root {
+	--settingsmodalbackground: transparent;
+	--settingsmodalwidth: 1040px;
+	--settingsmodalheight: 80vh;
+}
+
+#app-mount .baseLayer-35bLyl {
+	opacity: 1 !important;
+	transform: unset !important;
+	will-change: unset !important;
+}
+#app-mount .stop-animations * {
+	transition-property: inherit !important;
+	animation: inherit !important;
+}
+#app-mount .layer-3QrUeG.stop-animations:first-child::after {
+	content: "" !important;
+	position: fixed !important;
+	background: rgb(0, 0, 0) !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0.2 !important;
+	z-index: 1000 !important;
+    -webkit-app-region: no-drag;
+}
+
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settingsmodalbackground) !important;
+	border-radius: var(--radius-theme) !important;
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settingsmodalwidth) !important;
+	height: var(--settingsmodalheight) !important;
+	margin: auto !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	contain: unset !important;
+	z-index: 1000 !important;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG > div,
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .standardSidebarView-3F1I7i {
+	position: static !important;
+	width: 100% !important;
+	height: 100% !important;
+	margin: unset !important;
+	padding: unset !important;
+	overflow: hidden !important;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .sidebar-CFHs9e {
+	padding-top: 22px !important;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .contentColumnDefault-1VQkGM {
+	padding: 20px 40px !important;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .sidebar-dLM-kh {
+	height: var(--settingsmodalheight) !important;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .repoHeader-2KfNvH {
+	max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .standardSidebarView-3F1I7i .editor {
+	height: calc(var(--settingsmodalheight) - 120px) !important;
+}
+
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .header-2RyJ0Y {
+	max-width: calc(var(--settingsmodalwidth) - 730px) !important;
+}
+
+#app-mount .root-3R2ngo {
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settingsmodalbackground) !important;
+	border-radius: var(--radius-theme) !important;
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settingsmodalwidth) !important;
+	height: var(--settingsmodalheight) !important;
+	margin: auto !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	contain: unset !important;
+	z-index: 1000 !important;
+    border: var(--the-borders);
+}
+#app-mount .root-3R2ngo.enterDone-2zvtsK {
+	transform: unset !important;
+}
+
+#app-mount .perksModal-fSYqOq::before {
+	width: var(--settingsmodalwidth) !important;
+	height: var(--settingsmodalheight) !important;
+	margin: auto !important;
+}
+#app-mount .perksModalContentWrapper-2HU6uL {
+	padding: 48px 0 10px !important;
+}
+#app-mount .root-3R2ngo .perksModal-fSYqOq .carousel-6MSnEI {
+	margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
+}
+
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj {
+    transform: scale(0.8);
+    margin-right: 0;
+    padding-top: 16px;
+    margin-left: 10px;
+}
+.root-3R2ngo .closeButton-1tv5uR {
+    transform: scale(0.8);
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div {
+    position: unset !important;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div > div > div, .closeButton-1tv5uR {
+    border: none;
+    transition: var(--TransitionTime);
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div > div > div:nth-child(2), .container-1sFeqf.closeIcon-3_iQ6l > div:last-child {
+    display: none;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div > div > div:hover {
+    background: none !important;
+    transform: scale(1.2);
+    transition: var(--TransitionTime);
+}
+.closeButton-1tv5uR:hover {
+    background: none !important;
+    transform: scale(0.9);
+    transition: var(--TransitionTime);
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div > div > div > svg, .closeButton-1tv5uR > svg {
+    background: #da5169;
+    border-radius: 50%;
+}
+#app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div > div > div > svg > path, .closeButton-1tv5uR > svg > path {
+    fill: transparent;
+}
+
+.contentRegionScroller-26nc1e::-webkit-scrollbar, .perksModal-fSYqOq::-webkit-scrollbar {
+    display: none;
+}
+
+.standardSidebarView-3F1I7i {
+    border: var(--the-borders);
+    border-top: none !important;
+    border-bottom-left-radius: var(--radius-theme) !important;
+    border-bottom-right-radius: var(--radius-theme) !important;
+}
+
+/* Drag area */
+.layer-3QrUeG ~ .layer-3QrUeG::before {
+    background: var(--drag-background);
+    opacity: 1;
+    content: "";
+    min-height: 32px;
+    border-top-left-radius: var(--radius-theme);
+    border-top-right-radius: var(--radius-theme);
+    min-width: 1034px;
+    border: var(--the-borders);
+    box-shadow: 0 0px 16px rgba(0,0,0,0.16);
+    -webkit-app-region: drag;
+}
+.closeWrapper-9ScmSq {
+    background: var(--drag-background);
+    border-bottom: var(--the-borders);
+    -webkit-app-region: drag;
+}
