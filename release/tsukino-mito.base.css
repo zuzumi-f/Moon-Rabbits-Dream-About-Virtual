@@ -1155,6 +1155,21 @@ to {
     padding-top: 60px;
 }
 
+/* Close in paymetod */
+#app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .close-hZ94c6 {
+    color: transparent;
+    opacity: 1;
+    background-color: #da5169;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    top: 18px;
+    right: 18px;
+}
+#app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .close-hZ94c6:hover {
+    transform: scale(1.1);
+}
+
 /* Transfer Boost */
 .modal-1xfRX3.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
     border: var(--the-borders);
