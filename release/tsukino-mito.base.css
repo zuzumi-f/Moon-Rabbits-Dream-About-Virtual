@@ -938,7 +938,7 @@ to {
     transition: var(--EaseType) var(--TransitionTime);
 }
 
-/* small popout */
+/* small user popout */
 .body-3HBlXn {
     padding-right: 16px !important;
 }
@@ -955,7 +955,7 @@ to {
     opacity: 1;
     content: ">";
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     right: 4px;
     position: relative;
 }
@@ -1031,20 +1031,19 @@ to {
 .headerTop-547GTz {
     left: 16px;
 }
-.UserDetails-dates-wrapper {
-    height: 0 !important;
+.topSection-y3p-_D .nameTag-ECvD8P {
     top: 155px;
     position: absolute;
     left: 0;
     filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.28));
 }
-.UserDetails-dates-wrapper .username-FvTBog {
+.topSection-y3p-_D .username-FvTBog {
     color: #fff;
 }
-.UserDetails-dates-wrapper .discriminator-1swucG {
+.topSection-y3p-_D .discriminator-1swucG {
     color: #fff;
 }
-.UserDetails-dates-wrapper .nameTag-ECvD8P {
+.topSection-y3p-_D .nameTag-ECvD8P {
     background-color: #D95B72;
     border-radius: 2px;
     padding-right: 4px;
@@ -1054,7 +1053,7 @@ to {
     opacity: 1;
     content: ">";
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     right: 4px;
     position: relative;
 }
@@ -1076,10 +1075,10 @@ to {
 }
 
 /* User details compatibility */
-.UserDetails-dates-container.UserDetails-dates-userProfile.UserDetails-dates-icons {
+#app-mount .topSection-y3p-_D .UserDetails-dates-container.UserDetails-dates-userProfile.UserDetails-dates-icons {
     position: absolute;
-    top: 44px;
-    left: var(--radius-theme);
+    top: 200px;
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.28));
 }
 .theme-light .headerText-1vVs-U .UserDetails-dates-container svg {
     fill: var(--text-color);
