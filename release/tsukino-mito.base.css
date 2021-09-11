@@ -908,7 +908,7 @@ to {
     border-radius: 15px 15px 0 0;
     border-bottom: var(--the-borders);
 }
-.modal-1k91nT.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y > div:first-child > .closeButton-31ta9E {
+#app-mount .modal-1k91nT.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y > div:first-child > .closeButton-31ta9E {
     color: transparent;
     background-color: #da5169;
     border-radius: 50%;
