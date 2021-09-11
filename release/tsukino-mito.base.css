@@ -561,20 +561,20 @@ to {
     border-bottom: var(--the-borders);
     border-radius: 15px 15px 0 0 !important;
 }
-[style*="position: absolute; display: block; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] > div:first-child > .close-hZ94c6 {
+#app-mount [style*="position: absolute; display: block; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] > div:first-child > .close-hZ94c6 {
     color: transparent;
     background-color: #da5169;
     border-radius: 50%;
     width: 6px;
     height: 6px;
     top: 18px;
-    right: 18px;
+    right: 18px !important;
     opacity: 1 !important;
 }
-[style*="position: absolute; display: block; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] > div:first-child > .close-hZ94c6:hover {
+#app-mount [style*="position: absolute; display: block; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] > div:first-child > .close-hZ94c6:hover {
     transform: scale(1.1);
 }
-[style*="position: absolute; display: block; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] > div:nth-child(2) {
+#app-mount [style*="position: absolute; display: block; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] > div:nth-child(2) {
     padding-right: 16px;
 }
 
