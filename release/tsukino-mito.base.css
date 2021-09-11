@@ -1117,6 +1117,44 @@ to {
     background-color: hsl(218, 5%, 39%);
 }
 
+/* Config popouts close */
+#app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .modalCloseButton-nA1JXv, #app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .modalCloseButton-3aEy9o {
+    color: transparent;
+    opacity: 1;
+    background-color: #da5169;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    top: 18px;
+    right: 18px;
+}
+#app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .modalCloseButton-nA1JXv:hover, #app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .modalCloseButton-3aEy9o:hover {
+    transform: scale(1.1);
+}
+#app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y > form > div:first-child {
+    padding-right: 16px !important;
+}
+
+/* Change phone */
+#app-mount .phoneVerificationModal-OzcDc3 {
+    min-height: 252px;
+    max-height: 252px;
+    height: 252px;
+}
+#app-mount .phoneVerificationModal-OzcDc3::before {
+    content: "";
+    width: 472px;
+    position: relative;
+    bottom: 38px;
+}
+.phoneVerificationModal-OzcDc3 .title-3qNdae {
+    padding-top: 0;
+    margin-top: unset;
+}
+.phoneVerificationModal-OzcDc3 .description-3JBgvQ.error-1E-Ycl {
+    padding-top: 60px;
+}
+
 /* Transfer Boost */
 .modal-1xfRX3.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y {
     border: var(--the-borders);
