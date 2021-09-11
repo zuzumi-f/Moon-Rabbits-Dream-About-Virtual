@@ -320,7 +320,7 @@ to {
 
 /* Status Picker */
 #app-mount #status-picker {
-    left: 4px;
+    left: 2px;
     width: 262px;
 }
 #app-mount #status-picker::before {
