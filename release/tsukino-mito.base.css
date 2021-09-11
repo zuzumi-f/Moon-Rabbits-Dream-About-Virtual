@@ -437,7 +437,7 @@ to {
     margin-right: 8px;
 }
 .containerDefault--pIXnN, .wrapper-2jXpOf, .content-1x5b-n {
-    height: 40px;
+    min-height: 40px;
 }
 .containerDefault--pIXnN {
     margin-bottom: 4px;
@@ -884,10 +884,14 @@ to {
     background: hsl(223, 7%, 17%);
 }
 
+.list-2luk8a .draggable-2E_4tJ {
+    margin-bottom: 4px;
+}
 .list-2luk8a {
     transform: scale(1.06);
     padding-left: 38px;
     margin-right: 16px;
+    padding-top: 4px;
 }
 .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX {
     background-color: var(--background-modifier-hover);
