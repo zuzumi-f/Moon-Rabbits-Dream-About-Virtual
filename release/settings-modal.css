@@ -126,7 +126,6 @@
 }
 #app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div > div > div, .closeButton-1tv5uR {
     border: none;
-    transition: var(--TransitionTime);
 }
 #app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div > div > div:nth-child(2), .container-1sFeqf.closeIcon-3_iQ6l > div:last-child {
     display: none;
@@ -134,12 +133,10 @@
 #app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div > div > div:hover {
     background: none !important;
     transform: scale(1.2);
-    transition: var(--TransitionTime);
 }
 .closeButton-1tv5uR:hover {
     background: none !important;
     transform: scale(0.9);
-    transition: var(--TransitionTime);
 }
 #app-mount .layer-3QrUeG ~ .layer-3QrUeG .toolsContainer-1edPuj > div > div > div > svg, .closeButton-1tv5uR > svg {
     background: #da5169;
