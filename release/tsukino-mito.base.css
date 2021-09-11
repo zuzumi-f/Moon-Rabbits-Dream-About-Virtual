@@ -1163,11 +1163,13 @@ to {
     border-radius: 50%;
     width: 6px;
     height: 6px;
-    top: 18px;
-    right: 18px;
+    right: 4px;
 }
 #app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .close-hZ94c6:hover {
     transform: scale(1.1);
+}
+#app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .content-1LAB8Z {
+    padding-right: 16px !important;
 }
 
 /* Transfer Boost */
