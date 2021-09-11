@@ -3,14 +3,14 @@
 A theme based on the art cover from Tsukino Mito Album Moon Rabbits Dream About Virtual!
 
 # Light Mode
-![Discord_Uxu1rhifBb](https://user-images.githubusercontent.com/79029257/132891799-e685e574-0f05-478f-973d-916b38a130eb.png)
-![Discord_JhicGjgSBD](https://user-images.githubusercontent.com/79029257/132891808-5d59b23a-863b-4af0-8e0a-0c95c2f9c97d.png)
-![Discord_hrgF5nQyYx](https://user-images.githubusercontent.com/79029257/132891814-ced422a1-5cc8-493d-8f0f-299eeefa8509.png)
+![Discord_cmG3T4TLFV](https://user-images.githubusercontent.com/79029257/132948146-2fb2a051-9903-49d3-b6b8-9864386703be.png)
+![Discord_4JHylwQ518](https://user-images.githubusercontent.com/79029257/132948150-5fa8d85c-5ff1-4db0-bbd1-d868eb28a15b.png)
+![Discord_YxHPrR0EUD](https://user-images.githubusercontent.com/79029257/132948153-c60f30b0-9d29-4799-bafa-f2121f485c39.png)
 
 # Dark Mode
-![Discord_31mGpMciQY](https://user-images.githubusercontent.com/79029257/132891841-69a77334-bd04-4cd6-ad80-562185b6c29b.png)
-![Discord_b01H5O8W5m](https://user-images.githubusercontent.com/79029257/132891855-0c608b28-db05-4b10-90a3-756618a3869c.png)
-![Discord_7xA75S1H9C](https://user-images.githubusercontent.com/79029257/132891876-ff04cd95-a035-41d3-bc87-43018991d912.png)
+![Discord_xsTztAKvsm](https://user-images.githubusercontent.com/79029257/132948158-c8d7275c-a4a6-4027-b6f5-ffc8abbef49e.png)
+![Discord_f71AsaPzUH](https://user-images.githubusercontent.com/79029257/132948164-d0a56bdf-1bde-4ff6-bd74-7f11575b85f9.png)
+![Discord_dZXsrjnSbr](https://user-images.githubusercontent.com/79029257/132948170-d619e83e-4679-4593-88e4-056293183316.png)
 
 # Addons
 Settings Modal by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/SettingsModal/)**
