@@ -567,8 +567,6 @@ to {
     border-radius: 50%;
     width: 6px;
     height: 6px;
-    top: 18px;
-    right: 18px !important;
     opacity: 1 !important;
 }
 #app-mount [style*="position: absolute; display: block; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] > div:first-child > .close-hZ94c6:hover {
@@ -845,6 +843,14 @@ to {
     background-color: hsl(220, 8%, 14%);
 }
 
+.theme-light .autocomplete-1vrmpx {
+    background-color: hsla(223, 7%, 100%, 0.9);
+    backdrop-filter: blur(4px);
+}
+.theme-light .selected-1Tbx07 {
+    background-color: hsl(220, 8%, 100%);
+}
+
 /* Server boost */
 .theme-dark .perksModal-fSYqOq {
     background-color: var(--activity-card-background);
@@ -914,7 +920,6 @@ to {
     border-radius: 50%;
     width: 6px;
     height: 6px;
-    right: 18px;
     opacity: 1 !important;
 }
 .modal-1k91nT.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y > div:first-child > .closeButton-31ta9E:hover {
@@ -1115,8 +1120,6 @@ to {
     border-radius: 50%;
     width: 6px;
     height: 6px;
-    top: 18px;
-    right: 18px;
 }
 #app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .modalCloseButton-nA1JXv:hover, #app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .modalCloseButton-3aEy9o:hover {
     transform: scale(1.1);
@@ -1153,7 +1156,6 @@ to {
     border-radius: 50%;
     width: 6px;
     height: 6px;
-    right: 4px;
 }
 #app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .close-hZ94c6:hover {
     transform: scale(1.1);
@@ -1181,8 +1183,6 @@ to {
     border-radius: 50%;
     width: 6px;
     height: 6px;
-    top: 10px;
-    left: 10px;
     -webkit-app-region: no-drag;
 }
 .modal-1xfRX3.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .modalCloseButton-2O2UDY:hover {
