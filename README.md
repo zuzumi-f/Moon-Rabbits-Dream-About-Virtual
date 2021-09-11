@@ -12,11 +12,11 @@ A theme based on the art cover from Tsukino Mito Album Moon Rabbits Dream About 
 ![Discord_b01H5O8W5m](https://user-images.githubusercontent.com/79029257/132891855-0c608b28-db05-4b10-90a3-756618a3869c.png)
 ![Discord_7xA75S1H9C](https://user-images.githubusercontent.com/79029257/132891876-ff04cd95-a035-41d3-bc87-43018991d912.png)
 
-# Original Art Cover
-![moonrabbitsdreamaboutvirtual2-art-scale-2_00x-gigapixel](https://user-images.githubusercontent.com/79029257/132885766-58a204cf-4941-4143-a3d2-7d9eec948c2c.png)
-![月ノ美兎 - 月ノ美兎 1stアルバム「月の兎はヴァーチュアルの夢をみる」クロスフェード](https://user-images.githubusercontent.com/79029257/132885787-bc0758ff-7b6b-46a7-89a9-0b23e5447ffe.png)
-
 # Addons
 Settings Modal by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/SettingsModal/)**
 
 Pop! by **[devinkid1](https://github.com/devinkid1/Pop)**
+
+# Original Art Cover
+![moonrabbitsdreamaboutvirtual2-art-scale-2_00x-gigapixel](https://user-images.githubusercontent.com/79029257/132885766-58a204cf-4941-4143-a3d2-7d9eec948c2c.png)
+![月ノ美兎 - 月ノ美兎 1stアルバム「月の兎はヴァーチュアルの夢をみる」クロスフェード](https://user-images.githubusercontent.com/79029257/132885787-bc0758ff-7b6b-46a7-89a9-0b23e5447ffe.png)
