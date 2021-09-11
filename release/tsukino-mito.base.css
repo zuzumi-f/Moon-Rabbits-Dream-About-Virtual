@@ -279,12 +279,8 @@ to {
 .winButton-iRh8-Z:nth-child(4) {
     background: #00a0cb;
 }
-.winButton-iRh8-Z:nth-child(2), .winButton-iRh8-Z:nth-child(3), .winButton-iRh8-Z:nth-child(4) {
-    transition: var(--TransitionTime);
-}
 .winButton-iRh8-Z:nth-child(2):hover, .winButton-iRh8-Z:nth-child(3):hover, .winButton-iRh8-Z:nth-child(4):hover {
     transform: scale(1.14);
-    transition: var(--TransitionTime);
 }
 
 /* User bar */
@@ -1105,7 +1101,7 @@ to {
 .guild-profile .nameTagNoCustomStatus-3IWmZC .username-FvTBog {
     color: #fff;
     background-color: #D95B72;
-    border-radius: 2px;
+    border-radius: 4px;
     padding-right: 4px;
     padding-left: 8px;
 }
