@@ -755,6 +755,12 @@ to {
     background-color: var(--brand-experiment);
     color: var(--header-primary);
 }
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
+    background-color: var(--background-floating);
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: hsl(223, 7%, 0%);
+}
 
 /* Upload a File */
 .theme-dark .uploadModal-2ifh8j {
