@@ -689,16 +689,6 @@ to {
     transform: translatey( -100% );
 }
 
-/* Spoiler */
-.spoilerText-3p6IlD.hidden-HHr2R9 {
-    background: linear-gradient(140deg, #4cb4e199, #57b1db99, #cbb0cf99, #dba4c199, #dea1be99);
-    background-color: transparent !important;
-}
-.spoilerText-3p6IlD {
-    background: linear-gradient(140deg, #4cb4e11a, #57b1db1a, #cbb0cf1a, #dba4c11a, #dea1be1a);
-    background-color: transparent !important;
-}
-
 /* The searchbar */
 .chat-3bRxxu .children-19S4PO {
     margin-left: 250px;
