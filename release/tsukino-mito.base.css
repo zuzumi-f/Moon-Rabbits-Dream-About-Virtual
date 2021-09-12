@@ -310,9 +310,6 @@ to {
     background: none;
     transition: .5s;
 }
-/* Config button */
-.container-3baos1 > div:nth-child(3) > button:nth-child(3) > div > svg > path {d: path("M 7 12.001 C 7 10.8964 6.10457 10.001 5 10.001 C 3.89543 10.001 3 10.8964 3 12.001 C 3 13.1055 3.89543 14.001 5 14.001 C 6.10457 14.001 7 13.1055 7 12.001 Z M 14 12.001 C 14 10.8964 13.1046 10.001 12 10.001 C 10.8954 10.001 10 10.8964 10 12.001 C 10 13.1055 10.8954 14.001 12 14.001 C 13.1046 14.001 14 13.1055 14 12.001 Z M 19 10.001 C 20.1046 10.001 21 10.8964 21 12.001 C 21 13.1055 20.1046 14.001 19 14.001 C 17.8954 14.001 17 13.1055 17 12.001 C 17 10.8964 17.8954 10.001 19 10.001 Z");
-}
 
 /* Status Picker */
 #app-mount #status-picker {
@@ -1192,6 +1189,11 @@ to {
 }
 .modal-1xfRX3.root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .modalCloseButton-2O2UDY:hover {
     transform: scale(1.1);
+}
+
+/* Large */
+#app-mount .modal-1TF_VN::before {
+    width: 490px;
 }
 
 /* Checks */
