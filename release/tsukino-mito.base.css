@@ -759,6 +759,12 @@ to {
     background-color: hsl(223, 7%, 0%);
 }
 
+/* New unreads */
+.container-35XQWE .unread-1xRYoj {
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+}
+
 /* Upload a File */
 .theme-dark .uploadModal-2ifh8j {
     background-color: var(--background-secondary-alt);
