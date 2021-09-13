@@ -1,0 +1,33 @@
+/* User details compatibility */
+#app-mount .topSection-y3p-_D .UserDetails-dates-container.UserDetails-dates-userProfile.UserDetails-dates-icons {
+    position: absolute;
+    top: 200px;
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.28));
+}
+.theme-light .headerText-1vVs-U .UserDetails-dates-container svg {
+    fill: var(--text-color);
+}
+
+/* Server profile compatibility */
+.guild-profile .nameTagNoCustomStatus-3IWmZC {
+    top: 155px;
+    left: 0;
+    position: absolute;
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.4));
+}
+.guild-profile .nameTagNoCustomStatus-3IWmZC .username-FvTBog {
+    color: #fff;
+    background-color: #D95B72;
+    border-radius: 4px;
+    padding-right: 4px;
+    padding-left: 8px;
+}
+.guild-profile .topSection-y3p-_D .nameTag-ECvD8P {
+    background-color: unset;
+    border-radius: unset;
+    padding-right: unset;
+    padding-left: unset;
+}
+.guild-profile .guildDetail-1nRKNE {
+    padding-top: 6px;
+}
