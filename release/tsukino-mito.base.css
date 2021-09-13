@@ -25,7 +25,7 @@
     --background-modifier-hover: hsla(217, 8%, 26%, 0.16);
     --background-modifier-active: hsla(217, 8%, 26%, 0.24);
     --background-modifier-selected: hsla(217, 8%, 26%, 0.32);
-    --background-modifier-accent: hsla(0, 0%, 87%, 0.06);
+    --background-modifier-accent: hsla(0, 0%, 87%, 0.08);
     --info-help-background: hsla(314, 100%, 47.8%, 0.1);
     --info-help-foreground: hsl(314, 100%, 47.8%);
     --status-warning-text: hsl(0, 0%, 0%);
@@ -760,6 +760,9 @@ to {
 }
 
 /* New unreads */
+.header-2V-4Sw {
+    backdrop-filter: blur(0);
+}
 .container-35XQWE .unread-1xRYoj {
     background-color: transparent;
     backdrop-filter: blur(4px);
