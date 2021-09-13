@@ -1,6 +1,7 @@
 @import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/settings-modal.css");
 @import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/pop.css");
-    
+@import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/compatibility.css");
+
 :root {
     --the-borders: 3px solid #da4a60;
     --drag-background: linear-gradient(#e8c4d3, #e39ba7);
@@ -1075,35 +1076,6 @@ to {
 
 .backdrop-1wrmKB.withLayer-RoELSG {
     opacity: 0.4 !important;
-}
-
-/* User details compatibility */
-#app-mount .topSection-y3p-_D .UserDetails-dates-container.UserDetails-dates-userProfile.UserDetails-dates-icons {
-    position: absolute;
-    top: 200px;
-    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.28));
-}
-.theme-light .headerText-1vVs-U .UserDetails-dates-container svg {
-    fill: var(--text-color);
-}
-
-/* Server profile compatibility */
-.guild-profile .nameTagNoCustomStatus-3IWmZC {
-    top: 155px;
-    left: 0;
-    position: absolute;
-    width: calc(100% - 32px);
-    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.4));
-}
-.guild-profile .nameTagNoCustomStatus-3IWmZC .username-FvTBog {
-    color: #fff;
-    background-color: #D95B72;
-    border-radius: 4px;
-    padding-right: 4px;
-    padding-left: 8px;
-}
-.guild-profile .guildDetail-1nRKNE {
-    padding-top: 6px;
 }
 
 /* Gray buttons colors */
