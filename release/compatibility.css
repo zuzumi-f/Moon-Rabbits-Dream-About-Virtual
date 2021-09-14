@@ -3,6 +3,7 @@
     position: absolute;
     top: 200px;
     filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
+    mix-blend-mode: difference;
 }
 .theme-light .headerText-1vVs-U .UserDetails-dates-container svg {
     fill: var(--text-color);
