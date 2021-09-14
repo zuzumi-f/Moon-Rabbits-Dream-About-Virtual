@@ -1,9 +1,6 @@
 /* User details compatibility */
 #app-mount .topSection-y3p-_D .UserDetails-dates-container.UserDetails-dates-userProfile.UserDetails-dates-icons {
-    position: absolute;
-    top: 200px;
-    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
-    mix-blend-mode: difference;
+    display: none;
 }
 .theme-light .headerText-1vVs-U .UserDetails-dates-container svg {
     fill: var(--text-color);
