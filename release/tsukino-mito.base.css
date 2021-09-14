@@ -1005,15 +1005,16 @@ to {
     height: 240px;
 }
 .topSection-y3p-_D .banner-2QYc2d {
-    -webkit-box-shadow: inset 0 0 225px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 0 225px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 0 225px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 225px rgba(0, 0, 0, 0.1);
+    filter: blur(0.6px);
 }
 .avatar-AvHqJA {
     top: -198px;
     left: 16px;
     border: none;
     background: none;
-    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.28));
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 }
 
 .header-4zuFdR {
@@ -1039,7 +1040,7 @@ to {
     top: 155px;
     position: absolute;
     left: 0;
-    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.28));
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 }
 .topSection-y3p-_D .username-FvTBog {
     color: #fff;
