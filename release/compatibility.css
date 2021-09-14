@@ -31,3 +31,25 @@
 .guild-profile .guildDetail-1nRKNE {
     padding-top: 6px;
 }
+
+/* Server Details Tooltip */
+#app-mount .detailsTooltip-G9hSSa {
+    right: 390px;
+}
+#app-mount .detailsTooltip-G9hSSa .tooltipPointer-3ZfirK {
+    transform: rotate(-90deg);
+    left: 300px;
+}
+
+/* Channels tab compatibility */
+#app-mount #channelTabs-container {
+    margin: 0 24px 0 24px;
+    border-left: var(--the-borders);
+    border-right: var(--the-borders);
+}
+#app-mount .channelTabs-favContainer {
+    background: var(--background-tertiary);
+}
+#app-mount .channelTabs-tabIcon.channelTabs-noneIcon[src="https://discordapp.com/assets/322c936a8c8be1b803cd94861bdfa868.png"], #app-mount .channelTabs-favIcon.channelTabs-noneIcon[src="https://discordapp.com/assets/322c936a8c8be1b803cd94861bdfa868.png"] {
+    content: url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/322c936a8c8be1b803cd94861bdfa868.png");
+}
