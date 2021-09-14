@@ -1124,9 +1124,9 @@ to {
 
 /* Close in paymetod */
 #app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .close-hZ94c6 {
-    color: transparent;
+    color: transparent !important;
     opacity: 1;
-    background-color: #da5169;
+    background-color: #da5169 !important;
     border-radius: 50%;
     width: 6px;
     height: 6px;
@@ -1136,6 +1136,11 @@ to {
 }
 #app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .content-1LAB8Z {
     padding-right: 16px !important;
+}
+
+/* Nitro unlock */
+#app-mount .root-1gCeng.small-3iVZYw.fullscreenOnMobile-1bD22y .header-1TKi98 {
+    border-radius: 0;
 }
 
 /* Transfer Boost */
