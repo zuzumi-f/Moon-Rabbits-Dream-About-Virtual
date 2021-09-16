@@ -45,6 +45,9 @@
     border-left: var(--the-borders);
     border-right: var(--the-borders);
 }
+#app-mount #channelTabs-settingsMenu {
+    height: 39px;
+}
 #app-mount .channelTabs-favContainer {
     background: var(--background-tertiary);
 }
