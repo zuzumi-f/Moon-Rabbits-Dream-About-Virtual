@@ -70,3 +70,11 @@
 #app-mount .InvisibleTyping-typingButton-invisibleTypingButton svg {
     color: var(--text-color);
 }
+
+/* Friends online */
+.theme-light .friendsOnline-2JkivW {
+    color: rgba(0, 0, 0, 0.3);
+}
+.theme-light .friendsOnline-2JkivW:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
