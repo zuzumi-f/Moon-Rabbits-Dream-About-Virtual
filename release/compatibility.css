@@ -51,3 +51,19 @@
 #app-mount .channelTabs-tabIcon.channelTabs-noneIcon[src="https://discordapp.com/assets/322c936a8c8be1b803cd94861bdfa868.png"], #app-mount .channelTabs-favIcon.channelTabs-noneIcon[src="https://discordapp.com/assets/322c936a8c8be1b803cd94861bdfa868.png"] {
     content: url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/322c936a8c8be1b803cd94861bdfa868.png");
 }
+
+/* Status Everywhere compatibility */
+#app-mount .wrapper-3t9DeA rect[fill="#593695"],
+#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-streaming)"] {fill: var(--streaming-color)}
+#app-mount .wrapper-3t9DeA rect[fill="#3BA55D"],
+#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-online)"],
+#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-online-mobile)"] {fill: var(--online-color)}
+#app-mount .wrapper-3t9DeA rect[fill="#FAA81A"],
+#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-idle)"] {fill: var(--idle-color)}
+#app-mount .wrapper-3t9DeA rect[fill="#ED4245"],
+#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-dnd)"] {fill: var(--dnd-color)}
+
+/* .InvisibleTyping Compatibility */
+#app-mount .InvisibleTyping-typingButton-invisibleTypingButton svg {
+    color: var(--text-color);
+}
