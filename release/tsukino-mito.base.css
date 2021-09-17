@@ -62,13 +62,6 @@
     --focus-primary: hsl(314, 100%, 47.8%);
 }
 
-/* Better discord */
-:root {
-    --bdfdb-green: hsla(139, 47.3%, 43.9%, 0.6);
-    --bdfdb-yellow: hsla(38, 95.7%, 54.1%, 0.6);
-    --bdfdb-red: hsla(359, 82.6%, 59.4%, 0.6);
-}
-
 /* Theme Light */
 .theme-light {
     --text-link: hsl(312,100%,43.9%);
