@@ -12,7 +12,7 @@
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/tsukino-mito.base.css');
 
 /* OPTIONAL */
- @import url("https://zuzumi-f.github.io/Circle-status/statuscircle.css"); /* All status indicator are just circles like Discord 2015 [ delete the /* ] */
+/* @import url("https://zuzumi-f.github.io/Circle-status/statuscircle.css"); /* Status indicator are just circles like Discord 2015 [ delete the /* ] */
 
 :root {
     --a-custom-text: "TSUKINO MITO"; /* The text that appear in top, "" if you dont want any [write in "(text)"] */
