@@ -84,3 +84,17 @@
 #app-mount .privateChannels-1nO12o .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]), #app-mount .members-1998pB .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]) {
     x: 20.7 !important;
 }
+
+#app-mount .listItemContents-95HL3L .userInfo-2zN2z8 {
+    max-width: calc(100% - 94px);
+    overflow: visible;
+}
+
+#app-mount .listItemContents-95HL3L .userInfo-2zN2z8 > .avatar-3W3CeO {
+    margin-left: 4px;
+    transform: scale(1.25);
+}
+
+#app-mount .listItemContents-95HL3L > .userInfo-2zN2z8 .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]) {
+    x: 20.9 !important;
+}
