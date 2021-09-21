@@ -66,11 +66,9 @@
 #app-mount .wrapper-3t9DeA rect[fill="#ED4245"],
 #app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-dnd)"] {fill: var(--dnd-color)}
 
-#app-mount .wrapper-3t9DeA[style*="40"] rect[mask="url(#svg-mask-status-online-mobile)"] {
-    width: 14px;
-    height: 21px;
-    x: 27;
-    y: 20.6;
+#app-mount .StatusEverywhere-avatar-userPopout[data-mobile=false]~svg foreignObject {
+    mask: url(#svg-mask-avatar-status-round-80);
+    overflow: visible;
 }
 
 /* .InvisibleTyping Compatibility */
@@ -104,4 +102,11 @@
 
 #app-mount .listItemContents-95HL3L > .userInfo-2zN2z8 .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]) {
     x: 20.9 !important;
+}
+
+#app-mount .wrapper-3t9DeA[style*="40"] rect[mask="url(#svg-mask-status-online-mobile)"] {
+    width: 14px;
+    height: 21px;
+    x: 27;
+    y: 20.6;
 }
