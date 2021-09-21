@@ -79,3 +79,8 @@
 .theme-light .friendsOnline-2JkivW:hover {
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* Status circle */
+#app-mount .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]) {
+    x: 20.7 !important;
+}
