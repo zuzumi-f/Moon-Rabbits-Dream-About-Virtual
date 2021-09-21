@@ -66,6 +66,13 @@
 #app-mount .wrapper-3t9DeA rect[fill="#ED4245"],
 #app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-dnd)"] {fill: var(--dnd-color)}
 
+#app-mount .wrapper-3t9DeA[style*="40"] rect[mask="url(#svg-mask-status-online-mobile)"] {
+    width: 14px;
+    height: 21px;
+    x: 27;
+    y: 20.6;
+}
+
 /* .InvisibleTyping Compatibility */
 #app-mount .InvisibleTyping-typingButton-invisibleTypingButton svg {
     color: var(--text-color);
