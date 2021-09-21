@@ -81,6 +81,6 @@
 }
 
 /* Status circle */
-#app-mount .content-3YMskv .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]) {
+#app-mount .privateChannels-1nO12o .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]), #app-mount .members-1998pB .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]) {
     x: 20.7 !important;
 }
