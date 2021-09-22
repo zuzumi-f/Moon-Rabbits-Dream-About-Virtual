@@ -1223,16 +1223,19 @@ to {
 
 /* Checks */
 .bd-switch input:checked + .bd-switch-body {
-    --switch-color: var(--brand-experiment-500);
     background-color: var(--brand-experiment-500) !important;
+}
+.bd-switch .bd-switch-body path {
+    --switch-color: transparent;
 }
 .container-3auIfb[style*="background-color: hsl(1"] {
     background-color: var(--brand-experiment-500) !important;
 }
-.container-3auIfb[style*="background-color: hsl(1"] path[fill] {
-    fill: var(--brand-experiment-500) !important;
+.container-3auIfb path[fill] {
+    fill: transparent !important;
 }
 
+/* Watermark */
 .info-1VyQPT::before {
     content: "Moon Rabbits Dream About Virtual";
     font-size: 12px;
