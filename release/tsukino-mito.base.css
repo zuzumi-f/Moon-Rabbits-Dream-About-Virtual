@@ -402,6 +402,10 @@ to {
     height: 52px;
 }
 
+#app-mount .scrolling-1Cdwk- .content-3YMskv {
+    pointer-events: auto;
+}
+
 .theme-dark .channel-2QD9_O, .theme-dark .username-3KYl0N {
     color: rgba(255, 255, 255, 0.5);
 }
