@@ -95,6 +95,7 @@
 }
 #app-mount .root-3R2ngo.enterDone-2zvtsK {
 	transform: unset !important;
+	z-index: 0 !important;
 }
 
 #app-mount .perksModal-fSYqOq::before {
