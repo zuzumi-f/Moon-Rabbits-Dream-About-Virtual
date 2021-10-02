@@ -721,19 +721,6 @@ to {
     border-radius: 8px;
 }
 
-/* Pin home button by Doggybootsy */
-.guilds-1SWlCJ .tree-2wKJdG:focus {
-    outline-color: transparent;
-}
-.guilds-1SWlCJ .scroller-1Bvpku {
-    contain: unset;
-    margin-top: 56px;
-}
-.guilds-1SWlCJ .scroller-1Bvpku .tutorialContainer-2sGCg9 {
-    position: fixed;
-    transform: translatey( -100% );
-}
-
 /* The searchbar */
 .chat-3bRxxu .children-19S4PO {
     margin-left: 250px;
