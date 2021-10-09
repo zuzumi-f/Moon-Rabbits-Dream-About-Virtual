@@ -567,11 +567,11 @@ to {
 }
 
 /* Search & Add Server Button Style */
-.circleIconButton-1QV--U {
-    color: var(--brand-experiment-85a);
+.circleIconButton-1XqULR {
+    color: var(--brand-experiment);
 }
-.circleIconButton-1QV--U.selected-1JjBPm {
-    background-color: var(--brand-experiment-85a);
+.circleIconButton-1XqULR.selected-2jcQaY {
+    background-color: var(--brand-experiment);
 }
 
 /* Stage Discovery */
