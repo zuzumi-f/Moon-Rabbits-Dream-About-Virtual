@@ -161,37 +161,13 @@ to {
 }
 }
 
-/* Like a window */
-.layers-3iHuyZ {
-    margin-bottom: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
-    border-bottom-right-radius: var(--radius-theme);
-    border-bottom-left-radius: var(--radius-theme);
-}
-.layers-3iHuyZ {
-    border: var(--the-borders);
-    border-top: 0 !important;
-    box-shadow: var(--elevation-high);
-}
-.withFrame-haYltI {
-    background: var(--drag-background);
-    border-top-left-radius: var(--radius-theme);
-    border-top-right-radius: var(--radius-theme);
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 24px;
-    min-height: 32px;
-    border: var(--the-borders);
-    flex-direction: row;
+/* Window general */
+.platform-win .sidebar-2K8pFh {
+    border-radius: 0;
 }
 
 .app-2rEoOp, .bg-h5JY_x{
     background-color: transparent;
-}
-
-.platform-win .sidebar-2K8pFh {
-    border-radius: 0;
 }
 
 .chat-3bRxxu.threadSidebarOpen-vdkwIh {
@@ -203,22 +179,30 @@ to {
     margin-left: 0 !important;
 }
 
-.typeWindows-1za-n7 {
+/* Normal LOL */
+.withFrame-haYltI {
+    background: var(--drag-background);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    min-height: 32px;
+    margin-top: 0;
+    border: var(--the-borders);
+    flex-direction: row;
     z-index: 1000;
 }
-.xenoLib-notifications {
-    margin-top: 62px !important;
-    margin: -27px;
-}
-.backdrop-1wrmKB {
-    -webkit-app-region: no-drag;
+.withFrame-haYltI::after {
+    top: 10px;
+    width: calc(100% - 204px);
+    margin-left: 100px;
 }
 
-.root-3R2ngo {
-    margin-top: 62px !important;
-    margin: 27px;
-    border-bottom-left-radius: var(--radius-theme);
-    border-bottom-right-radius: var(--radius-theme);
+.layers-3iHuyZ {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.layers-3iHuyZ {
+    border: var(--the-borders);
+    border-top: 0 !important;
 }
 
 /* BD Notice */
@@ -247,10 +231,8 @@ to {
     position: absolute;
     font-size: 20px;
     font-weight: 500;
-    top: 32px;
     width: calc(100% - 204px);
     color: #fff;
-    margin-left: 80px;
     z-index: -9999;
 }
 
@@ -677,6 +659,11 @@ to {
 
 .theme-dark .textArea-12jD-V, .theme-dark .footer-3UKYOU .input-cIJ7To {
     font-weight: 500;
+    color: var(--text-color);
+}
+#app-mount .slateTextArea-1Mkdgw {
+    font-weight: 500;
+    caret-color: var(--text-color);
     color: var(--text-color);
 }
 .theme-dark .channelTextArea-2VhZ6z .attachButtonInner-PQjIyk path, 
