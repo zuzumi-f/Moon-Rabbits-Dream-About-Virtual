@@ -1,0 +1,47 @@
+/* Like a window */
+#app-mount .layers-3iHuyZ {
+    margin-bottom: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-bottom-right-radius: var(--radius-theme);
+    border-bottom-left-radius: var(--radius-theme);
+}
+#app-mount .layers-3iHuyZ {
+    border: var(--the-borders);
+    border-top: 0 !important;
+    box-shadow: var(--elevation-high);
+}
+#app-mount .withFrame-haYltI {
+    background: var(--drag-background);
+    border-top-left-radius: var(--radius-theme);
+    border-top-right-radius: var(--radius-theme);
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+    min-height: 32px;
+    border: var(--the-borders);
+    flex-direction: row;
+}
+
+#app-mount .typeWindows-1za-n7 {
+    z-index: 1000;
+}
+#app-mount .xenoLib-notifications {
+    margin-top: 62px !important;
+    margin: -27px;
+}
+#app-mount .backdrop-1wrmKB {
+    -webkit-app-region: no-drag;
+}
+
+#app-mount .root-3R2ngo {
+    margin-top: 62px !important;
+    margin: 27px;
+    border-bottom-left-radius: var(--radius-theme);
+    border-bottom-right-radius: var(--radius-theme);
+}
+
+#app-mount .withFrame-haYltI::after {
+    top: 32px;
+    margin-left: 80px;
+}
