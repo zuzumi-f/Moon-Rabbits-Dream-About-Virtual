@@ -10,7 +10,8 @@
 
 /* Import [DONT TOUCH] */
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/tsukino-mito.base.css');
-
+/* This makes Discord like another window */
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/window-mode.css');
 :root {
     --a-custom-text: "TSUKINO MITO"; /* The text that appear in top, "" if you dont want any [write in "(text)"] */
 }
