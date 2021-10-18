@@ -661,11 +661,17 @@ to {
     font-weight: 500;
     color: var(--text-color);
 }
+
 #app-mount .slateTextArea-1Mkdgw {
     font-weight: 500;
     caret-color: var(--text-color);
     color: var(--text-color);
 }
+#app-mount .slateTextArea-1Mkdgw .wrapper-3WhCwL:not(:hover) {
+    color: var(--brand-experiment-530);
+    background: var(--brand-experiment-15a);
+}
+
 .theme-dark .channelTextArea-2VhZ6z .attachButtonInner-PQjIyk path, 
 .theme-dark .channelTextArea-2VhZ6z .buttonWrapper-1ZmCpA path {
     fill: var(--icon-color);
