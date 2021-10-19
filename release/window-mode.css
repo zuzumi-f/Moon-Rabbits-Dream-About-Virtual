@@ -45,3 +45,12 @@
     top: 32px;
     margin-left: 80px;
 }
+
+/* BD Notice */
+.noticeWrapper-8z511t{
+    margin-left: 24px;
+    margin-right: 24px;
+    border-left: var(--the-borders);
+    border-right: var(--the-borders);
+    box-shadow: none !important;
+}
