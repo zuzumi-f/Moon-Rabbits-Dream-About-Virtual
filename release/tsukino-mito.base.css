@@ -540,10 +540,10 @@ to {
 }
 
 /* Search & Add Server Button Style */
-.circleIconButton-1XqULR {
+.circleIconButton-hZmpE8 {
     color: var(--brand-experiment);
 }
-.circleIconButton-1XqULR.selected-2jcQaY {
+.circleIconButton-hZmpE8.selected-3mFF3I {
     background-color: var(--brand-experiment);
 }
 
@@ -1099,6 +1099,18 @@ to {
 
 .backdrop-1wrmKB.withLayer-RoELSG {
     opacity: 0.4 !important;
+}
+
+/* No NOTE sections */
+.bodyTitle-1ySSKn:last-of-type,
+.note-1oo11U,
+.userInfoSection-q_35fn:not(.userInfoSection-q_35fn.colorStandard-2KCXvj) .userInfoSectionHeader-3TYk6R:last-of-type,
+.note-367eZJ,
+#user-context-note {
+    display: none
+}
+#app-mount .userBio-3tlrzS.markup-2BOw-j.markup-2BOw-j {
+  margin-bottom: 0;
 }
 
 /* Gray buttons colors */
