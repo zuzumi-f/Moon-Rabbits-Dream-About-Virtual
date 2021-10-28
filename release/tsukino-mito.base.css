@@ -445,10 +445,13 @@ to {
     background: hsla(0, 0%, 100%, 0.6);
 }
 
-.animatedContainer-1NSq4T, .bannerImage-3KhIJ6 {
+.animatedContainer-1NSq4T, .bannerImage-3KhIJ6, .bannerImg-2NHyzX {
     width: 100%;
-    justify-content: center;
 }
+.bannerImg-2NHyzX {
+    height: 175px;
+}
+
 .content-1x5b-n, .member-3-YXUe {
     margin-right: 8px;
 }
