@@ -279,28 +279,6 @@ to {
     transition: .5s;
 }
 
-/* Status Picker */
-#app-mount #status-picker {
-    left: 2px;
-    width: 262px;
-}
-#app-mount #status-picker::before {
-    position: absolute;
-    right: calc(100% - 24px);
-    top: calc(100% + 5px);
-    content: "";
-    margin-top: -5px;
-    border: 5px solid transparent;
-    border-left-width: 5px;
-    width: 0;
-    height: 0;
-    border-right-color: var(--background-floating);
-    transform: rotate(-90deg);
-}
-#app-mount #status-picker .scroller-3BxosC .item-1tOPte {
-    width: 246px;
-}
-
 /* Status colors */
 :root {
     --online-color: #4cb884;
