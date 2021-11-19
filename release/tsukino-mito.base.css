@@ -452,11 +452,11 @@ to {
     color: hsl(0, 0%, 36%);
 }
 
-.clickable-1JJAn8:hover .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md, .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+.clickable-1JJAn8:hover .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md, .categoryItem-ONe8JV.selectedCategoryItem-28UllF .itemInner-1XfZdz {
     background: none;
 }
 
-.theme-dark .channel-2QD9_O:hover, .theme-dark .wrapper-2jXpOf:hover .content-1x5b-n, .theme-dark .categoryItem-1QIroW:hover {
+.theme-dark .channel-2QD9_O:hover, .theme-dark .wrapper-2jXpOf:hover .content-1x5b-n, .theme-dark .categoryItem-ONe8JV:hover {
     background: hsla(0, 0%, 10%, 0.6);
     color: hsla(0, 0%, 100%, 0.8);
 }
@@ -471,7 +471,7 @@ to {
     color: rgba(255, 255, 255, 1);
 }
 
-.theme-light .channel-2QD9_O:hover, .theme-light .wrapper-2jXpOf:hover .content-1x5b-n, .theme-light .categoryItem-1QIroW:hover {
+.theme-light .channel-2QD9_O:hover, .theme-light .wrapper-2jXpOf:hover .content-1x5b-n, .theme-light .categoryItem-ONe8JV:hover {
     background: hsla(0, 0%, 100%, 0.6);
     color: hsla(0, 0%, 0%, 0.8);
 }
@@ -539,7 +539,7 @@ to {
 }
 
 /* Sidebar in Discover */
-.categoryItem-1QIroW {
+.categoryItem-ONe8JV {
     width: 262px;
     margin-bottom: 4px;
 }
