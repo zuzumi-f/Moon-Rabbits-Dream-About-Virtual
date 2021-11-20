@@ -110,3 +110,27 @@
     x: 27;
     y: 20.6;
 }
+
+/* Permission viewer Compatibility */
+#app-mount #permissions-modal-wrapper #permissions-modal {
+    background-color: var(--background-primary);
+    border: var(--the-borders);
+    border-radius: var(--radius-theme);
+}
+#app-mount #permissions-modal-wrapper .header {
+    background: var(--drag-background);
+    border-bottom: var(--the-borders);
+    box-shadow: none;
+}
+#app-mount #permissions-modal-wrapper .modal-body, #app-mount #permissions-modal-wrapper .perm-side {
+    background-color: var(--background-secondary);
+}
+#app-mount #permissions-modal-wrapper .role-side {
+    background-color: var(--background-primary);
+}
+#app-mount #permissions-modal-wrapper .role-item.selected {
+    background-color: hsla(0, 0%, 30%, 0.6);
+}
+#app-mount #permissions-modal-wrapper .role-item:hover:not(.selected) {
+    background-color: hsla(0, 0%, 30%, 0.3);
+}
