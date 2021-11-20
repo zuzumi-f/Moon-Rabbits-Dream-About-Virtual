@@ -188,7 +188,7 @@ to {
     margin-top: 0;
     border: var(--the-borders);
     flex-direction: row;
-    z-index: 1000;
+    z-index: 100;
 }
 .withFrame-haYltI::after {
     top: 10px;
