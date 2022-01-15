@@ -341,6 +341,10 @@ to {
     flex-direction: row-reverse;
 }
 
+#app-mount .container-2o3qEW {
+    flex-direction: inherit;
+}
+
 /* Reverse *//*
 #app-mount .container-1eFtFS {
     flex-direction: row;
@@ -891,6 +895,26 @@ to {
     width: 90vh;
     position: relative;
     left: -276px;
+}
+
+/* Events */
+.root-g14mjS.fullscreenOnMobile-ixj0e3 {
+    border: var(--the-borders);
+    border-radius: var(--radius-theme);
+}
+.root-g14mjS.fullscreenOnMobile-ixj0e3::before {
+    content: "";
+    background: var(--drag-background);
+    width: 472px;
+    min-height: 32px;
+    border-bottom: var(--the-borders);
+    -webkit-app-region: drag;
+    border-top-left-radius: 14.9px;
+    border-top-right-radius: 14.9px;
+}
+.footer-31IekZ {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 /* Calls */
