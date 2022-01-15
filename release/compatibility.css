@@ -1,32 +1,32 @@
 /* User details compatibility */
-#app-mount .topSection-y3p-_D .UserDetails-dates-container.UserDetails-dates-userProfile.UserDetails-dates-icons {
+#app-mount .topSection-13QKHs .UserDetails-dates-container.UserDetails-dates-userProfile.UserDetails-dates-icons {
     display: none;
 }
-.theme-light .headerText-1vVs-U .UserDetails-dates-container svg {
+.theme-light .headerText-1-WmDq .UserDetails-dates-container svg {
     fill: var(--text-color);
 }
 
 /* Server profile compatibility */
-.guild-profile .nameTagNoCustomStatus-3IWmZC {
+.guild-profile .nameTagNoCustomStatus-3ocqoK {
     top: 155px;
     left: 0;
     position: absolute;
     filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 }
-.guild-profile .nameTagNoCustomStatus-3IWmZC .username-FvTBog {
+.guild-profile .nameTagNoCustomStatus-3ocqoK .username-1g6Iq1 {
     color: #fff;
     background-color: #D95B72;
     border-radius: 3px;
     padding-right: 4px;
     padding-left: 8px;
 }
-.guild-profile .topSection-y3p-_D .nameTag-ECvD8P {
+.guild-profile .topSection-13QKHs .nameTag-2Nlmsy {
     background-color: unset;
     border-radius: unset;
     padding-right: unset;
     padding-left: unset;
 }
-.guild-profile .guildDetail-1nRKNE {
+.guild-profile .guildDetail-3EJhW_ {
     padding-top: 6px;
 }
 
@@ -34,7 +34,7 @@
 #app-mount .detailsTooltip-G9hSSa {
     right: 390px;
 }
-#app-mount .detailsTooltip-G9hSSa .tooltipPointer-3ZfirK {
+#app-mount .detailsTooltip-G9hSSa .tooltipPointer-3L49xb {
     transform: rotate(-90deg);
     left: 300px;
 }
@@ -56,15 +56,15 @@
 }
 
 /* Status Everywhere compatibility */
-#app-mount .wrapper-3t9DeA rect[fill="#593695"],
-#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-streaming)"] {fill: var(--streaming-color)}
-#app-mount .wrapper-3t9DeA rect[fill="#3BA55D"],
-#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-online)"],
-#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-online-mobile)"] {fill: var(--online-color)}
-#app-mount .wrapper-3t9DeA rect[fill="#FAA81A"],
-#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-idle)"] {fill: var(--idle-color)}
-#app-mount .wrapper-3t9DeA rect[fill="#ED4245"],
-#app-mount .wrapper-3t9DeA rect :not(.pointerEvents-2zdfdO)[mask="url(#svg-mask-status-dnd)"] {fill: var(--dnd-color)}
+#app-mount .wrapper-1VLyxH rect[fill="#593695"],
+#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-streaming)"] {fill: var(--streaming-color)}
+#app-mount .wrapper-1VLyxH rect[fill="#3BA55D"],
+#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-online)"],
+#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-online-mobile)"] {fill: var(--online-color)}
+#app-mount .wrapper-1VLyxH rect[fill="#FAA81A"],
+#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-idle)"] {fill: var(--idle-color)}
+#app-mount .wrapper-1VLyxH rect[fill="#ED4245"],
+#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-dnd)"] {fill: var(--dnd-color)}
 
 #app-mount .StatusEverywhere-avatar-userPopout[data-mobile=false]~svg foreignObject {
     mask: url(#svg-mask-avatar-status-round-80);
@@ -83,32 +83,6 @@
 }
 .theme-light .friendsOnline-2JkivW:hover {
     color: rgba(0, 0, 0, 0.5);
-}
-
-/* Status circle */
-#app-mount .privateChannels-1nO12o .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]), #app-mount .members-1998pB .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]) {
-    x: 20.7 !important;
-}
-
-#app-mount .listItemContents-95HL3L .userInfo-2zN2z8 {
-    max-width: calc(100% - 94px);
-    overflow: visible;
-}
-
-#app-mount .listItemContents-95HL3L .userInfo-2zN2z8 > .avatar-3W3CeO {
-    margin-left: 4px;
-    transform: scale(1.25);
-}
-
-#app-mount .listItemContents-95HL3L > .userInfo-2zN2z8 .wrapper-3t9DeA[style*="32"] rect[mask="url(#svg-mask-status-online-mobile)"]:not([color="black"]):not([fill="black"]):not([fill="white"]) {
-    x: 20.9 !important;
-}
-
-#app-mount .wrapper-3t9DeA[style*="40"] rect[mask="url(#svg-mask-status-online-mobile)"] {
-    width: 14px;
-    height: 21px;
-    x: 27;
-    y: 20.6;
 }
 
 /* Permission viewer Compatibility */
