@@ -917,6 +917,24 @@ to {
     border-bottom-right-radius: 15px;
 }
 
+/* Invite bot */
+#app-mount .oauth2Wrapper-p_8bbd::before {
+    width: 366px;
+}
+
+#app-mount .scrollContent-_1I-44 {
+    padding: 0 16px !important;
+}
+
+.footer-3Gu_Tl {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#app-mount .large-1XKv7D::before {
+    width: 92.3vh;
+}
+
 /* Calls */
 .bottomControls-31YuPK .buttonColor-28DXIe {
     background-color: #D95B72;
