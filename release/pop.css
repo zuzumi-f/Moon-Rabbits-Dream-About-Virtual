@@ -1,77 +1,77 @@
 /* Pop by Ultra[devinkid1] (edited) */
 :root {
 /* Hover Scale */
-    
---HoverScale: 1.025;
-    
+        
+    --HoverScale: 1.025;
+        
 /* Transition Time */
-    
---TransitionTime: 0.25s;
-    
+        
+    --TransitionTime: 0.25s;
+        
 /* Ease Type */
-    
+        
 --EaseType: cubic-bezier(0, 0.75, 0, 1.75);
 }
 
 /* ---- Hover Animations ---- */
-/* Buttons */ .button-1PXUl0:hover, .button-G2dHuB.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.fullWidth-1orjjo.grow-q77ONN:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN:hover, .lookFilled-1Gx00P.colorGreen-29iAKY:hover, .button-1h8W6d:hover, .button-1h8W6d, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN:hover, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeLarge-1vSeWK.grow-q77ONN:hover, .button-38aScr.lookFilled-1Gx00P.colorWhite-rEQuAQ.sizeMedium-1AC_Sl.grow-q77ONN:hover, .fieldButton-27bJrp.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeSmall-2cSMqn.grow-q77ONN:hover,
-/* Settings List Items */ .side-8zPYf6 .item-PXvHYJ:hover,
+/* Buttons */ .button-1U79Hu:hover, .button-G2dHuB.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.fullWidth-fJIsjq.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:hover, .lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .button-1h8W6d:hover, .button-1h8W6d, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorWhite-1H92hK.sizeMedium-2bFIHr.grow-2sR_-F:hover, .fieldButton-14lHvK.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeSmall-wU2dO-.grow-2sR_-F:hover,
+/* Settings List Items */ .side-2ur1Qk .item-3XjbnG:hover,
 /* Stage discovery */ .container-S9SaVf:hover,
-/* Active now card */ .itemCard-v9viV7:hover,
-/* Activity button */ .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
-/* Friendlist */ .peopleListItem-2nzedh:hover,
-/* Direct Message List Items */ .channel-2QD9_O:hover,
-/* Member List Items */ .member-3-YXUe:hover,
-/* Context Menu Items */ .item-1tOPte:hover,
-/* Message Profile Pictures */ .avatar-1BDn8e.clickable-1bVtEA:hover,
-/* Topbar Items */ .toolbar-1t6TWx > .iconWrapper-2OrFZ1:hover > svg > path, .toolbar-1t6TWx > .inviteToolbar-3F-l2g > .iconWrapper-2OrFZ1:hover > svg > path, .toolbar-1t6TWx > a > .iconWrapper-2OrFZ1:hover > svg > path,
-/* Server Channels */ .content-1x5b-n:hover,
-/* Nitro Tab Feature Cards */ .feature-2w65J5:hover,
+/* Active now card */ .itemCard-3Etziu:hover,
+/* Activity button */ .lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
+/* Friendlist */ .peopleListItem-u6dGxF:hover,
+/* Direct Message List Items */ .channel-1Shao0:hover,
+/* Member List Items */ .member-2gU6Ar:hover,
+/* Context Menu Items */ .item-1OdjEX:hover,
+/* Message Profile Pictures */ .avatar-2e8lTP.clickable-31pE3P:hover,
+/* Topbar Items */ .toolbar-3_r2xA > .iconWrapper-2awDjA:hover > svg > path, .toolbar-3_r2xA > .inviteToolbar-2k2nqz > .iconWrapper-2awDjA:hover > svg > path, .toolbar-3_r2xA > a > .iconWrapper-2awDjA:hover > svg > path,
+/* Server Channels */ .content-1gYQeQ:hover,
+/* Nitro Tab Feature Cards */ .feature-2IUcBI:hover,
 /* Quick Switcher List Items */ .resultFocused-3aIoYe:hover,
-/* Quick Switcher Search Box */ .input-2VB9rf:hover,
-/* Sidebar in Discover */ .categoryItem-ONe8JV:hover,
+/* Quick Switcher Search Box */ .input-3r5zZY:hover,
+/* Sidebar in Discover */ .categoryItem-Kc_HK_:hover,
 /* Discovery Tab List Items */ .categoryItem-3zFJns:hover,
-/* Discovery Tab Cards */ .card-3DjzTQ:hover,
-/* Message Options */ .button-1ZiXG9:hover > svg > path,
+/* Discovery Tab Cards */ .card-2TuZPZ:hover,
+/* Message Options */ .button-3bklZh:hover > svg > path,
 /* Gift Nitro */ .giftAction-yhDLaW:hover,
-/* Call users */ .listDefault-3ir5aS .clickable-1lCRLF:hover .content-1Wq3SX
+/* Call users */ .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42
 {
     transform-origin: center;
     transform: scale(var(--HoverScale));
     box-shadow: var(--elevation-high);
 }
-  
+
 /* ---- Static Animations ---- */
-/* Buttons */ .button-1PXUl0, .button-G2dHuB.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.fullWidth-1orjjo.grow-q77ONN, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeSmall-2cSMqn.grow-q77ONN, .lookFilled-1Gx00P.colorGreen-29iAKY, .button-1h8W6d, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN, .button-38aScr.lookFilled-1Gx00P.colorBrand-3pXr91.sizeLarge-1vSeWK.grow-q77ONN, .button-38aScr.lookFilled-1Gx00P.colorWhite-rEQuAQ.sizeMedium-1AC_Sl.grow-q77ONN, .fieldButton-27bJrp.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeSmall-2cSMqn.grow-q77ONN,
-/* Settings List Items */ .side-8zPYf6 .item-PXvHYJ,
+/* Buttons */ .button-1U79Hu, .button-G2dHuB.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.fullWidth-fJIsjq.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F, .lookFilled-yCfaCM.colorGreen-3y-Z79, .button-1h8W6d, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorWhite-1H92hK.sizeMedium-2bFIHr.grow-2sR_-F, .fieldButton-14lHvK.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeSmall-wU2dO-.grow-2sR_-F,
+/* Settings List Items */ .side-2ur1Qk .item-3XjbnG,
 /* Stage discovery */ .container-S9SaVf,
-/* Active now card */ .itemCard-v9viV7,
-/* Activity button */ .lookFilled-1Gx00P.colorGrey-2DXtkV,
-/* Friendlist */ .peopleListItem-2nzedh,
-/* Direct Message List Items */ .channel-2QD9_O,
-/* Member List Items */ .member-3-YXUe,
-/* Context Menu Items */ .item-1tOPte,
-/* Message Profile Pictures */ .avatar-1BDn8e.clickable-1bVtEA,
-/* Topbar Items */ .toolbar-1t6TWx > .iconWrapper-2OrFZ1 > svg > path, .toolbar-1t6TWx > .inviteToolbar-3F-l2g > .iconWrapper-2OrFZ1 > svg > path, .toolbar-1t6TWx > a > .iconWrapper-2OrFZ1 > svg > path,
-/* Server Channels */ .content-1x5b-n,
-/* Nitro Tab Feature Cards */ .feature-2w65J5,
+/* Active now card */ .itemCard-3Etziu,
+/* Activity button */ .lookFilled-yCfaCM.colorGrey-2iAG-B,
+/* Friendlist */ .peopleListItem-u6dGxF,
+/* Direct Message List Items */ .channel-1Shao0,
+/* Member List Items */ .member-2gU6Ar,
+/* Context Menu Items */ .item-1OdjEX,
+/* Message Profile Pictures */ .avatar-2e8lTP.clickable-31pE3P,
+/* Topbar Items */ .toolbar-3_r2xA > .iconWrapper-2awDjA > svg > path, .toolbar-3_r2xA > .inviteToolbar-2k2nqz > .iconWrapper-2awDjA > svg > path, .toolbar-3_r2xA > a > .iconWrapper-2awDjA > svg > path,
+/* Server Channels */ .content-1gYQeQ,
+/* Nitro Tab Feature Cards */ .feature-2IUcBI,
 /* Quick Switcher List Items */ .resultFocused-3aIoYe,
-/* Quick Switcher Search Box */ .input-2VB9rf,
-/* Sidebar in Discover */ .categoryItem-ONe8JV,
+/* Quick Switcher Search Box */ .input-3r5zZY,
+/* Sidebar in Discover */ .categoryItem-Kc_HK_,
 /* Discovery Tab List Items */ .categoryItem-3zFJns,
-/* Discovery Tab Cards */ .card-3DjzTQ,
-/* Message Options */ .button-1ZiXG9 > svg > path,
+/* Discovery Tab Cards */ .card-2TuZPZ,
+/* Message Options */ .button-3bklZh > svg > path,
 /* Gift Nitro */ .giftAction-yhDLaW,
-/* Call users */ .content-1Wq3SX
+/* Call users */ .content-1Tgc42
 {
     transition: var(--EaseType) var(--TransitionTime);
     box-shadow: none;
 }
 
 /* ---- When Active ---- */
-/* Friend list */ .peopleListItem-2nzedh.active-rhSpJJ,
-/* Active now */ .outer-1AjyKL.active-1xchHY,
-/* Memberlist */ .member-3-YXUe.container-2Pjhx-.selected-aXhQR6 
+/* Friend list */ .peopleListItem-u6dGxF.active-2UF8Zh,
+/* Active now */ .outer-2JOHae.active-1W_Gl9,
+/* Memberlist */ .member-2gU6Ar.container-1oeRFJ.selected-1-Z6gm
 {
     transform-origin: center;
     transform: scale(var(--HoverScale));
