@@ -927,11 +927,11 @@ to {
 }
 
 /* Inbox */
-.messagesPopoutWrap-3zryHW {
+.messagesPopoutWrap-3zryHW, .recentMentionsPopout-2bI1ZN {
     border: var(--the-borders);
     border-radius: var(--radius-theme);
 }
-.messagesPopoutWrap-3zryHW::before {
+.messagesPopoutWrap-3zryHW::before, .recentMentionsPopout-2bI1ZN::before {
     content: "";
     background: var(--drag-background);
     min-height: 32px;
