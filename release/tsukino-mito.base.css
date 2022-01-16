@@ -130,6 +130,12 @@
     --brand-experiment-95a: hsla(335, 85.6%, 64.7%, 0.95);
 }
 
+/* Correct color */
+.theme-dark .footer-31IekZ {
+    background-color: var(--background-secondary);
+    box-shadow: none;
+}
+
 /* mention before */
 .mentioned-Tre-dv:before {
     background-color: hsl(198, 95.7%, 54.1%);
@@ -905,7 +911,6 @@ to {
 .root-g14mjS.fullscreenOnMobile-ixj0e3::before {
     content: "";
     background: var(--drag-background);
-    width: 472px;
     min-height: 32px;
     border-bottom: var(--the-borders);
     -webkit-app-region: drag;
@@ -915,6 +920,56 @@ to {
 .footer-31IekZ {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.content-Lj791F {
+    padding: 16px !important;
+}
+
+/* Inbox */
+.messagesPopoutWrap-3zryHW {
+    border: var(--the-borders);
+    border-radius: var(--radius-theme);
+}
+.messagesPopoutWrap-3zryHW::before {
+    content: "";
+    background: var(--drag-background);
+    min-height: 32px;
+    border-bottom: var(--the-borders);
+    -webkit-app-region: drag;
+    border-top-left-radius: 14.9px;
+    border-top-right-radius: 14.9px;
+}
+
+/* Threads */
+.browser-mnQ1T7 {
+    border: var(--the-borders);
+    border-radius: var(--radius-theme);
+}
+.browser-mnQ1T7::before {
+    content: "";
+    background: var(--drag-background);
+    min-height: 32px;
+    border-bottom: var(--the-borders);
+    -webkit-app-region: drag;
+    border-top-left-radius: 14.9px;
+    border-top-right-radius: 14.9px;
+}
+.browser-mnQ1T7 .closeIcon-11tHJX {
+    background-color: #da4a60;
+    border-radius: 8px;
+    width: 14px;
+    height: 14px;
+    margin-bottom: 84px;
+    -webkit-app-region: no-drag;
+}
+.browser-mnQ1T7 .closeIcon-11tHJX > svg {
+    width: 14px;
+    height: 14px;
+    color: transparent;
+}
+.browser-mnQ1T7 .closeIcon-11tHJX:hover {
+    transform: scale(1.1);
 }
 
 /* Invite bot */
@@ -933,6 +988,16 @@ to {
 
 #app-mount .large-1XKv7D::before {
     width: 92.3vh;
+}
+
+/* QuickSwitcher */
+.quickswitcher-pKcM9U {
+    height: 500px;
+    box-shadow: none;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 /* Calls */
