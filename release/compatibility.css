@@ -108,3 +108,8 @@
 #app-mount #permissions-modal-wrapper .role-item:hover:not(.selected) {
     background-color: hsla(0, 0%, 30%, 0.3);
 }
+
+/* Better Format Redux */
+#app-mount .bf-toolbar::before {
+    background-color: hsl(225, 8%, 4%);
+}
