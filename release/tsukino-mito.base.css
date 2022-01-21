@@ -912,6 +912,7 @@ to {
     content: "";
     background: var(--drag-background);
     min-height: 32px;
+    width: 100%;
     border-bottom: var(--the-borders);
     -webkit-app-region: drag;
     border-top-left-radius: 14.9px;
@@ -972,11 +973,15 @@ to {
     transform: scale(1.1);
 }
 
-/* Invite bot */
-#app-mount .oauth2Wrapper-p_8bbd::before {
-    width: 366px;
+.resizeHandle-PBRzPC {
+    background-color: #da4a60;
+    width: 3px;
+}
+#app-mount .container-3XgAHv {
+    border-radius: 0px;
 }
 
+/* Invite bot */
 #app-mount .scrollContent-_1I-44 {
     padding: 0 16px !important;
 }
@@ -988,6 +993,27 @@ to {
 
 #app-mount .large-1XKv7D::before {
     width: 92.3vh;
+}
+
+.oauth2Wrapper-p_8bbd .wrapper-3xpz8m {
+    padding-top: 90px;
+    padding-bottom: 102px;
+}
+.oauth2Wrapper-p_8bbd .closeButton-aYuW2o {
+    background-color: #da4a60;
+    border-radius: 8px;
+    width: 8px;
+    height: 8px;
+    top: 8px;
+    -webkit-app-region: no-drag;
+}
+.oauth2Wrapper-p_8bbd .closeButton-aYuW2o > div > svg {
+    width: 8px;
+    height: 8px;
+    color: transparent;
+}
+.oauth2Wrapper-p_8bbd .closeButton-aYuW2o:hover {
+    transform: scale(1.1);
 }
 
 /* QuickSwitcher */
@@ -1035,6 +1061,14 @@ to {
 
 .voiceUserSummary-huJ8Md .icon-3akWb2 {
     color: #f0f2f2c0;
+}
+
+/* Send Friend Request and Send Message */
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+    background-color: var(--brand-experiment);
+}
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
+    background-color: var(--brand-experiment-530);
 }
 
 /* Invite fix */
