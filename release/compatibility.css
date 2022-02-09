@@ -113,3 +113,57 @@
 #app-mount .bf-toolbar::before {
     background-color: hsl(225, 8%, 4%);
 }
+
+/* ChannelDms */
+#app-mount .ChannelDms-channelmembers-wrap {
+    width: 260px;
+}
+#app-mount .ChannelDms-channelmembers-wrap .channel-1Shao0 {
+    max-width: 240px;
+}
+#app-mount .ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
+    border-radius: 0;
+    border: none;
+    background-color: var(--background-secondary);
+}
+
+#app-mount .ChannelDms-channelpopout-popout {
+    border: var(--the-borders);
+    border-radius: var(--radius-theme);
+}
+#app-mount .ChannelDms-channelpopout-popout .ChannelDms-channelpopout-header {
+    padding: 8px;
+    padding-right: 36px;
+    border-top-left-radius: var(--radius-theme);
+    border-top-right-radius: var(--radius-theme);
+}
+#app-mount .ChannelDms-channelpopout-popout .ChannelDms-channelpopout-collapseButton {
+    top: 4px;
+    left: 4px;
+}
+#app-mount .ChannelDms-channelpopout-popout .ChannelDms-channelpopout-removeButton {
+    top: 8px;
+    right: 8px;
+    background-color: transparent;
+    width: 26px;
+    box-shadow: none;
+    border-radius: 0;
+    background-position: right;
+    border-left: 1px solid hsla(0, 0%, 50%, 0.4);
+}
+
+.ChannelDms-channelpopout-headerStatus [fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"] {
+    fill: var(--streaming-color);
+}
+.ChannelDms-channelpopout-headerStatus [fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
+    fill: var(--online-color);
+}
+.ChannelDms-channelpopout-headerStatus [fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
+    fill: var(--idle-color);
+}
+.ChannelDms-channelpopout-headerStatus [fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
+    fill: var(--dnd-color);
+}
+.ChannelDms-channelpopout-headerStatus [fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
+    fill: var(--offline-color);
+}
