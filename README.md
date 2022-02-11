@@ -20,3 +20,33 @@ Pop! by **[devinkid1](https://github.com/devinkid1/Pop)**
 # Original Art Cover
 ![moonrabbitsdreamaboutvirtual2-art-scale-2_00x-gigapixel](https://user-images.githubusercontent.com/79029257/132885766-58a204cf-4941-4143-a3d2-7d9eec948c2c.png)
 ![月ノ美兎 - 月ノ美兎 1stアルバム「月の兎はヴァーチュアルの夢をみる」クロスフェード](https://user-images.githubusercontent.com/79029257/132885787-bc0758ff-7b6b-46a7-89a9-0b23e5447ffe.png)
+
+#Left - Right
+if you want the normal position for servers and members, copy and paste this in your css
+```css
+/* Reverse */
+#app-mount .container-1eFtFS {
+    flex-direction: row;
+}
+#app-mount .wrapper-z5ab_q {
+    transform: unset;
+    margin-left: unset;
+}
+#app-mount .content-1jQy2l {
+    flex-direction: row;
+}
+.theme-dark .scroller-3X7KbA, .theme-dark .wrapper-1_HaEi {
+    background-color: hsla(0, 0%, 20%, 0.4);
+}
+.theme-light  .scroller-3X7KbA, .theme-light .wrapper-1_HaEi {
+    background-color: hsla(0, 0%, 100%, 0.4);
+}
+
+#app-mount .detailsTooltip-G9hSSa {
+    right: unset !important;
+}
+#app-mount .detailsTooltip-G9hSSa .tooltipPointer-3L49xb {
+    transform: rotate(90deg) !important;
+    left: unset !important;
+}
+```
