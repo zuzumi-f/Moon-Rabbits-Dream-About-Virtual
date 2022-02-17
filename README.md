@@ -44,6 +44,11 @@ if you want the normal position for servers and members, copy and paste this in 
     background-color: hsla(0, 0%, 100%, 0.4);
 }
 
+.messagesPopoutWrap-3zryHW {
+    right: unset !important;
+    position: unset !important;
+}
+
 #app-mount .detailsTooltip-G9hSSa {
     right: unset !important;
 }
