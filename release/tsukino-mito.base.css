@@ -811,6 +811,8 @@ to {
 /* Inbox */
 .messagesPopoutWrap-3zryHW {
     max-height: 80vh !important;
+    right: 90px;
+    position: absolute;
 }
 
 /* Notification settings */
