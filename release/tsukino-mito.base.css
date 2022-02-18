@@ -1117,7 +1117,7 @@ to {
     padding-right: 16px !important;
 }
 .headerText-1-WmDq .headerTagDiscriminatorNoNickname-dfcvHa, .headerText-1-WmDq .headerTagUsernameNoNickname-1TjuLc, .headerText-1-WmDq .nickname-t08Mck {
-    color: #fff;
+    color: #fff !important;
 }
 .headerText-1-WmDq .headerTagNoNickname-3tGHj6, .headerText-1-WmDq .nickname-t08Mck {
     background-color: #D95B72;
@@ -1215,7 +1215,7 @@ to {
     filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
 }
 .topSection-13QKHs .username-1g6Iq1 {
-    color: #fff;
+    color: #fff !important;
 }
 .topSection-13QKHs .discriminator-1bqsd3 {
     color: #fff;
