@@ -1034,6 +1034,22 @@ to {
     box-shadow: none !important;
 }
 
+.avatarSpeaking-33RRJU {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.avatarSpeaking-2pCGrZ {
+    transform: scale(0.98);
+    position: relative;
+    left: -2px;
+    border: 2px solid var(--online-color);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.content-1Tgc42 {
+    height: 38px;
+}
+
 .theme-dark .quickSelectPopout-2F0PXw {
     background: hsl(223, 7%, 17%);
 }
