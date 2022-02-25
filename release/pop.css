@@ -34,7 +34,8 @@
 /* Discovery Tab Cards */ .card-2TuZPZ:hover,
 /* Message Options */ .button-3bklZh:hover > svg > path,
 /* Gift Nitro */ .giftAction-yhDLaW:hover,
-/* Call users */ .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42
+/* Call users */ .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,
+/* User bar */ .panels-3wFtMD .button-12Fmur:hover path
 {
     transform-origin: center;
     transform: scale(var(--HoverScale));
@@ -62,7 +63,8 @@
 /* Discovery Tab Cards */ .card-2TuZPZ,
 /* Message Options */ .button-3bklZh > svg > path,
 /* Gift Nitro */ .giftAction-yhDLaW,
-/* Call users */ .content-1Tgc42
+/* Call users */ .content-1Tgc42,
+/* User bar */ .panels-3wFtMD .button-12Fmur path
 {
     transition: var(--EaseType) var(--TransitionTime);
     box-shadow: none;
