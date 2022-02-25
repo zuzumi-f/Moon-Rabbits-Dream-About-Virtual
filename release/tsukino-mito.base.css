@@ -361,8 +361,14 @@ to {
     margin-left: 10px;
     height: 52px;
 }
-.interactive-1vLZ_I {
+
+.theme-dark .interactive-1vLZ_I {
     height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.theme-light .interactive-1vLZ_I {
+    height: 50px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 #app-mount .scrolling-20Of9p .content-2a4AW9 {
@@ -383,10 +389,10 @@ to {
     font-weight: bold;
 }
 
-.theme-dark .name-28HaxV, .theme-dark .name-2m3Cms {
+.theme-dark .name-2m3Cms, .theme-dark .name-28HaxV {
     color: rgba(255, 255, 255, 0.5);
 }
-.theme-light .name-28HaxV, .theme-light .name-2m3Cms  {
+.theme-light .name-2m3Cms, .theme-light .name-28HaxV {
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -464,25 +470,39 @@ to {
     color: hsl(0, 0%, 36%);
 }
 
+.theme-dark .selected-3veCBZ {
+    background-color: hsla(0, 0%, 10%, 0.5);
+}
+.theme-light .selected-3veCBZ {
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
 .clickable-28SzVr:hover .layout-1qmrhw, .selected-1-Z6gm .layout-1qmrhw, .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4 {
     background: none;
+}
+
+.theme-dark .modeSelected-3DmyhH .icon-2W8DHg, .theme-dark .modeSelected-3DmyhH:hover .icon-2W8DHg, .theme-dark .modeUnread-3Cxepe .icon-2W8DHg, .theme-dark .modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: hsla(0, 0%, 100%, 0.8);
 }
 
 .theme-dark .channel-1Shao0:hover, .theme-dark .wrapper-NhbLHG:hover .content-1gYQeQ, .theme-dark .categoryItem-Kc_HK_:hover {
     background: hsla(0, 0%, 10%, 0.6);
     color: hsla(0, 0%, 100%, 0.8);
 }
-.theme-dark .wrapper-NhbLHG:hover .name-28HaxV {
-    color: hsla(0, 0%, 100%, 0.8);
+.theme-dark .wrapper-NhbLHG:hover .name-28HaxV{
+    color: hsla(0, 0%, 100%, 0.8) !important;
 }
 .theme-dark .clickable-28SzVr.container-1oeRFJ:active, .theme-dark .highlighted-3PcOfB.container-1oeRFJ, .theme-dark .selected-1-Z6gm.container-1oeRFJ, .theme-dark .modeSelected-3DmyhH .content-1gYQeQ, .theme-dark .modeSelected-3DmyhH:hover .content-1gYQeQ {
     background: hsla(0, 0%, 10%, 0.9) !important;
     color: rgba(255, 255, 255, 1) !important;
 }
-.theme-dark .modeSelected-3DmyhH .name-28HaxV, .theme-dark .interactiveSelected-29CP8y .name-2m3Cms {
-    color: rgba(255, 255, 255, 1);
+.theme-dark .interactiveSelected-29CP8y .name-2m3Cms, .theme-dark .modeConnected-NrO4cP .name-28HaxV, .theme-dark .modeConnected-NrO4cP:hover .name-28HaxV, .theme-dark .modeSelected-3DmyhH .name-28HaxV, .theme-dark .modeSelected-3DmyhH:hover .name-28HaxV, .theme-dark .modeUnread-3Cxepe .name-28HaxV, .theme-dark .modeUnread-3Cxepe:hover .name-28HaxV, .theme-dark .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .theme-dark .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV, .theme-dark .interactiveSelected-29CP8y {
+    color: rgba(255, 255, 255, 1) !important;
 }
 
+.theme-light .modeSelected-3DmyhH .icon-2W8DHg, .theme-light .modeSelected-3DmyhH:hover .icon-2W8DHg, .theme-light .modeUnread-3Cxepe .icon-2W8DHg, .theme-light .modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: hsla(0, 0%, 0%, 0.8);
+}
 .theme-light .channel-1Shao0:hover, .theme-light .wrapper-NhbLHG:hover .content-1gYQeQ, .theme-light .categoryItem-Kc_HK_:hover {
     background: hsla(0, 0%, 100%, 0.6);
     color: hsla(0, 0%, 0%, 0.8);
@@ -494,8 +514,8 @@ to {
     background: hsla(0, 0%, 100%, 0.9) !important;
     color: rgba(0, 0, 0, 1) !important;
 }
-.theme-light .modeSelected-3DmyhH .name-28HaxV, .theme-light .interactiveSelected-29CP8y .name-2m3Cms {
-    color: rgba(0, 0, 0, 1);
+.theme-light .interactiveSelected-29CP8y .name-2m3Cms, .theme-light .modeConnected-NrO4cP .name-28HaxV, .theme-light .modeConnected-NrO4cP:hover .name-28HaxV, .theme-light .modeSelected-3DmyhH .name-28HaxV, .theme-light .modeSelected-3DmyhH:hover .name-28HaxV, .theme-light .modeUnread-3Cxepe .name-28HaxV, .theme-light .modeUnread-3Cxepe:hover .name-28HaxV, .theme-light .notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .theme-light .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV, .theme-light .interactiveSelected-29CP8y {
+    color: rgba(0, 0, 0, 1) !important;
 }
 
 /* Goal thing */
@@ -1028,10 +1048,6 @@ to {
 }
 .bottomControls-31YuPK .colorable-3rVGna.red-3T8maV {
     background-color: #df495f;
-}
-
-.avatarSpeaking-33RRJU {
-    box-shadow: none !important;
 }
 
 .avatarSpeaking-33RRJU {
