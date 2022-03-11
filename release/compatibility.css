@@ -44,6 +44,7 @@
     margin: 0 24px 0 24px;
     border-left: var(--the-borders);
     border-right: var(--the-borders);
+    background-color: var(--background-tertiary);
 }
 #app-mount #channelTabs-settingsMenu {
     height: 39px;
