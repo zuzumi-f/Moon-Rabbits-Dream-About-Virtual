@@ -154,17 +154,20 @@
 
 /* Background */
 div#app-mount.appMount-2yBXZl {
-    background-image: linear-gradient(to left, #4BB4E0, #58B2DB, #CCB0CF, #DAA3C0, #DD9FBD, #4BB4E0, #58B2DB, #CCB0CF 104.2%);
-    animation: gradient-border 8s linear infinite;
-    background-size: 400% 100%;
+    background-image: linear-gradient(270deg, #4BB4E0, #DD9FBD 60%);
+    animation: Gradient 4s ease infinite;
+    background-size: 200% 100%;
 }
-@keyframes gradient-border {
-from {
-    background-position: 0 0;
-}
-to {
-    background-position: 100% 0;
-}
+@keyframes Gradient {
+    0% {
+        background-position:0 50%
+    }
+    50% {
+        background-position:100% 50%
+    }
+    100% {
+        background-position:0 50%
+    }
 }
 
 /* Window general */
@@ -1050,17 +1053,10 @@ to {
     background-color: #df495f;
 }
 
-.avatarSpeaking-33RRJU {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
+.avatarSpeaking-33RRJU,
 .avatarSpeaking-2pCGrZ {
-    transform: scale(0.98);
-    position: relative;
-    left: -2px;
-    border: 2px solid var(--online-color);
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    -webkit-box-shadow: inset 0 0 0 2px var(--online-color);
+    box-shadow: inset 0 0 0 2px var(--online-color);
 }
 .content-1Tgc42 {
     height: 38px;
