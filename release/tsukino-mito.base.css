@@ -188,6 +188,11 @@ div#app-mount.appMount-2yBXZl {
     margin-left: 0 !important;
 }
 
+/* mac padding */
+#app-mount .platform-osx .wrapper-1_HaEi {
+    margin-top: 0;
+}
+
 /* Normal LOL */
 .withFrame-2dL45i {
     background: var(--drag-background);
@@ -212,6 +217,16 @@ div#app-mount.appMount-2yBXZl {
 .layers-OrUESM {
     border: var(--the-borders);
     border-top: 0 !important;
+}
+
+/* Normal Mac */
+.typeMacOS-3V4xXE {
+    position: relative;
+    background: var(--drag-background);
+    border: var(--the-borders);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: calc(100% - 6px);
 }
 
 /* Normal Notice */
