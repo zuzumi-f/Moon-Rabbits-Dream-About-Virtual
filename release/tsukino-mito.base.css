@@ -188,8 +188,8 @@ div#app-mount.appMount-2yBXZl {
     margin-left: 0 !important;
 }
 
-/* mac padding */
-.platform-osx.wrapper-1_HaEi {
+/* mac margin */
+#app-mount .wrapper-1_HaEi {
     margin-top: 0 !important;
 }
 
