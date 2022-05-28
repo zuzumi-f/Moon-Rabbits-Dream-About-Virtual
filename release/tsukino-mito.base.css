@@ -189,8 +189,8 @@ div#app-mount.appMount-2yBXZl {
 }
 
 /* mac padding */
-#app-mount .platform-osx.wrapper-1_HaEi {
-    margin-top: 0;
+.platform-osx.wrapper-1_HaEi {
+    margin-top: 0 !important;
 }
 
 /* Normal LOL */
