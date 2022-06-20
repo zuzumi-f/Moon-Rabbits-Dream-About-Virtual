@@ -155,8 +155,10 @@
 /* Background */
 div#app-mount.appMount-2yBXZl {
     background-image: linear-gradient(270deg, #4BB4E0, #DD9FBD 60%);
-    animation: Gradient 4s ease infinite;
     background-size: 200% 100%;
+}
+.app-focused.full-motion div#app-mount.appMount-2yBXZl {
+    animation: Gradient 4s ease infinite;
 }
 @keyframes Gradient {
     0% {
