@@ -9,8 +9,8 @@
     --TransitionTime: 0.25s;
         
 /* Ease Type */
-        
---EaseType: cubic-bezier(0, 0.75, 0, 1.75);
+
+    --EaseType: cubic-bezier(0, 0.75, 0, 1.75);
 }
 
 /* ---- Hover Animations ---- */
@@ -35,7 +35,8 @@
 /* Message Options */ .button-3bklZh:hover > svg > path,
 /* Gift Nitro */ .giftAction-yhDLaW:hover,
 /* Call users */ .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42,
-/* User bar */ .panels-3wFtMD .button-12Fmur:hover path
+/* User bar */ .panels-3wFtMD .button-12Fmur:hover path,
+/* Activity Button */ .activity-1gTu-L [type="button"]:hover, .userProfileActivity-sal5no [type="button"]:hover
 {
     transform-origin: center;
     transform: scale(var(--HoverScale));
@@ -64,7 +65,8 @@
 /* Message Options */ .button-3bklZh > svg > path,
 /* Gift Nitro */ .giftAction-yhDLaW,
 /* Call users */ .content-1Tgc42,
-/* User bar */ .panels-3wFtMD .button-12Fmur path
+/* User bar */ .panels-3wFtMD .button-12Fmur path,
+/* Activity Button */ .activity-1gTu-L [type="button"], .userProfileActivity-sal5no [type="button"]
 {
     transition: var(--EaseType) var(--TransitionTime);
     box-shadow: none;
