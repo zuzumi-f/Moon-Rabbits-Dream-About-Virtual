@@ -1,53 +1,19 @@
-/* Like a window */
-#app-mount .layers-OrUESM {
-    margin-bottom: 24px;
-    margin-left: 24px;
-    margin-right: 24px;
-    border-bottom-right-radius: var(--radius-theme);
-    border-bottom-left-radius: var(--radius-theme);
+/* Like Another Window */
+#app-mount .withFrame-2dL45i {
+    margin: 24px 24px 0;
+}
+#app-mount .withFrame-2dL45i::after {
+    top: calc(30px + var(--border-width));
+    width: calc((100% - var(--border-width)*2) - 24px*2);
 }
 #app-mount .layers-OrUESM {
-    border: var(--the-borders);
-    border-top: 0 !important;
+    margin: 0 24px 24px;
+}
+#app-mount .layers-OrUESM {
     box-shadow: var(--elevation-high);
 }
-#app-mount .withFrame-2dL45i {
-    background: var(--drag-background);
-    border-top-left-radius: var(--radius-theme);
-    border-top-right-radius: var(--radius-theme);
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 24px;
-    min-height: 32px;
-    border: var(--the-borders);
-    flex-direction: row;
-}
 
-#app-mount .typeWindows-2-g3UY {
-    z-index: 100;
-}
-#app-mount .xenoLib-notifications {
-    margin-top: 62px !important;
-    margin: -27px;
-}
-#app-mount .backdrop-2ByYRN {
-    -webkit-app-region: no-drag;
-}
-
-#app-mount .root-2zfUH6 {
-    margin-top: 62px !important;
-    margin: 27px;
-    border-bottom-left-radius: var(--radius-theme);
-    border-bottom-right-radius: var(--radius-theme);
-}
-
-#app-mount .withFrame-2dL45i::after {
-    top: 32px;
-    margin-left: 80px;
-}
-
-/* BD Notice */
-.noticeWrapper-8z511t{
+.noticeWrapper-8z511t /* BD Notice */ {
     margin-left: 24px;
     margin-right: 24px;
     border-left: var(--the-borders);
@@ -55,8 +21,7 @@
     box-shadow: none !important;
 }
 
-/* MacOS window */
-#app-mount .typeMacOS-3V4xXE {
+#app-mount .typeMacOS-3V4xXE /* MacOS window */ {
     margin-top: 24px;
     margin-left: 24px;
     border-top-left-radius: var(--radius-theme);
