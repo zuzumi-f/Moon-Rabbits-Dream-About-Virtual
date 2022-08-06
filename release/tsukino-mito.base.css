@@ -1,5 +1,4 @@
 @import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/settings-modal.css");
-@import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/pop.css");
 @import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/compatibility.css");
 @import url("https://zuzumi-f.github.io/classic-discord-status/2016-status.css");
 
@@ -401,6 +400,19 @@ div#app-mount.appMount-2yBXZl {
     border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
 }
 
+/* New UserBar Update */
+[class="avatarWrapper-1B9FTW withTagAsButton-OsgQ9L"] {
+    margin: 0 4px;
+}
+[class="avatarWrapper-1B9FTW withTagAsButton-OsgQ9L"]:hover {
+    background-color: var(--bg-transparent);
+}
+
+.menu-1QACrS[id="account"] {
+    border: var(--border-color) solid var(--border-width);
+    border-radius: var(--round-corners);
+}
+
 /* Channels and DM */
 #app-mount .sidebar-1tnWFu {
     background: var(--bg-transparent);
@@ -782,6 +794,11 @@ div#app-mount.appMount-2yBXZl {
 }
 .clipContainer-31nYlH {
     border-radius: 8px;
+}
+
+/* AutoComplete Aka Mention */
+#app-mount .autocomplete-3NRXG8 {
+    background-color: var(--background-secondary);
 }
 
 /* Mentioned and ReplyMessage */
