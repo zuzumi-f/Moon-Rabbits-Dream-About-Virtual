@@ -403,6 +403,7 @@ div#app-mount.appMount-2yBXZl {
 /* New UserBar Update */
 [class="avatarWrapper-1B9FTW withTagAsButton-OsgQ9L"] {
     margin: 0 4px;
+    width: -webkit-fill-available;
 }
 [class="avatarWrapper-1B9FTW withTagAsButton-OsgQ9L"]:hover {
     background-color: var(--bg-transparent);
@@ -1169,6 +1170,11 @@ div#app-mount.appMount-2yBXZl {
 }
 .container-2nx-BQ path[fill] {
     fill: transparent !important;
+}
+
+/* bd addon modal settings */
+.bd-addon-modal-settings {
+    padding-right: 16px !important;
 }
 
 /* Scrollbar CSS */
