@@ -1,16 +1,17 @@
 /* Pop by Ultra[devinkid1] (edited) */
 :root {
 /* Hover Scale */
-        
+
     --HoverScale: 1.025;
-        
+
 /* Transition Time */
-        
+
     --TransitionTime: 0.25s;
-        
+
 /* Ease Type */
 
     --EaseType: cubic-bezier(0, 0.75, 0, 1.75);
+
 }
 
 /* ---- Hover Animations ---- */
