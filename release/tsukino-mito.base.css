@@ -423,6 +423,25 @@ div#app-mount.appMount-2yBXZl {
     transform: scale(1.23);
 }
 
+/* Invite Popout */
+.scroller-3nFW5p {
+    padding-right: 12px !important;
+}
+
+#app-mount .inviteRow-3vmB7i {
+    margin-right: 0;
+    padding-right: 8px;
+}
+
+#app-mount .inviteRowButton-3hcOhY {
+    border: none;
+    background-color: var(--brand-experiment);
+}
+
+#app-mount .footer-1hTRRZ {
+    background-color: var(--background-secondary);
+}
+
 /* Channels and DM */
 #app-mount .sidebar-1tnWFu {
     background: var(--bg-transparent);
