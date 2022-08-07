@@ -29,7 +29,8 @@
 }
 
 /* User Details */
-.userPopout-2j1gM4 .UserDetails-dates-container {
+.userPopout-2j1gM4 .UserDetails-dates-container,
+#account.menu-1QACrS .UserDetails-dates-container {
     margin-bottom: -12px;
     margin-top: 4px;
 }
