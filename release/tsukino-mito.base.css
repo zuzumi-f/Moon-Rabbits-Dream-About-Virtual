@@ -414,6 +414,15 @@ div#app-mount.appMount-2yBXZl {
     border-radius: var(--round-corners);
 }
 
+#account.menu-1QACrS [id="account-style-your-profile"] {
+    display: none;
+}
+
+#app-mount [aria-activedescendant*="account-status-picker"] .mask-2Me5HY.icon-eUBS01 {
+    transform-origin: center;
+    transform: scale(1.23);
+}
+
 /* Channels and DM */
 #app-mount .sidebar-1tnWFu {
     background: var(--bg-transparent);
@@ -1256,16 +1265,20 @@ div#app-mount.appMount-2yBXZl {
     --streaming-color: #ac83ce;
 }
 /* Status Picker thing */
-#app-mount #status-picker #status-picker-online:not(.focused-3qFvc8) .status-2DiCMd {
+#app-mount #account-status-picker:not(.focused-3qFvc8) [mask="url(#svg-mask-status-online)"] .status-2DiCMd,
+#app-mount [aria-activedescendant*="account-status-picker"] #account-status-picker--online:not(.focused-3qFvc8) .status-2DiCMd {
     background-color: var(--online-color) !important;
 }
-#app-mount #status-picker #status-picker-idle:not(.focused-3qFvc8) .status-2DiCMd {
+#app-mount #account-status-picker:not(.focused-3qFvc8) [mask="url(#svg-mask-status-idle)"] .status-2DiCMd,
+#app-mount [aria-activedescendant*="account-status-picker"] #account-status-picker--idle:not(.focused-3qFvc8) .status-2DiCMd {
     background-color: var(--idle-color) !important;
 }
-#app-mount #status-picker #status-picker-dnd:not(.focused-3qFvc8) .status-2DiCMd {
+#app-mount #account-status-picker:not(.focused-3qFvc8) [mask="url(#svg-mask-status-dnd)"] .status-2DiCMd,
+#app-mount [aria-activedescendant*="account-status-picker"] #account-status-picker--dnd:not(.focused-3qFvc8) .status-2DiCMd {
     background-color: var(--dnd-color) !important;
 }
-#app-mount #status-picker #status-picker-invisible:not(.focused-3qFvc8) .status-2DiCMd {
+#app-mount #account-status-picker:not(.focused-3qFvc8) [mask="url(#svg-mask-status-offline)"] .status-2DiCMd,
+#app-mount [aria-activedescendant*="account-status-picker"] #account-status-picker--invisible:not(.focused-3qFvc8) .status-2DiCMd {
     background-color: var(--offline-color) !important;
 }
 /* Status Colors */
