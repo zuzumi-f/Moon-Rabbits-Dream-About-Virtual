@@ -412,6 +412,18 @@ div#app-mount.appMount-2yBXZl {
 .menu-1QACrS[id="account"] {
     border: var(--border-color) solid var(--border-width);
     border-radius: var(--round-corners);
+    padding-top: calc(32px + var(--border-width));
+}
+.menu-1QACrS[id="account"]::before {
+    background: linear-gradient(var(--drag-gradient));
+    opacity: 1;
+    content: "";
+    height: 32px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-bottom: var(--border-width) solid var(--border-color);
+    -webkit-app-region: drag;
 }
 
 #account.menu-1QACrS [id="account-style-your-profile"] {
@@ -440,6 +452,19 @@ div#app-mount.appMount-2yBXZl {
 
 #app-mount .footer-1hTRRZ {
     background-color: var(--background-secondary);
+}
+
+/* Reactions Popout */
+#app-mount .scroller-2GkvCq {
+    background-color: var(--background-secondary);
+    padding-right: 8px !important;
+}
+#app-mount .container-KM8BU6 .reactor-1J25Qp {
+    margin-right: 10px;
+}
+#app-mount .container-KM8BU6,
+#app-mount .reactors-1VXca7 {
+    background-color: var(--background-primary);
 }
 
 /* Channels and DM */
