@@ -212,6 +212,19 @@
     border-radius: 0;
 }
 
+/* MacOs version */
+#app-mount .platform-osx.wrapper-1_HaEi {
+    margin-top: 0;
+}
+.typeMacOS-3V4xXE {
+    position: relative;
+    background: linear-gradient(var(--drag-gradient));
+    border: var(--border-color) solid var(--border-width);
+    border-top-left-radius: var(--round-corners);
+    border-top-right-radius: var(--round-corners);
+    width: calc(100% - var(--border-width)*2);
+}
+
 /* WinButtons */
 .winButton-3UMjdg {
     color: transparent !important;
