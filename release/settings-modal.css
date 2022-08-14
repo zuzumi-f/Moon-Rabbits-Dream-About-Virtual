@@ -143,11 +143,11 @@
 }
 .standardSidebarView-E9Pc3j::before {
     background: linear-gradient(var(--drag-gradient));
-    position: absolute;
+    position: absolute !important;
     content: "";
     left: 0;
     top: 0;
-    height: 32px;
+    height: 32px !important;
     border-top-left-radius: var(--round-corners);
     border-top-right-radius: var(--round-corners);
     width: calc(100% - var(--border-width)*2);
