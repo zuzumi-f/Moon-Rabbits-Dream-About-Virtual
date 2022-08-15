@@ -213,8 +213,8 @@
 }
 
 /* MacOs version */
-#app-mount .platform-osx.wrapper-1_HaEi {
-    margin-top: 0;
+.platform-osx .wrapper-1_HaEi {
+    margin-top: 0 !important;
 }
 .typeMacOS-3V4xXE {
     position: relative;
