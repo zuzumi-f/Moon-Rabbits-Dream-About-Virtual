@@ -108,15 +108,6 @@
     color: #ffffff !important;
 }
 
-/* Server Details Tooltip */
-#app-mount .detailsTooltip-G9hSSa {
-    right: 390px;
-}
-#app-mount .detailsTooltip-G9hSSa .tooltipPointer-3L49xb {
-    transform: rotate(-90deg);
-    left: 300px;
-}
-
 /* NotifX */
 .xenoLib-notification-content {
     -webkit-app-region: no-drag;
