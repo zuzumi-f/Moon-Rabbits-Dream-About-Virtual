@@ -258,6 +258,14 @@ div#app-mount.appMount-2yBXZl {
     background-image: linear-gradient(90deg, var(--bg-gradient1) 0%, var(--bg-gradient2) 50%, var(--bg-gradient3) 100%);
 }
 
+/* Server list in normal position */
+#app-mount .wrapper-1_HaEi {
+    background-color: var(--background-transparent);
+}
+#app-mount .scroller-3X7KbA {
+    background-color: transparent;
+}
+
 /* Server Pill */
 .item-2LIpTv {
     width: 4px;
