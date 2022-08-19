@@ -362,15 +362,15 @@ div#app-mount.appMount-2yBXZl {
 }
 
 /* Add Friend Button Style */
-.item-3mHhwr.item-3XjbnG[aria-controls=add_friend-tab]{
+.item-3mHhwr.addFriend-emTWY1.item-3XjbnG.themed-2-lozF {
     background-color: var(--brand-experiment) !important;
     color: #fff !important;
 }
-.item-3mHhwr.item-3XjbnG[aria-controls=add_friend-tab][aria-selected=true] {
+.item-3mHhwr.addFriend-emTWY1.item-3XjbnG.themed-2-lozF[aria-selected=true] {
     background-color: transparent !important;
     color: var(--brand-experiment) !important;
 }
-.item-3mHhwr.item-3XjbnG[aria-controls=add_friend-tab][aria-selected=true]:hover {
+.item-3mHhwr.addFriend-emTWY1.item-3XjbnG.themed-2-lozF[aria-selected=true]:hover {
     background-color: var(--background-modifier-hover) !important;
 }
 
