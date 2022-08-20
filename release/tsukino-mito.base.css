@@ -65,6 +65,9 @@
     --background-mentioned-hover: hsla(var(--mentioned-hue), 95.7%, 54.1%, 0.08);
 
     --background-message-hover: hsla(var(--blue-hue), 11.1%, 1.8%, 0.07);
+	
+    --background-message-highlight: hsla(var(--blue-hue), 86.1%, 77.5%, 0.08);
+    --background-message-highlight-hover: hsla(var(--blue-hue), 86.1%, 77.5%, 0.06);
 
     --activity-card-background: hsl(216, 7.2%, 5%);
 
@@ -343,6 +346,10 @@ div#app-mount.appMount-2yBXZl {
     max-height: 34px;
 }
 
+#app-mount .content-1gYQeQ .name-28HaxV {
+    font-weight: 600;
+}
+
 .modeSelected-3DmyhH .content-1gYQeQ,
 .modeSelected-3DmyhH:hover .content-1gYQeQ {
     background-color: var(--selected-transparent);
@@ -447,6 +454,7 @@ div#app-mount.appMount-2yBXZl {
     -webkit-app-region: drag;
 }
 
+#account.menu-1QACrS .profileBody-3QbfPe,
 #account.menu-1QACrS [id="account-style-your-profile"] {
     display: none;
 }
@@ -630,6 +638,10 @@ div#app-mount.appMount-2yBXZl {
     padding: 0;
 }
 
+#app-mount .member-2gU6Ar .name-3Vmqxm {
+    font-weight: bold;
+}
+
 .theme-dark {
     --member-hover: hsla(0, 0%, 14%, 0.6);
     --member-selected: hsla(0, 0%, 14%, 0.9);
@@ -785,6 +797,12 @@ div#app-mount.appMount-2yBXZl {
 
 .theme-light .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected {
     color: #fff;
+}
+
+/* Chat */
+.message-2CShn3 {
+    margin: 0 12px 0 6px;
+    border-radius: 8px;
 }
 
 /* Chatbar */
@@ -992,9 +1010,7 @@ div#app-mount.appMount-2yBXZl {
 .activity-1gTu-L div:not(.activity-1gTu-L [type="button"] div) {
     color: #fff !important;
 }
-.activity-1gTu-L .assets-3PQvAh img[alt] {
-    border-radius: 4px;
-}
+
 .platformIcon-k3yytQ {
     filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.28));
 }
@@ -1194,10 +1210,33 @@ div#app-mount.appMount-2yBXZl {
 .recentMentionsPopout-2bI1ZN .scroller-145h9c {
     padding-right: 16px !important;
 }
-[style="position: absolute; top: 82px; right: 131px;"] [role="dialog"]::after, /* Normal position */
-[style="position: absolute; top: 118px; right: 131px;"] [role="dialog"]::after, /* Notice position */
-[style="position: absolute; top: 82px; right: 188px;"] [role="dialog"]::after, /* Call position */
-[style="position: absolute; top: 106px; right: 155px;"] [role="dialog"]::after /* Like Another Window import */
+[aria-label="Indbakke"][role="dialog"]::after,
+[aria-label="Posteingang"][role="dialog"]::after,
+[aria-label="Inbox"][role="dialog"]::after,
+[aria-label="Bandeja de entrada"][role="dialog"]::after,
+[aria-label="Boîte de réception"][role="dialog"]::after,
+[aria-label="Ulazna pošta"][role="dialog"]::after,
+[aria-label="Messaggi ricevuti"][role="dialog"]::after,
+[aria-label="Gautos žinutės"][role="dialog"]::after,
+[aria-label="Bejövő üzenetek"][role="dialog"]::after,
+[aria-label="Innboks"][role="dialog"]::after,
+[aria-label="Skrzynka odbiorcza"][role="dialog"]::after,
+[aria-label="Caixa de Entrada"][role="dialog"]::after,
+[aria-label="Saapuneet"][role="dialog"]::after,
+[aria-label="Inkorg"][role="dialog"]::after,
+[aria-label="Hộp thư đến"][role="dialog"]::after,
+[aria-label="Gelen Kutusu"][role="dialog"]::after,
+[aria-label="Příchozí"][role="dialog"]::after,
+[aria-label="Εισερχόμενα"][role="dialog"]::after,
+[aria-label="Входяща поща"][role="dialog"]::after,
+[aria-label="Почта"][role="dialog"]::after,
+[aria-label="Вхідні"][role="dialog"]::after,
+[aria-label="इनबॉक्स"][role="dialog"]::after,
+[aria-label="กล่องขาเข้า"][role="dialog"]::after,
+[aria-label="收件箱"][role="dialog"]::after,
+[aria-label="受信ボックス"][role="dialog"]::after,
+[aria-label="收件匣"][role="dialog"]::after,
+[aria-label="받은 편지함"][role="dialog"]::after
 {
 	content: "" !important;
 	position: fixed !important;
