@@ -59,13 +59,7 @@
     --border-width: 3px;
     --round-corners: 18px;
 }
-    /* Selection text color */
-    ::selection {
-    background-color: #C7BAD9; /* The blue color thing */
-    color: #F1F5F6; /*text colours*/
-}
 
 /*----------------------------------------------------
                 anything else down here
 ------------------------------------------------------*/
-
