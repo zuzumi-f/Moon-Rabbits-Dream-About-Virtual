@@ -165,6 +165,12 @@
     --brand-experiment-95a: hsla(var(--blue-hue), 85.6%, 64.7%, 0.95);
 }
 
+/* Selection text color */
+::selection {
+    background-color: var(--brand-experiment-330); /* The blue color thing */
+    color: var(--text-normal); /*text colours*/
+}
+
 /* Correct color */
 .theme-dark .container-2cd8Mz,
 .theme-dark .pageWrapper-2PwDoS {
