@@ -4,6 +4,8 @@
 
 A theme based on the art cover from Tsukino Mito Album Moon Rabbits Dream About Virtual!
 
+Theme by [zuzumi](https://github.com/zuzumi-f)
+
 * [Requirements](#requirements)
 * [Preview](#preview)
 * [Original Cover Art](#original-cover-art)
