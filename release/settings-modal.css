@@ -160,7 +160,7 @@
     border: var(--border-width) solid var(--border-color);
     border-bottom-left-radius: var(--round-corners);
     border-bottom-right-radius: var(--round-corners);
-    margin-top: 35px !important;
+    margin-top: calc(32px + var(--border-width)) !important;
 }
 .perksModal-CLcR1c::before {
     background: linear-gradient(var(--drag-gradient));
