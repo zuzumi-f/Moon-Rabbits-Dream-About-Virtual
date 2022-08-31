@@ -1137,6 +1137,9 @@ div#app-mount.appMount-2yBXZl {
     color: #fff !important;
 }
 
+#app-mount .activity-E0U09Y [type="button"] {
+    opacity: 1;
+}
 .activity-E0U09Y [type="button"] {
     background-color: var(--brand-experiment-25a) !important;
     color: #fff !important;
