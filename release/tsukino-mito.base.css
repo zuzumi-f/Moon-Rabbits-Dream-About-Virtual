@@ -817,7 +817,8 @@ div#app-mount.appMount-2yBXZl {
     --text-color: #313D40;
     --icon-color: var(--text-color);
 }
-.theme-dark .footer-3naVBw .input-2z42oC {
+.theme-dark .footer-3naVBw .input-2z42oC,
+.theme-dark .bioTextArea-dDGOeC {
     background-color: var(--channeltextarea-background);
 }
 .footer-3naVBw .input-2z42oC {
@@ -1147,11 +1148,11 @@ div#app-mount.appMount-2yBXZl {
 }
 
 /* Big Profile */
-.focusLock-2tveLW[aria-label*=" "] > div {
+[class="focusLock-2tveLW"][role="dialog"][aria-label*=" "][tabindex="-1"][aria-modal="true"] > [class="root-8LYsGj root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"] {
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
 }
-.focusLock-2tveLW[aria-label*=" "] > div::before {
+[class="focusLock-2tveLW"][role="dialog"][aria-label*=" "][tabindex="-1"][aria-modal="true"] > [class="root-8LYsGj root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"]::before {
     background: linear-gradient(var(--drag-gradient));
     opacity: 1;
     content: "";
@@ -1442,6 +1443,7 @@ div#app-mount.appMount-2yBXZl {
 
 #app-mount .peopleListItem-u6dGxF {
     margin: 0 30px;
+    padding: 16px 20px;
 }
 
 .nowPlayingColumn-1eCBCN .scroller-hE2gWq {
@@ -1471,6 +1473,10 @@ div#app-mount.appMount-2yBXZl {
 }
 
 .searchResultsWrap-5RVOkx .scroller-3iiyhZ {
+    padding-right: 16px !important;
+}
+
+.scroller-2M3eAB {
     padding-right: 16px !important;
 }
 
