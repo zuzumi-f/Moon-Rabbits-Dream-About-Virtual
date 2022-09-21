@@ -1040,7 +1040,27 @@ div#app-mount.appMount-2yBXZl {
     -webkit-app-region: drag;
 }
 
+/* Profile Settings Status */
+.avatarUploader-CHGwK7 {
+    background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-primary-color) 60px,var(--profile-gradient-secondary-color));
+    border: 6px solid transparent;
+    border-radius: 50%;
+}
+
+#app-mount .status-b9jLr4 {
+    display: none;
+}
+
 /* New Small Profile */
+#app-mount .userPopoutInner-PA9zkU .bannerSVGWrapper-qc0szY foreignObject {
+    mask: none;
+}
+
+.avatarWrapper-3y0KZ1 {
+    background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-primary-color) 60px,var(--profile-gradient-secondary-color));
+    border: 6px solid transparent;
+}
+
 .userPopout-3fydSP .betaTag-2bWvGF {
     top: calc(8px + (32px + var(--border-width)*2));
     left: calc(8px + var(--border-width));
@@ -1161,13 +1181,35 @@ div#app-mount.appMount-2yBXZl {
     border-bottom: var(--border-width) solid var(--border-color);
     -webkit-app-region: drag;
 }
-.topSection-13QKHs .banner-2boKnS,
-.profileBanner-1owKI5 {
-    height: 240px;
+#app-mount .topSection-13QKHs .bannerSVGWrapper-qc0szY > foreignObject {
+    min-height: 240px;
+    max-height: 240px;
+    mask: none;
 }
-.topSection-13QKHs .banner-1YaD3N {
+.topSection-13QKHs .bannerSVGWrapper-qc0szY {
+    min-height: 240px !important;
+    max-height: 240px !important;
+    margin-bottom: -3px;
+}
+.topSection-13QKHs .banner-2boKnS:not(.profileBannerPremium-3xIFwS) {
+    min-height: 240px !important;
+    max-height: 240px !important;
+    margin-top: -67px;
+}
+.topSection-13QKHs .profileBannerPremium-3xIFwS {
+    min-height: 240px !important;
+    max-height: 240px !important;
+    margin-top: -14px;
+}
+#app-mount .topSection-13QKHs .banner-2boKnS {
+    border-radius: 0;
+}
+.topSection-13QKHs .banner-2boKnS {
     -webkit-box-shadow: inset 0 0 225px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 0 225px rgba(0, 0, 0, 0.2);
+}
+.premiumIconWrapper-yyGDql > div {
+    margin-top: 2px;
 }
 .avatar-3QF_VA {
     top: -198px;
