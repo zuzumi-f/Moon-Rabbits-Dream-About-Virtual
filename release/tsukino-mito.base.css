@@ -413,7 +413,18 @@ div#app-mount.appMount-2yBXZl {
 .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW {
     transform: scale(1.1);
     padding: 4px;
+    margin-right: 0;
+    margin-left: 8px;
 }
+
+.theme-dark .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW:hover{
+    background-color: rgba(36, 36, 36, 0.4);
+}
+
+.theme-light .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 .button-12Fmur {
     color: var(--brand-experiment);
     transition: .5s;
