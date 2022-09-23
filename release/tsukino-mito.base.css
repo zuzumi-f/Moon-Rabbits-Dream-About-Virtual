@@ -1179,6 +1179,10 @@ div#app-mount.appMount-2yBXZl {
     padding: 0 16px 8px;
 }
 
+.popoutWrapper-3ks_kl .scroller-3b1p7z {
+    padding-right: 16px !important;
+}
+
 .voiceUser-3nRK-K.clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
     background-color: var(--selected-transparent) !important;
     color: var(--color-text-selected) !important;
