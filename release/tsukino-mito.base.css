@@ -911,7 +911,8 @@ div#app-mount.appMount-2yBXZl {
     display: none;
 }
 
-[class*="userPopout"] .mask-1FEkla > circle {
+[class*="userPopout"] .mask-1FEkla > circle,
+[class*="userPopout"] .mask-1FEkla > rect[style="opacity: 0.45;"] {
     display: none;
 }
 
