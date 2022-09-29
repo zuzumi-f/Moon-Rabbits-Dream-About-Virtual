@@ -639,10 +639,10 @@ div#app-mount.appMount-2yBXZl {
 }
 
 /* The searchbar */
-.chat-2ZfjoI .children-3xh0VB {
+.chat-2ZfjoI .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB) {
     margin-left: 242px;
 }
-.chat-2ZfjoI .children-3xh0VB::before {
+.chat-2ZfjoI .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB)::before {
     content: "";
     width: 1px;
     height: 26px;
@@ -935,25 +935,25 @@ div#app-mount.appMount-2yBXZl {
     border: 6px solid transparent;
 }
 
-.userPopout-29jUdN .betaTag-2bWvGF {
+.userPopout-2VyFj_ .betaTag-2bWvGF {
     top: calc(8px + (32px + var(--border-width)*2));
     left: calc(8px + var(--border-width));
 }
 
-#app-mount .userPopout-29jUdN .userTagDiscriminatorNoNickname-2HLaIE,
-#app-mount .userPopout-29jUdN .userTagUsernameNoNickname-2e_xaO,
-#app-mount .userPopout-29jUdN .nickname-2rimyL {
+#app-mount .userPopout-2VyFj_ .userTagDiscriminatorNoNickname-2HLaIE,
+#app-mount .userPopout-2VyFj_ .userTagUsernameNoNickname-2e_xaO,
+#app-mount .userPopout-2VyFj_ .nickname-2rimyL {
     color: #fff !important;
 }
-.userPopout-29jUdN .userTagNoNickname-2MJ9HD,
-.userPopout-29jUdN .nickname-2rimyL {
+.userPopout-2VyFj_ .userTagNoNickname-2MJ9HD,
+.userPopout-2VyFj_ .nickname-2rimyL {
     background-color: var(--name-bg);
     border-radius: 2px;
     padding-right: 4px;
     padding-left: 8px;
 }
-.userPopout-29jUdN .userTagNoNickname-2MJ9HD::before,
-.userPopout-29jUdN .nickname-2rimyL::before {
+.userPopout-2VyFj_ .userTagNoNickname-2MJ9HD::before,
+.userPopout-2VyFj_ .nickname-2rimyL::before {
     opacity: 1;
     content: ">";
     color: #fff;
@@ -983,14 +983,14 @@ div#app-mount.appMount-2yBXZl {
     border-bottom-right-radius: calc(var(--round-corners) - 3.5px);
 }
 
-#app-mount .userPopout-29jUdN {
+#app-mount .userPopout-2VyFj_ {
     padding-top: calc(32px + var(--border-width));
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
     padding-left: 0;
     padding-right: 0;
 }
-.userPopout-29jUdN::before {
+.userPopout-2VyFj_::before {
     background: linear-gradient(var(--drag-gradient));
     opacity: 1;
     content: "";
@@ -1191,6 +1191,20 @@ div#app-mount.appMount-2yBXZl {
 .voiceUser-3nRK-K .content-1Tgc42:hover {
     background-color: var(--background-transparent) !important;
     color: var(--color-text) !important;
+}
+
+/* Call FullScreen */
+#app-mount .sidebar-1tnWFu.hidden-38rxp9 {
+    width: 0;
+}
+
+.layers-OrUESM.layers-1YQhyW {
+    display: contents;
+}
+
+.withFrame-2dL45i + [class*="app"] .layers-OrUESM.layers-1YQhyW,
+.typeMacOS-3V4xXE + [class*="app"] .layers-OrUESM.layers-1YQhyW {
+    display: flex !important;
 }
 
 /* Threads */
@@ -1396,6 +1410,10 @@ div#app-mount.appMount-2yBXZl {
 }
 
 .scroller-2M3eAB {
+    padding-right: 16px !important;
+}
+
+.container-8Futzw {
     padding-right: 16px !important;
 }
 
