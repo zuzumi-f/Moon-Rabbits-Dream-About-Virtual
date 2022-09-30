@@ -976,7 +976,7 @@ div#app-mount.appMount-2yBXZl {
     padding-right: 12px;
 }
 
-.userPopoutInner-1v4xcM:before {
+.userProfileInner-3F03PX:before {
     width: calc(100% - var(--border-width)*2);
     height: calc(100% - (32px + var(--border-width)*3));
     border-bottom-left-radius: calc(var(--round-corners) - 3.5px);
