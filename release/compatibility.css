@@ -1,19 +1,3 @@
-/* Status Everywhere compatibility */
-#app-mount .wrapper-1VLyxH rect[fill="#593695"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-streaming)"] {fill: var(--streaming-color)}
-#app-mount .wrapper-1VLyxH rect[fill="#3BA55D"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-online)"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-online-mobile)"] {fill: var(--online-color)}
-#app-mount .wrapper-1VLyxH rect[fill="#FAA81A"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-idle)"] {fill: var(--idle-color)}
-#app-mount .wrapper-1VLyxH rect[fill="#ED4245"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-dnd)"] {fill: var(--dnd-color)}
-
-#app-mount .StatusEverywhere-avatar-userPopout[data-mobile=false]~svg foreignObject {
-    mask: url(#svg-mask-avatar-status-round-80);
-    overflow: visible;
-}
-
 /* .InvisibleTyping Compatibility */
 #app-mount .InvisibleTyping-typingButton-invisibleTypingButton svg {
     color: var(--text-color);
@@ -129,4 +113,33 @@
 .popout-TdhJ6Z {
     background-color: var(--background-primary) !important;
     box-shadow: var(--elevation-high);
+}
+
+/* PermissionsViewer Compatibility */
+#permissions-modal-wrapper #permissions-modal {
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--round-corners);
+}
+
+#permissions-modal-wrapper #permissions-modal::before {
+    background: linear-gradient(var(--drag-gradient));
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: calc(43px - var(--border-width));
+    width: 100%;
+    border-bottom: var(--border-width) solid var(--border-color);
+    -webkit-app-region: drag;
+}
+
+#permissions-modal-wrapper .header {
+    background-color: transparent;
+}
+#permissions-modal-wrapper .modal-body,
+#permissions-modal-wrapper .perm-side {
+    background-color: var(--background-primary);
+}
+#permissions-modal-wrapper .role-side {
+    background-color: var(--background-secondary);
 }
