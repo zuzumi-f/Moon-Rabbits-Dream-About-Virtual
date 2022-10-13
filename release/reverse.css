@@ -15,6 +15,21 @@
     background-color: var(--background-tertiary) !important;
 }
 
+.chat-2ZfjoI .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB) {
+    margin-left: 242px;
+}
+.chat-2ZfjoI .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB)::before {
+    content: "";
+    width: 1px;
+    height: 26px;
+    background-color: var(--background-modifier-accent);
+}
+
+.search-39IXmY {
+    position: absolute;
+    left: 0;
+}
+
 /* Server Details Tooltip */
 #app-mount .detailsTooltip-G9hSSa {
     right: 390px;
