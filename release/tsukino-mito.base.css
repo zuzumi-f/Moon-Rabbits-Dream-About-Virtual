@@ -167,8 +167,8 @@
 
 /* Selection text color */
 ::selection {
-    background-color: var(--brand-experiment-330); /* The blue color thing */
-    color: var(--text-normal); /*text colours*/
+    background-color: var(--brand-experiment-460); /* text selection*/
+    color: var(--channeltextarea-background); /* text color */
 }
 
 /* Correct color */
@@ -410,18 +410,14 @@ div#app-mount.appMount-2yBXZl {
     height: 60px;
     font-weight: 550;
 }
-.panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW {
-    transform: scale(1.1);
-    padding: 4px;
-    margin-left: 8px;
+
+.panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW:hover {
+    background-color: transparent;
 }
 
-.theme-dark .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW:hover{
-    background-color: rgba(36, 36, 36, 0.4);
-}
-
-.theme-light .panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW:hover {
-    background-color: rgba(255, 255, 255, 0.4);
+.panels-3wFtMD > .container-YkUktl > .avatarWrapper-1B9FTW:hover foreignObject {
+    filter: grayscale(.6);
+    transition: all 200ms;
 }
 
 .button-12Fmur {
@@ -639,20 +635,11 @@ div#app-mount.appMount-2yBXZl {
 }
 
 /* The searchbar */
-.chat-2ZfjoI .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB) {
-    margin-left: 242px;
-}
-.chat-2ZfjoI .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB)::before {
-    content: "";
-    width: 1px;
-    height: 26px;
-    background-color: var(--background-modifier-accent);
+.search-39IXmY {
+    order: 1;
+    margin-right: 0;
 }
 
-.search-39IXmY {
-    position: absolute;
-    left: 0;
-}
 .searchBar-jGtisZ {
     height: 38px !important;
     width: 234px !important;
@@ -902,15 +889,35 @@ div#app-mount.appMount-2yBXZl {
     filter: invert(1);
 }
 
-/* Profile Settings Status */
+/* Profile Customization */
 .avatarUploader-CHGwK7 {
     background-color: var(--profile-body-background-color);
     border: 6px solid transparent;
     border-radius: 50%;
 }
-
 #app-mount .status-b9jLr4 {
     display: none;
+}
+
+#app-mount .profileCustomizationSection-53kreU .userPopoutOuter-3AVBmJ::before {
+    top: 0;
+    width: 100%;
+}
+
+#app-mount .profileCustomizationSection-53kreU .userProfileInner-3F03PX:before {
+    width: 100%;
+    height: calc(100% - (32px + var(--border-width)));
+}
+
+.profileCustomizationSection-53kreU .bannerSVGWrapper-qc0szY {
+    min-width: calc(340px - (var(--border-width)*2)) !important;
+    min-height: calc(60px - (var(--border-width)*2)) !important;
+}
+#app-mount .profileCustomizationSection-53kreU .banner-1rJmju {
+    border-radius: 0;
+}
+.avatarUploaderNormal-1h8g3f {
+    top: calc(16px + 32px);
 }
 
 /* Small Profile */
