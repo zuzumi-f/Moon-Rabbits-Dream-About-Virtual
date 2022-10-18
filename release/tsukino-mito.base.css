@@ -347,11 +347,6 @@ div#app-mount.appMount-2yBXZl {
     color: var(--color-text);
 }
 
-.content-1gYQeQ {
-    min-height: 34px;
-    max-height: 34px;
-}
-
 #app-mount .content-1gYQeQ .name-28HaxV {
     font-weight: 600;
 }
@@ -438,6 +433,10 @@ div#app-mount.appMount-2yBXZl {
 .theme-light .container-6sXIoE,
 .theme-light .container-1zzFcN {
     border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
+}
+
+.panels-3wFtMD .nameTag-sc-gpq {
+    width: 96px;
 }
 
 /* Invite Popout */
@@ -956,8 +955,9 @@ div#app-mount.appMount-2yBXZl {
 .userPopoutOuter-3AVBmJ .nickname-2rimyL {
     background-color: var(--name-bg);
     border-radius: 2px;
-    padding-right: 4px;
-    padding-left: 8px;
+    padding-right: 6px;
+    padding-left: 9px;
+    width: max-content;
 }
 .userPopoutOuter-3AVBmJ .userTagNoNickname-2MJ9HD::before,
 .userPopoutOuter-3AVBmJ .nickname-2rimyL::before {
@@ -991,7 +991,6 @@ div#app-mount.appMount-2yBXZl {
 }
 
 #app-mount .userPopoutOuter-3AVBmJ {
-    padding-top: calc(32px + var(--border-width));
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
     padding-left: 0;
@@ -1001,7 +1000,6 @@ div#app-mount.appMount-2yBXZl {
     background: linear-gradient(var(--drag-gradient));
     opacity: 1;
     content: "";
-    position: absolute;
     top: var(--border-width);
     min-height: 32px;
     width: calc(100% - var(--border-width)*2);
@@ -1079,17 +1077,107 @@ div#app-mount.appMount-2yBXZl {
   -webkit-mask-composite: xor;
 }
 
+/* New Big Profile */
+.banner-2boKnS {
+    border-radius: 0;
+}
+
+.infoScroller-3MqKC5 {
+    padding-right: 12px !important;
+    padding-top: 21px;
+}
+
+.relationshipButtons-pZ_UWl [type="button"] {
+    background-color: var(--brand-experiment) !important;
+    color: #fff !important;
+}
+
+.body-_QAKrE .discriminator-3_S3CG {
+    color: #fff;
+}
+.body-_QAKrE .nameTag-2ysfG3 {
+    background-color: var(--name-bg);
+    border-radius: 2px;
+    padding-right: 4px;
+    padding-left: 8px;
+    width: fit-content;
+}
+.nameTag-2ysfG3::before {
+    opacity: 1;
+    content: ">";
+    color: #fff;
+    font-weight: 500;
+    right: 4px;
+    position: relative;
+}
+
+.tabBarContainer-2UG0vy {
+    margin-top: 1px;
+}
+
+.tabBar-2StdUa {
+    gap: 0;
+    position: relative;
+    top: 20px;
+    justify-content: center;
+    z-index: 1;
+}
+
+.tabBar-2StdUa .tabBarItem-3VvT2z {
+    background-color: var(--brand-experiment);
+    border: 1px solid #fff;
+    color: #fff !important;
+    height: 20px;
+    width: 96px;
+    padding: 8px;
+    text-align: center;
+}
+.tabBar-2StdUa .tabBarItem-3VvT2z:first-of-type {
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+}
+.tabBar-2StdUa .tabBarItem-3VvT2z:last-of-type {
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+}
+
+.tabBar-2StdUa .tabBarItem-3VvT2z:hover {
+    background-color: var(--brand-experiment-530);
+}
+
+.tabBar-2StdUa .tabBarItem-3VvT2z.selected-g-kMVV {
+    background: linear-gradient(90deg, var(--bg-gradient1) 0%, var(--bg-gradient2) 50%, var(--bg-gradient3) 100%);
+}
+
+.listScroller-XCVa1H {
+    padding-top: 42px;
+}
+
+.listRow-Y5zoF8 {
+    margin-right: 8px;
+}
+
+.actionColor-3JIzOn {
+    background-color: var(--brand-experiment);
+    border: 1px solid #fff;
+}
+
+[class="root-2uUafN root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"] {
+    border-radius: var(--round-corners);
+}
+
 /* Big Profile */
 [class="focusLock-2tveLW"][role="dialog"][aria-label*=" "][tabindex="-1"][aria-modal="true"] > [class="root-8LYsGj root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"],
-[class="focusLock-2tveLW"][role="dialog"][aria-label*=" "][tabindex="-1"][aria-modal="true"] > [class="root-8LYsGj profileColors-3Y0XaR root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"] {
+.profileColors-3Y0XaR {
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
 }
 [class="focusLock-2tveLW"][role="dialog"][aria-label*=" "][tabindex="-1"][aria-modal="true"] > [class="root-8LYsGj root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"]::before,
-[class="focusLock-2tveLW"][role="dialog"][aria-label*=" "][tabindex="-1"][aria-modal="true"] > [class="root-8LYsGj profileColors-3Y0XaR root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"]::before {
+.profileColors-3Y0XaR::before {
     background: linear-gradient(var(--drag-gradient));
     opacity: 1;
     content: "";
+    display: block;
     height: 32px;
     width: 100%;
     border-bottom: var(--border-width) solid var(--border-color);
