@@ -6,7 +6,6 @@ A theme based on the art cover from Tsukino Mito Album Moon Rabbits Dream About 
 
 Theme by [zuzumi](https://github.com/zuzumi-f)
 
-* [Requirements](#requirements)
 * [Preview](#preview)
 * [Original Cover Art](#original-cover-art)
 * [Customization](#customization)
@@ -27,9 +26,11 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
 
 ## Customization
 
-For better customization please use [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings)
+For customization follow the next steps
 
-![image](https://user-images.githubusercontent.com/79029257/188325566-2f1f0d60-ffd0-4c8d-abdc-1bbbd0c90ee0.png)
+![image](https://user-images.githubusercontent.com/79029257/196774076-bc73438a-05da-457f-8f2f-f1dad1016fe8.png)
+
+![image](https://user-images.githubusercontent.com/79029257/196775040-98577fdc-e985-4217-bc98-6909823f2fa9.png)
 
 ## Addons
 * Settings Modal by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/SettingsModal/)**
