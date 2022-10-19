@@ -36,6 +36,3 @@ For customization follow the next steps
 * Settings Modal by **[DevilBro](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/SettingsModal/)**
 
 * Pop! by **[devinkid1](https://github.com/devinkid1/Pop)**
-
-## Requirements
-* [ThemeSettings](https://betterdiscord.app/plugin/ThemeSettings)
