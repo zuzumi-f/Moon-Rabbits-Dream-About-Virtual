@@ -918,6 +918,9 @@ div#app-mount.appMount-2yBXZl {
 .avatarUploaderNormal-1h8g3f {
     top: calc(16px + 32px);
 }
+.avatarUploaderPremium-2v2k2d {
+    top: calc(76px + 32px);
+}
 
 /* Small Profile */
 #app-mount [class*="userPopout"] .bannerSVGWrapper-qc0szY > foreignObject {
@@ -990,19 +993,23 @@ div#app-mount.appMount-2yBXZl {
     border-bottom-right-radius: calc(var(--round-corners) - 3.5px);
 }
 
+#app-mount .userPopoutOuter-3AVBmJ .wrapper-400BN2 {
+    border-radius: 0;
+    width: calc(100% - (var(--border-width)*2));
+}
+
 #app-mount .userPopoutOuter-3AVBmJ {
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 .userPopoutOuter-3AVBmJ::before {
     background: linear-gradient(var(--drag-gradient));
-    opacity: 1;
+    display: block;
     content: "";
     top: var(--border-width);
     min-height: 32px;
-    width: calc(100% - var(--border-width)*2);
+    width: 100%;
     border-bottom: var(--border-width) solid var(--border-color);
     border-top-left-radius: calc(var(--round-corners) - 3.5px);
     border-top-right-radius: calc(var(--round-corners) - 3.5px);
@@ -1167,15 +1174,13 @@ div#app-mount.appMount-2yBXZl {
 }
 
 /* Big Profile */
-[class="focusLock-2tveLW"][role="dialog"][aria-label*=" "][tabindex="-1"][aria-modal="true"] > [class="root-8LYsGj root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"],
-.profileColors-3Y0XaR {
+.userProfileModalOuter-1FYL8T.userProfileOuter-1K_BYU {
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
+    padding: 0;
 }
-[class="focusLock-2tveLW"][role="dialog"][aria-label*=" "][tabindex="-1"][aria-modal="true"] > [class="root-8LYsGj root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"]::before,
-.profileColors-3Y0XaR::before {
+.userProfileModalOuter-1FYL8T.userProfileOuter-1K_BYU::before {
     background: linear-gradient(var(--drag-gradient));
-    opacity: 1;
     content: "";
     display: block;
     height: 32px;
