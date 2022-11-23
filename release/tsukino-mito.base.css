@@ -1576,30 +1576,30 @@ div#app-mount.appMount-2yBXZl {
     background-color: var(--offline-color) !important;
 }
 /* Status Colors */
-#app-mount .wrapper-1VLyxH rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-streaming)"] {fill: var(--streaming-color)}
-#app-mount .wrapper-1VLyxH rect[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-online)"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-online-mobile)"] {fill: var(--online-color)}
-#app-mount .wrapper-1VLyxH rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-idle)"] {fill: var(--idle-color)}
-#app-mount .wrapper-1VLyxH rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
-#app-mount .wrapper-1VLyxH rect :not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-dnd)"] {fill: var(--dnd-color)}
-#app-mount .wrapper-1VLyxH rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
+#app-mount .wrapper-1VLyxH rect[fill="#593695"],
+#app-mount .wrapper-1VLyxH rect:not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-streaming)"] {fill: var(--streaming-color)}
+#app-mount .wrapper-1VLyxH rect[fill="#3ba55c"],
+#app-mount .wrapper-1VLyxH rect:not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-online)"],
+#app-mount .wrapper-1VLyxH rect:not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-online-mobile)"] {fill: var(--online-color)}
+#app-mount .wrapper-1VLyxH rect[fill="#faa61a"],
+#app-mount .wrapper-1VLyxH rect:not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-idle)"] {fill: var(--idle-color)}
+#app-mount .wrapper-1VLyxH rect[fill="#ed4245"],
+#app-mount .wrapper-1VLyxH rect:not(.pointerEvents-9SZWKj)[mask="url(#svg-mask-status-dnd)"] {fill: var(--dnd-color)}
+#app-mount .wrapper-1VLyxH rect[fill="#747f8d"],
 #app-mount .wrapper-1VLyxH rect[mask="url(#svg-mask-status-offline)"] {fill: var(--offline-color)}
 
-.container-ZMc96U [fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"] {
+.container-ZMc96U [fill="rgba(89, 54, 149, 1)"] {
   fill: var(--streaming-color);
 }
-.container-ZMc96U [fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
+.container-ZMc96U [fill="rgba(59, 165, 92, 1)"] {
   fill: var(--online-color);
 }
-.container-ZMc96U [fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
+.container-ZMc96U [fill="rgba(250, 166, 26, 1)"] {
   fill: var(--idle-color);
 }
-.container-ZMc96U [fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
+.container-ZMc96U [fill="rgba(237, 66, 69, 1)"] {
   fill: var(--dnd-color);
 }
-.container-ZMc96U [fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"] {
+.container-ZMc96U [fill="rgba(116, 127, 141, 1)"] {
   fill: var(--offline-color);
 }
