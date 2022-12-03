@@ -1552,11 +1552,11 @@ div#app-mount.appMount-2yBXZl {
 
 /* Status colors */
 :root {
-    --online-color: #4cb884;
-    --idle-color: #facc4c;
-    --dnd-color: #d66b61;
-    --offline-color: #868686;
-    --streaming-color: #ac83ce;
+    --online-color: #CAFFBF;
+    --idle-color: #FDFFB6;
+    --dnd-color: #FFADAD;
+    --offline-color: #FFFFFC;
+    --streaming-color: #FFC6FF;
 }
 /* Status Picker thing */
 #app-mount #account-status-picker:not(.focused-3qFvc8) [mask="url(#svg-mask-status-online)"] .status-2DiCMd,
@@ -1588,18 +1588,23 @@ div#app-mount.appMount-2yBXZl {
 #app-mount .wrapper-1VLyxH rect[fill="#747f8d"],
 #app-mount .wrapper-1VLyxH rect[mask="url(#svg-mask-status-offline)"] {fill: var(--offline-color)}
 
-.container-ZMc96U [fill="rgba(89, 54, 149, 1)"] {
+.container-ZMc96U [fill="rgba(89, 54, 149, 1)"],
+.container-ZMc96U [fill="#593695"] {
   fill: var(--streaming-color);
 }
-.container-ZMc96U [fill="rgba(59, 165, 92, 1)"] {
+.container-ZMc96U [fill="rgba(59, 165, 92, 1)"],
+.container-ZMc96U [fill="#3ba55c"] {
   fill: var(--online-color);
 }
-.container-ZMc96U [fill="rgba(250, 166, 26, 1)"] {
+.container-ZMc96U [fill="rgba(250, 166, 26, 1)"],
+.container-ZMc96U [fill="#faa61a"] {
   fill: var(--idle-color);
 }
-.container-ZMc96U [fill="rgba(237, 66, 69, 1)"] {
+.container-ZMc96U [fill="rgba(237, 66, 69, 1)"],
+.container-ZMc96U [fill="#ed4245"] {
   fill: var(--dnd-color);
 }
-.container-ZMc96U [fill="rgba(116, 127, 141, 1)"] {
+.container-ZMc96U [fill="rgba(116, 127, 141, 1)"],
+.container-ZMc96U [fill="#747f8d"] {
   fill: var(--offline-color);
 }
