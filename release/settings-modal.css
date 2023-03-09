@@ -1,6 +1,4 @@
 /* Settings Modal by DevilBro [edited] */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/ThemeDevBadge.css);
-
 :root {
 	--settingsmodalbackground: transparent;
 	--settingsmodalwidth: calc(100% - 50%/2);
@@ -78,7 +76,7 @@
 	max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
 }
 #app-mount .layer-86YKbF ~ .layer-86YKbF .standardSidebarView-E9Pc3j .editor {
-	height: calc(var(--settingsmodalheight) - 120px) !important;
+	height: calc(100vh - 300px) !important;
 }
 
 #app-mount .root-2zfUH6 {
@@ -142,7 +140,7 @@
     margin-top: calc(32px + var(--border-width)) !important;
 }
 .standardSidebarView-E9Pc3j::before {
-    background: linear-gradient(var(--drag-gradient));
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
     position: absolute !important;
     content: "";
     left: 0;
@@ -163,7 +161,7 @@
     margin-top: calc(32px + var(--border-width)) !important;
 }
 .perksModal-CLcR1c::before {
-    background: linear-gradient(var(--drag-gradient));
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
     position: absolute;
     content: "";
     left: 0;
