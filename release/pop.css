@@ -15,15 +15,15 @@
 }
 
 /* ---- Hover Animations ---- */
-/* Buttons */ .button-1U79Hu:hover, .button-G2dHuB.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.fullWidth-fJIsjq.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F:hover, .lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .button-1h8W6d:hover, .button-1h8W6d, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.grow-2sR_-F:hover, .button-f2h6uQ.lookFilled-yCfaCM.colorWhite-1H92hK.sizeMedium-2bFIHr.grow-2sR_-F:hover, .fieldButton-14lHvK.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeSmall-wU2dO-.grow-2sR_-F:hover,
-/* Settings List Items */ .side-2ur1Qk .item-3XjbnG:hover,
+/* Buttons */ .sizeSmall-3R2P2p:hover,
+/* Settings List Items */ .side-1lrxIh .item-2GWPIy:hover,
 /* Stage discovery */ .container-S9SaVf:hover,
 /* Active now card */ .itemCard-3Etziu:hover,
 /* Activity button */ .lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
 /* Friendlist */ .peopleListItem-u6dGxF:hover,
 /* Direct Message List Items */ .channel-1Shao0:hover,
 /* Member List Items */ .member-2gU6Ar:hover,
-/* Context Menu Items */ .item-1OdjEX:hover:not([id="account-info"], [id="account-avatar"]),
+/* Context Menu Items */ .item-5ApiZt:hover:not([id="account-info"], [id="account-avatar"]),
 /* Message Profile Pictures */ .avatar-2e8lTP.clickable-31pE3P:hover,
 /* Topbar Items */ .toolbar-3_r2xA > .iconWrapper-2awDjA:hover > svg > path, .toolbar-3_r2xA > .inviteToolbar-2k2nqz > .iconWrapper-2awDjA:hover > svg > path, .toolbar-3_r2xA > a > .iconWrapper-2awDjA:hover > svg > path,
 /* Server Channels */ .content-1gYQeQ:hover,
@@ -45,15 +45,15 @@
 }
 
 /* ---- Static Animations ---- */
-/* Buttons */ .button-1U79Hu, .button-G2dHuB.button-f2h6uQ.lookInverted-2mDUMi.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.fullWidth-fJIsjq.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeSmall-wU2dO-.grow-2sR_-F, .lookFilled-yCfaCM.colorGreen-3y-Z79, .button-1h8W6d, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.grow-2sR_-F, .button-f2h6uQ.lookFilled-yCfaCM.colorWhite-1H92hK.sizeMedium-2bFIHr.grow-2sR_-F, .fieldButton-14lHvK.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeSmall-wU2dO-.grow-2sR_-F,
-/* Settings List Items */ .side-2ur1Qk .item-3XjbnG,
+/* Buttons */ .sizeSmall-3R2P2p,
+/* Settings List Items */ .side-1lrxIh .item-2GWPIy,
 /* Stage discovery */ .container-S9SaVf,
 /* Active now card */ .itemCard-3Etziu,
 /* Activity button */ .lookFilled-yCfaCM.colorGrey-2iAG-B,
 /* Friendlist */ .peopleListItem-u6dGxF,
 /* Direct Message List Items */ .channel-1Shao0,
 /* Member List Items */ .member-2gU6Ar,
-/* Context Menu Items */ .item-1OdjEX:not([id="account-info"], [id="account-avatar"]),
+/* Context Menu Items */ .item-5ApiZt:not([id="account-info"], [id="account-avatar"]),
 /* Message Profile Pictures */ .avatar-2e8lTP.clickable-31pE3P,
 /* Topbar Items */ .toolbar-3_r2xA > .iconWrapper-2awDjA > svg > path, .toolbar-3_r2xA > .inviteToolbar-2k2nqz > .iconWrapper-2awDjA > svg > path, .toolbar-3_r2xA > a > .iconWrapper-2awDjA > svg > path,
 /* Server Channels */ .content-1gYQeQ,
