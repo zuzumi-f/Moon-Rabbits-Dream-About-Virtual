@@ -16,3 +16,19 @@ div#app-mount.appMount-2yBXZl {
         background-position:0 50%
     }
 }
+
+.activity-E0U09Y {
+    background-size: 200%;
+    animation: ActivityGradient 1s ease infinite;
+}
+@keyframes ActivityGradient {
+    0% {
+        background-position:0 50%
+    }
+    50% {
+        background-position:100% 50%
+    }
+    100% {
+        background-position:0 50%
+    }
+}
