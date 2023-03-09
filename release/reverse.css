@@ -30,11 +30,10 @@
     left: 0;
 }
 
-/* Server Details Tooltip */
-#app-mount .detailsTooltip-G9hSSa {
+#app-mount .detailsTooltip-G9hSSa /* Server Details Tooltip */ {
     right: 390px;
 }
-#app-mount .detailsTooltip-G9hSSa .tooltipPointer-3L49xb {
+#app-mount .detailsTooltip-G9hSSa .tooltipPointer-sMBQqe {
     transform: rotate(-90deg);
     left: 300px;
 }
