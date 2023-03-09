@@ -16,8 +16,8 @@
 .noticeWrapper-8z511t /* BD Notice */ {
     margin-left: 24px;
     margin-right: 24px;
-    border-left: var(--the-borders);
-    border-right: var(--the-borders);
+    border-left: var(--border-width) solid var(--border-color);
+    border-right: var(--border-width) solid var(--border-color);
     box-shadow: none !important;
 }
 
@@ -27,4 +27,13 @@
     border-top-left-radius: var(--round-corners);
     border-top-right-radius: var(--round-corners);
     width: calc(100% - (48px + var(--border-width)*2));
+}
+
+.platform-win .container-2RRFHK /* Did You Know? Screen */ {
+    left: var(--border-width);
+    width: calc((100% - var(--border-width)*2) - 24px*2);
+    height: calc((100% - var(--border-width)) - 24px);
+    margin: 0 24px 24px;
+    border-bottom-left-radius: var(--round-corners);
+    border-bottom-right-radius: var(--round-corners);
 }
