@@ -1,120 +1,3 @@
-/* .InvisibleTyping Compatibility */
-#app-mount .InvisibleTyping-typingButton-invisibleTypingButton svg {
-    color: var(--text-color);
-}
-
-/* Friends online */
-.theme-light .friendsOnline-2JkivW {
-    color: rgba(0, 0, 0, 0.6);
-    font-weight: bolder;
-}
-.theme-light .friendsOnline-2JkivW:hover {
-    color: rgba(0, 0, 0, 0.9);
-}
-
-/* User Details */
-.userPopout-2j1gM4 .UserDetails-dates-container,
-#account.menu-1QACrS .UserDetails-dates-container {
-    margin-bottom: -12px;
-    margin-top: 4px;
-}
-.UserDetails-dates-container.UserDetails-dates-icons.UserDetails-dates-userProfile {
-    display: none;
-}
-
-.theme-light .UserDetails-dates-container svg:not(.UserDetails-dates-container .UserDetails-dates-errorIcon) {
-    filter: invert(1);
-}
-
-.theme-light .UserDetails-connections-connections [src="/assets/6a853b4c87fce386cbfef4a2efbacb09.svg"] {
-    content: url("https://discord.com/assets/3ff98ad75ac94fa883af5ed62d17c459.svg");
-}
-
-.theme-light .UserDetails-connections-connections [src="/assets/7bab4490382024b0c8c29b5378eeaf8f.svg"] {
-    content: url("https://discord.com/assets/8b20979429c0e2d40e0d620f939989cf.svg");
-}
-
-.theme-dark .UserDetails-connections-connections [src="/assets/29b4af8bf13fa73258692008d25b4f0d.png"] {
-    content: url("https://discord.com/assets/1fa6585cbb8c0fe21188e26d19fc6609.svg");
-}
-
-.theme-light .UserDetails-connections-connections [src="/assets/29b4af8bf13fa73258692008d25b4f0d.png"] {
-    content: url("https://discord.com/assets/cab5339904e625728f75e3b7bc32a347.svg");
-}
-
-.theme-dark .UserDetails-connections-connections [src="/assets/1f07067017f955a0cde4e994e945f417.svg"] {
-    content: url("https://discord.com/assets/d897626dfa2016ea3ad0af935acb6070.svg");
-}
-
-.theme-dark .UserDetails-connections-connections [src="/assets/ffa3415a151587879c5537015fa59521.svg"] {
-    content: url("https://discord.com/assets/db9e2406158133f91e1fe24bb56425c2.svg");
-}
-
-.userInfoSection-2u2hir+.userInfoSection-2u2hir:not(.connectedAccounts-fvr7-7) {
-    padding-top: 16px;
-}
-
-/* ChannelDMs */
-.ChannelDms-channelmembers-wrap {
-    max-width: 250px;
-    min-width: 250px;
-}
-.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header,
-.ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
-    background: var(--background-secondary) !important;
-}
-.ChannelDms-channelmembers-wrap .item-3XjbnG:hover {
-    background-color: var(--background-modifier-hover) !important;
-}
-.ChannelDms-channelmembers-wrap .selected-g-kMVV {
-    background-color: var(--background-modifier-active) !important;
-}
-
-/* Server profile compatibility */
-[class="root-8LYsGj guild-profile root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"] {
-    border: var(--border-width) solid var(--border-color);
-    border-radius: var(--round-corners);
-}
-[class="root-8LYsGj guild-profile root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"]::before {
-    background: linear-gradient(var(--drag-gradient));
-    opacity: 1;
-    content: "";
-    height: 32px;
-    width: 100%;
-    border-bottom: var(--border-width) solid var(--border-color);
-    -webkit-app-region: drag;
-}
-[class="root-8LYsGj guild-profile root-g14mjS small-23Atuv fullscreenOnMobile-ixj0e3"] .badgeList-2aoHPw {
-    margin-top: 4px;
-}
-
-.guild-profile .profileBadge-12r2Nm {
-    color: #ffffff !important;
-}
-
-/* NotifX */
-.xenoLib-notification-content {
-    -webkit-app-region: no-drag;
-}
-.qwert-toasts {
-    -webkit-app-region: no-drag;
-}
-
-/* ChannelDetails tooltip fix */
-.ChannelDetails-tooltip-tooltip.voiceActivities {
-    padding: 14px 0;
-}
-.ChannelDetails-tooltip-section {
-    color: var(--text-normal) !important;
-}
-.ChannelDetails-tooltip-section .ChannelDetails-tooltip-role {
-    background: var(--background-secondary) !important;
-}
-.popout-TdhJ6Z {
-    background-color: var(--background-primary) !important;
-    box-shadow: var(--elevation-high);
-}
-
 /* PermissionsViewer Compatibility */
 #permissions-modal-wrapper #permissions-modal {
     border: var(--border-width) solid var(--border-color);
@@ -122,7 +5,7 @@
 }
 
 #permissions-modal-wrapper #permissions-modal::before {
-    background: linear-gradient(var(--drag-gradient));
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
     position: absolute;
     content: "";
     left: 0;
@@ -142,4 +25,26 @@
 }
 #permissions-modal-wrapper .role-side {
     background-color: var(--background-secondary);
+}
+
+/* .InvisibleTyping Compatibility */
+#app-mount .InvisibleTyping-typingButton-invisibleTypingButton svg {
+    color: var(--text-color);
+}
+
+/* Friends online */
+.container-OnlineFriendCount > .listItem-25TTJR {
+    border-bottom: none;
+}
+.item-OnlineFriendCount {
+    display: block;
+    width: 72px;
+    margin: 4px 0;
+}
+.theme-light .friendsOnline-2JkivW {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bolder;
+}
+.theme-light .friendsOnline-2JkivW:hover {
+    color: rgba(0, 0, 0, 0.9);
 }
