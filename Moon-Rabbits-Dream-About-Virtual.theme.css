@@ -1,19 +1,19 @@
 /**
  * @name Moon Rabbits Dream About Virtual
- * @description Based in Tsukino Mito Album cover
- * @author zuzumi#8097
- * @authorId 403725623161257984
+ * @description Based in Tsukino Mito Album Presentation
+ * @author zuzumi#5335
+ * @authorId 437579806616322049
  * @invite PsNtzGeHuW
  * @donate https://www.paypal.me/hurtyoutube
  * @website https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual
  * @source https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/blob/main/release/tsukino-mito.base.css
- * @version 2
+ * @version 3
 */
 
 /*---------------------------------------------------------------
    Theme Import you can't disable this is the full theme dummy
 ---------------------------------------------------------------*/
-@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/tsukino-mito.base.css');
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/tsukino-mito-base.css');
 
 /*---------------------------------------------------------------
                Make it look Like Another Window
@@ -25,7 +25,10 @@
 ---------------------------------------------------------------*/
 
 /* Animate the background */
-@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/backgroundanim.css');
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-animation.css');
+
+/* Add transparency for background images */
+/* @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-image.css'); */
 
 /* Pop Effect */
 @import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/pop.css");
@@ -33,31 +36,66 @@
 /* Reverse the position of Server list and members */
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/reverse.css');
 
-/* Colors */
+/*------------------------------------------------------
+                all the customization
+------------------------------------------------------*/
 :root {
     /* The text that appear in top, leave it blank ("") if you dont want any */
     --custom-text: "TSUKINO MITO";
 
     /* General Colors */
     --border-color: #da4a60;
-    --drag-gradient: #e8c4d3, #e39ba7;
+    --drag-gradient1: #e8c4d3;
+    --drag-gradient2: #e39ba7;
+    --name-bg: #d95b72;
+
+    /* Background Colors & BG Image */
     --bg-gradient1: #e297b2;
     --bg-gradient2: #c0b4d5;
     --bg-gradient3: #54b5de;
-    --name-bg: #d95b72;
+    --bg-image: none; /* Write the image url, example url("your url") [none is default]*/
+    --opacity: 0; /* Value in numbers from 0 to 1, but there is a limit */
+    --bg-blur: 6px; /* Value in px */
 
-    /* Every Blue in Discord */
-    --blue-hue: 335;
-    --mentioned-hue: 210;
+    /* HSL(Hue, Saturation, Lightness). This values will change the accent color (That blue color in most buttons) */
+    --H: 339; /* Value in numbers [339 is default] */
+    --S: 97%; /* Value in % [97% is default] */
+    --L: 71%; /* Value in % [71% is default] */
 
-    /* Buttons Colors */
+    /* HSL DarkTheme */
+    --darkH: 0;     /* Value in numbers [0 is default] */
+    --darkS: 0%;    /* Value in % [0% is default] */
+    --darkL: 16%;   /* Value in % [16% is default] */
+
+    /* Windows Buttons Colors */
     --close-color: #da5169;
     --max-color: #ffdf5b;
     --min-color: #00a0cb;
 
+    /* Status Colors */
+    --online-color: #60e046;
+    --idle-color: #ffca3a;
+    --dnd-color: #f73c3c;
+    --offline-color: #707070;
+    --streaming-color: #f066f0;
+
+    /* Chatbar Colors */
+    --channeltextarea-background: #F0F2F2;
+    --text-color: #313D40;
+    --icon-color: var(--text-color);
+    --selected-text-bg: var(--text-color);
+    --selected-text-color: var(--channeltextarea-background);
+    --mentioned-color: 200, 100%, 60%; /* HSL Values Only */
+
     /* Other options */
     --border-width: 3px;
-    --round-corners: 18px;
+    --round-corners: 16px;
+}
+
+/* Selection text color */
+::selection {
+    background-color: var(--selected-text-bg); /* text selection*/
+    color: var(--selected-text-color); /* text color */
 }
 
 /*------------------------------------------------------
