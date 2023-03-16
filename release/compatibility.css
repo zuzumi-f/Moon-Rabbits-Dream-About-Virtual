@@ -33,18 +33,10 @@
 }
 
 /* Friends online */
-.container-OnlineFriendCount > .listItem-25TTJR {
-    border-bottom: none;
-}
-.item-OnlineFriendCount {
-    display: block;
-    width: 72px;
-    margin: 4px 0;
-}
-.theme-light .friendsOnline-2JkivW {
+.theme-light .item-OnlineFriendCount {
     color: rgba(0, 0, 0, 0.6);
     font-weight: bolder;
 }
-.theme-light .friendsOnline-2JkivW:hover {
+.theme-light .item-OnlineFriendCount:hover {
     color: rgba(0, 0, 0, 0.9);
 }
