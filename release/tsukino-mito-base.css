@@ -910,6 +910,12 @@ div#app-mount.appMount-2yBXZl {
     background-color: var(--background-primary);
 }
 
+/* Small Profile Nitro Notice */
+.wrapper-C1y4Sz {
+    border-radius: 0;
+    width: calc(100% - (var(--border-width)*2));
+}
+
 /* Small Profile */
 #app-mount [class*="userPopout"] .bannerSVGWrapper-2CLfzN[style="min-width: 340px; min-height: 120px;"] > mask > circle {
     cx: 65;
@@ -918,6 +924,11 @@ div#app-mount.appMount-2yBXZl {
 #app-mount [class*="userPopout"] .bannerSVGWrapper-2CLfzN[style="min-width: 340px; min-height: 60px;"] > mask > circle {
     cx: 65;
     cy: 62;
+}
+
+#app-mount [class*="userPopout"] .bannerSVGWrapper-2CLfzN[style="min-width: 340px; min-height: 120px;"] > mask > image {
+    x: 11;
+    y: 66;
 }
 
 #app-mount [class*="userPopout"] .banner-1YaD3N {
@@ -1437,28 +1448,25 @@ div#app-mount.appMount-2yBXZl {
     display: none;
 }
 
-#app-mount .profileCustomizationSection-53kreU .userPopoutOuter-3AVBmJ::before {
-    top: 0;
-    width: 100%;
-}
-
-#app-mount .profileCustomizationSection-53kreU .userProfileInner-3F03PX:before {
-    width: 100%;
-    height: calc(100% - (32px + var(--border-width)));
-}
-
 .profileCustomizationSection-53kreU .bannerSVGWrapper-qc0szY {
     min-width: calc(340px - (var(--border-width)*2)) !important;
     min-height: calc(60px - (var(--border-width)*2)) !important;
 }
-#app-mount .profileCustomizationSection-53kreU .banner-1rJmju {
+#app-mount .profileCustomizationSection-53kreU .banner-3D8GgT {
     border-radius: 0;
 }
-.avatarUploaderNormal-1h8g3f {
-    top: calc(16px + 32px);
+.avatarUploaderNormal-2m2hFm {
+    top: calc(17px + 32px + (var(--border-width)*2));
+    left: calc(21px + var(--border-width));
 }
-.avatarUploaderPremium-2v2k2d {
-    top: calc(76px + 32px);
+.avatarUploaderPremium-2urJVq {
+    top: calc(80px + 32px + (var(--border-width)*2));
+    left: calc(22px + var(--border-width));
+}
+
+.customizationSection-IGy2fS .userPopoutInner-nv9Y92:before {
+    width: 100%;
+    height: calc((100% - 32px) - var(--border-width));
 }
 
 /* Settings Toggles */
