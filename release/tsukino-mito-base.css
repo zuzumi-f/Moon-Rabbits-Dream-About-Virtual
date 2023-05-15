@@ -483,8 +483,7 @@ div#app-mount.appMount-2yBXZl {
     width: 20px;
     height: 20px;
     border-radius: 1.5px;
-    top: 6px;
-    left: -6px;
+    position: static;
 }
 .unread-36eUEm {
     visibility: hidden;
