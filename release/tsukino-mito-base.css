@@ -363,25 +363,25 @@ div#app-mount.appMount-2yBXZl {
     color: var(--color-text);
 }
 
-#app-mount .content-1gYQeQ .name-28HaxV {
+#app-mount .link-1_kTxV .name-28HaxV {
     font-weight: 600;
 }
 
-.modeSelected-3DmyhH .content-1gYQeQ,
-.modeSelected-3DmyhH:hover .content-1gYQeQ {
+.modeSelected-3DmyhH .link-1_kTxV,
+.modeSelected-3DmyhH:hover .link-1_kTxV {
     background-color: var(--selected-transparent);
     color: var(--color-text-selected);
 }
-.modeSelected-3DmyhH .content-1gYQeQ .icon-2W8DHg,
-.modeSelected-3DmyhH:hover .content-1gYQeQ .icon-2W8DHg {
+.modeSelected-3DmyhH .link-1_kTxV .icon-2W8DHg,
+.modeSelected-3DmyhH:hover .link-1_kTxV .icon-2W8DHg {
     color: var(--color-text-selected);
 }
 
-.wrapper-NhbLHG:hover .content-1gYQeQ:not(.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ) {
+.wrapper-NhbLHG:hover .link-1_kTxV:not(.modeSelected-3DmyhH .link-1_kTxV, .modeSelected-3DmyhH:hover .link-1_kTxV) {
     background-color: var(--background-transparent);
     color: var(--color-text);
 }
-.wrapper-NhbLHG:hover .content-1gYQeQ .icon-2W8DHg {
+.wrapper-NhbLHG:hover .link-1_kTxV .icon-2W8DHg {
     color: var(--color-text);
 }
 
@@ -462,19 +462,19 @@ div#app-mount.appMount-2yBXZl {
     margin: 0 8px;
 }
 
-.wrapper-NhbLHG .content-1gYQeQ {
+.wrapper-NhbLHG .link-1_kTxV {
     border: 1px solid transparent;
 }
 
-.theme-dark .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ {
+.theme-dark .wrapper-NhbLHG.modeUnread-3Cxepe .link-1_kTxV {
     border: 1px solid hsla(0, 0%, 100%, 0.2);
 }
 
-.theme-light .wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ {
+.theme-light .wrapper-NhbLHG.modeUnread-3Cxepe .link-1_kTxV {
     border: 1px solid hsla(0, 0%, 0%, 0.2);
 }
 
-.wrapper-NhbLHG.modeUnread-3Cxepe .content-1gYQeQ::before {
+.wrapper-NhbLHG.modeUnread-3Cxepe .linkTop-1W1aK6::before {
     content: ">";
     color: var(--interactive-active);
     font-weight: bold;
@@ -1533,7 +1533,7 @@ div#app-mount.appMount-2yBXZl {
 .nowPlayingColumn-1eCBCN .scroller-hE2gWq {
     padding-right: 16px !important;
 }
-.content-1gYQeQ {
+.link-1_kTxV {
     margin-right: 8px;
 }
 
