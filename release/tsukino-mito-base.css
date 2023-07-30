@@ -1156,7 +1156,7 @@ div#app-mount.appMount-2yBXZl {
 .container-3g15px .nameTag-35jqbZ {
     position: fixed;
     top: 212px;
-    left: 16px;
+    left: 19px;
     filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
     z-index: 1;
 }
@@ -1171,8 +1171,9 @@ div#app-mount.appMount-2yBXZl {
     border-radius: 2px;
     padding-right: 4px;
     padding-left: 8px;
+    font-size: 20px;
 }
-.username-3dP0mA::before {
+.container-3g15px .nameTag-35jqbZ::before {
     opacity: 1;
     content: ">";
     color: #fff;
@@ -1180,9 +1181,7 @@ div#app-mount.appMount-2yBXZl {
     right: 4px;
     position: relative;
 }
-#app-mount .container-3g15px{
-    padding-top: 0;
-}
+
 .customStatusActivity-WKWGD- {
     padding: 16px;
 }
@@ -1466,6 +1465,11 @@ div#app-mount.appMount-2yBXZl {
 .customizationSection-IGy2fS .userPopoutInner-nv9Y92:before {
     width: 100%;
     height: calc((100% - 32px) - var(--border-width));
+}
+
+/* Button Round */
+.lookFilled-1H2Jvj {
+    border-radius: 100px;
 }
 
 /* Settings Toggles */
