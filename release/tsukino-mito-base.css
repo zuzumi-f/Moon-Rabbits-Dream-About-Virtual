@@ -962,17 +962,17 @@ button.button-12Fmur.enabled-9OeuTA:hover {
     position: relative;
 }
 
-#app-mount .avatarWrapper-eenWra {
-    left: calc(22px - var(--border-width));
-}
 #app-mount .avatarPositionNormal-2jWoC2 {
     top: calc(16px + (32px + var(--border-width)));
+    left: calc(22px - var(--border-width));
 }
-#app-mount .avatarPositionPremiumNoBanner-nWzERs {
-    top: calc(46px + (32px + var(--border-width)));
+#app-mount .avatarPositionPremiumNoBanner-2u3xDC {
+    top: calc(37px + (32px + var(--border-width)));
+    left: calc(21px - var(--border-width)*3);
 }
 #app-mount .avatarPositionPremiumBanner-2EAbSH {
     top: calc(76px + (32px + var(--border-width)));
+    left: calc(22px - var(--border-width));
 }
 
 .section-3FmfOT {
@@ -980,15 +980,10 @@ button.button-12Fmur.enabled-9OeuTA:hover {
 }
 
 .userPopoutInner-nv9Y92:before {
-    width: calc(100% - var(--border-width)*2);
-    height: calc(100% - (32px + var(--border-width)*3));
+    width: 100%;
+    height: 100%;
     border-bottom-left-radius: calc(var(--round-corners) - 3.5px);
     border-bottom-right-radius: calc(var(--round-corners) - 3.5px);
-}
-
-#app-mount .userPopoutOuter-1OHwPL .wrapper-400BN2 {
-    border-radius: 0;
-    width: calc(100% - (var(--border-width)*2));
 }
 
 #app-mount .userPopoutOuter-1OHwPL {
