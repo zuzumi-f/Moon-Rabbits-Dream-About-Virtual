@@ -495,7 +495,7 @@ div#app-mount.appMount-2yBXZl {
 
 .searchBar-3TnChZ,
 .tabBody-2dgbAs:before,
-.content-1jQy2l:before {
+.content-18rAwf:before {
     box-shadow: none;
 }
 
@@ -504,12 +504,12 @@ div#app-mount.appMount-2yBXZl {
 }
 
 .theme-dark .tabBody-2dgbAs:before,
-.theme-dark .content-1jQy2l:before {
+.theme-dark .content-18rAwf:before {
     background: hsla(0, 0%, 75%, 0.2);
 }
 
 .theme-light .tabBody-2dgbAs:before,
-.theme-light .content-1jQy2l:before {
+.theme-light .content-18rAwf:before {
     background: hsla(0, 0%, 15%, 0.2);
 }
 
