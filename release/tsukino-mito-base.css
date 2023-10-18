@@ -141,7 +141,7 @@
 }
 
 /* All App */
-.withFrame-2dL45i {
+.withFrame-1sEfxu {
     background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
     border-top-left-radius: var(--round-corners);
     border-top-right-radius: var(--round-corners);
@@ -152,11 +152,11 @@
     z-index: 100;
 }
 
-.layers-OrUESM {
+.layers-OrUESM > .layer-86YKbF {
     border-bottom-right-radius: var(--round-corners);
     border-bottom-left-radius: var(--round-corners);
 }
-.layers-OrUESM {
+.layers-OrUESM > .layer-86YKbF {
     border: var(--border-width) solid var(--border-color);
     border-top: 0 !important;
 }
@@ -190,7 +190,7 @@
 }
 
 /* WinButtons */
-.winButton-3UMjdg {
+.winButton-3SigSb {
     color: transparent !important;
     border-radius: 50%;
     width: 12px !important;
@@ -201,27 +201,27 @@
     margin-right: 5px;
 }
 
-.winButton-3UMjdg:nth-child(2) {
+.winButton-3SigSb:nth-child(2) {
     background: var(--close-color);
 }
-.winButton-3UMjdg:nth-child(3) {
+.winButton-3SigSb:nth-child(3) {
     background: var(--max-color);
 }
-.winButton-3UMjdg:nth-child(4) {
+.winButton-3SigSb:nth-child(4) {
     background: var(--min-color);
 }
 
-.winButton-3UMjdg:nth-child(2):hover,
-.winButton-3UMjdg:nth-child(3):hover,
-.winButton-3UMjdg:nth-child(4):hover {
+.winButton-3SigSb:nth-child(2):hover,
+.winButton-3SigSb:nth-child(3):hover,
+.winButton-3SigSb:nth-child(4):hover {
     transform: scale(1.14);
 }
 
 /* Track */
-.wordmarkWindows-2dq6rw {
+.wordmarkWindows-1rsity {
     display: none;
 }
-.withFrame-2dL45i::after {
+.withFrame-1sEfxu::after {
     content: var(--custom-text);
     text-align: center;
     position: absolute;
@@ -1421,13 +1421,10 @@ button.button-12Fmur.enabled-9OeuTA:hover {
     border-right: none;
 }
 
-.layers-OrUESM.layers-1YQhyW {
-    display: contents;
-}
-
-.withFrame-2dL45i + [class*="app"] .layers-OrUESM.layers-1YQhyW,
-.typeMacOS-3V4xXE + [class*="app"] .layers-OrUESM.layers-1YQhyW {
-    display: flex !important;
+#app-mount .layer-86YKbF.baseLayer-W6S8cY:has(.wrapper-1_HaEi.hidden-10MsGQ) {
+    margin-top: 24px !important;
+    border-top: var(--border-width) solid var(--border-color) !important;
+    border-radius: var(--round-corners) !important;
 }
 
 /* Profile Customization */
