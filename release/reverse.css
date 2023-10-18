@@ -15,10 +15,10 @@
     background-color: var(--background-tertiary) !important;
 }
 
-.chat-2ZfjoI .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB) {
+.chat-9g_3Xj .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB, .controlSection-1mNixL .children-3xh0VB) {
     margin-left: 242px;
 }
-.chat-2ZfjoI .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB)::before {
+.chat-9g_3Xj .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB, .controlSection-1mNixL .children-3xh0VB)::before {
     content: "";
     width: 1px;
     height: 26px;
