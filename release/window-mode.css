@@ -1,15 +1,15 @@
 /* Like Another Window */
-#app-mount .withFrame-2dL45i {
+#app-mount .withFrame-1sEfxu {
     margin: 24px 24px 0;
 }
-#app-mount .withFrame-2dL45i::after {
+#app-mount .withFrame-1sEfxu::after {
     top: calc(30px + var(--border-width));
     width: calc((100% - var(--border-width)*2) - 24px*2);
 }
-#app-mount .layers-OrUESM {
+#app-mount .layers-OrUESM > .layer-86YKbF {
     margin: 0 24px 24px;
 }
-#app-mount .layers-OrUESM {
+#app-mount .layers-OrUESM > .layer-86YKbF {
     box-shadow: var(--elevation-high);
 }
 
