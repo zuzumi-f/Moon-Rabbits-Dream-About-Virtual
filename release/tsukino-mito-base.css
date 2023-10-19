@@ -152,11 +152,11 @@
     z-index: 100;
 }
 
-.layers-OrUESM > .layer-86YKbF {
+.layers-OrUESM > .layer-86YKbF:first-child {
     border-bottom-right-radius: var(--round-corners);
     border-bottom-left-radius: var(--round-corners);
 }
-.layers-OrUESM > .layer-86YKbF {
+.layers-OrUESM > .layer-86YKbF:first-child {
     border: var(--border-width) solid var(--border-color);
     border-top: 0 !important;
 }
