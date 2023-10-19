@@ -255,7 +255,7 @@ div#app-mount.appMount-2yBXZl {
 
 /* Server list in normal position */
 #app-mount .wrapper-1_HaEi {
-    background-color: var(--background-transparent);
+    background-color: var(--bg-transparent);
 }
 #app-mount .scroller-3X7KbA,
 #app-mount .folder-241Joy {
@@ -1081,8 +1081,8 @@ button.button-12Fmur.enabled-9OeuTA:hover {
 }
 .userProfileModalInner-3dx9L9:before {
     border-radius: var(--round-corners);
-    height: calc(100% - (32px + var(--border-width)*3));
-    width: calc(100% - var(--border-width)*2);
+    height: 100%;
+    width: 100%;
 }
 .userProfileModalOuter-2wdWjU .bannerSVGWrapper-2CLfzN {
     min-height: 212px !important;
