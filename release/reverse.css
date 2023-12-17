@@ -1,39 +1,38 @@
 /* Server list and members position*/
-.container-1eFtFS {
+.container__037ed {
     flex-direction: row-reverse;
 }
-.wrapper-z5ab_q {
+.wrapper__3670f {
     transform: rotate(180deg);
     margin-left: 64px;
 }
-.content-18rAwf:not(:has(.mainTableContainer-1olPmq)) {
+.content__1a4fe:not(:has(.mainTableContainer-1olPmq), :has(.profilePanel__12596)) {
     flex-direction: row-reverse;
 }
 
-.wrapper-1_HaEi,
-.scroller-3X7KbA {
+.wrapper_a7e7a8 {
     background-color: var(--background-tertiary) !important;
 }
 
-.chat-9g_3Xj .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB, .controlSection-1mNixL .children-3xh0VB) {
+.chat__52833 .children__32014:not(.chatSidebarOpen--YCxhs .children__32014, .controlSection-1mNixL .children__32014) {
     margin-left: 242px;
 }
-.chat-9g_3Xj .children-3xh0VB:not(.chatSidebarOpen--YCxhs .children-3xh0VB, .controlSection-1mNixL .children-3xh0VB)::before {
+.chat__52833 .children__32014:not(.chatSidebarOpen--YCxhs .children__32014, .controlSection-1mNixL .children__32014)::before {
     content: "";
     width: 1px;
     height: 26px;
     background-color: var(--background-modifier-accent);
 }
 
-.search-39IXmY {
+.search__07df0 {
     position: absolute;
     left: 0;
 }
 
-#app-mount .detailsTooltip-G9hSSa /* Server Details Tooltip */ {
+#app-mount .detailsTooltip_G9hSSa /* Server Details Tooltip */ {
     right: 390px;
 }
-#app-mount .detailsTooltip-G9hSSa .tooltipPointer-sMBQqe {
+#app-mount .detailsTooltip_G9hSSa .tooltipPointer_a79354 {
     transform: rotate(-90deg);
     left: 300px;
 }
