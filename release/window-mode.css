@@ -1,15 +1,15 @@
 /* Like Another Window */
-#app-mount .withFrame-1sEfxu {
+#app-mount .withFrame__485f4 {
     margin: 24px 24px 0;
 }
-#app-mount .withFrame-1sEfxu::after {
+#app-mount .withFrame__485f4::after {
     top: calc(30px + var(--border-width));
     width: calc((100% - var(--border-width)*2) - 24px*2);
 }
-#app-mount .layers-OrUESM > .layer-86YKbF {
+#app-mount .layers_a23c37 > .layer__2efaa:first-child {
     margin: 0 24px 24px;
 }
-#app-mount .layers-OrUESM > .layer-86YKbF {
+#app-mount .layers_a23c37 > .layer__2efaa:first-child {
     box-shadow: var(--elevation-high);
 }
 
@@ -29,7 +29,7 @@
     width: calc(100% - (48px + var(--border-width)*2));
 }
 
-.platform-win .container-2RRFHK /* Did You Know? Screen */ {
+.platform-win .container__4bde3 /* Did You Know? Screen */ {
     left: var(--border-width);
     width: calc((100% - var(--border-width)*2) - 24px*2);
     height: calc((100% - var(--border-width)) - 24px);
