@@ -194,25 +194,6 @@ div#app-mount.appMount_fae9dd {
     background-color: transparent;
 }
 
-/* Background Animation */
-div#app-mount.appMount_fae9dd {
-    background-size: 200%;
-}
-.app-focused.full-motion div#app-mount.appMount_fae9dd {
-    animation: Gradient 9s ease infinite;
-}
-@keyframes Gradient {
-    0% {
-        background-position:0 50%
-    }
-    50% {
-        background-position:100% 50%
-    }
-    100% {
-        background-position:0 50%
-    }
-}
-
 /* Transparent way */
 .theme-dark {
     --bg-transparent: hsla(0, 0%, 12%, 0.6);
