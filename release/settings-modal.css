@@ -128,10 +128,6 @@
 #app-mount .keybind__57645 {
     visibility: hidden;
 }
-.contentRegionScroller__86c79 .toolsContainer_f5d55d {
-    top: -84px;
-    right: calc(90vh + 20px);
-}
 
 #app-mount .layer__2efaa ~ .layer__2efaa .settingsToolbar_wu4yfQ {
 	display: none !important;
