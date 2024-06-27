@@ -15,18 +15,18 @@
 }
 
 /* ---- Hover Animations ---- */
-/* Buttons */ .sizeSmall__71a98:hover,
-/* Settings List Items */ .side_b4b3f6 .item__48dda:hover,
-/* Active now card */ .itemCard__1f162:hover,
-/* Activity button */ .buttonSize_ee7672:hover,
-/* Friendlist */ .peopleListItem_d14722:hover,
-/* Direct Message List Items */ .channel_c21703:hover,
-/* Member List Items */ .member_aa4760:hover,
-/* Context Menu Items */ .item__183e8:hover:not([id="account-info"], [id="account-avatar"]),
-/* Message Profile Pictures */ .avatar__08316.clickable_d866f1:hover,
-/* Server Channels */ .link__95dc0:hover,
-/* Call users */ .listDefault__205d0 .clickable__137bc:hover .content_b60865,
-/* User bar */ .panels__58331 .button__4f306:hover path,
+/* Buttons */ .sizeSmall_dd4f85:hover,
+/* Settings List Items */ .side_a0 .item_a0:hover,
+/* Active now card */ .itemCard_f02fcf:hover,
+/* Activity button */ .buttonSize_c6eb7b:hover,
+/* Friendlist */ .peopleListItem_d51464:hover,
+/* Direct Message List Items */ .channel_c91bad:hover,
+/* Member List Items */ .member_a31c43:hover,
+/* Context Menu Items */ .item_d90b3d:hover:not([id="account-info"], [id="account-avatar"]),
+/* Message Profile Pictures */ .avatar_ec86aa.clickable_ec86aa:hover,
+/* Server Channels */ .link_d8bfb3:hover,
+/* Call users */ .listDefault_cdc675 .clickable_cdc675:hover .content_cdc675,
+/* User bar */ .panels_a4d4d9 .button_dd4f85:hover path,
 /* Activity Button */ .activity-1gTu-L [type="button"]:hover, .userProfileActivity-sal5no [type="button"]:hover, .activity-E0U09Y [type="button"]:hover
 {
     transform-origin: center;
@@ -35,18 +35,18 @@
 }
 
 /* ---- Static Animations ---- */
-/* Buttons */ .sizeSmall__71a98,
-/* Settings List Items */ .side_b4b3f6 .item__48dda,
-/* Active now card */ .itemCard__1f162,
-/* Activity button */ .buttonSize_ee7672,
-/* Friendlist */ .peopleListItem_d14722,
-/* Direct Message List Items */ .channel_c21703,
-/* Member List Items */ .member_aa4760,
-/* Context Menu Items */ .item__183e8:not([id="account-info"], [id="account-avatar"]),
-/* Message Profile Pictures */ .avatar__08316.clickable_d866f1,
-/* Server Channels */ .link__95dc0,
-/* Call users */ .content_b60865,
-/* User bar */ .panels__58331 .button__4f306 path,
+/* Buttons */ .sizeSmall_dd4f85,
+/* Settings List Items */ .side_a0 .item_a0,
+/* Active now card */ .itemCard_f02fcf,
+/* Activity button */ .buttonSize_c6eb7b,
+/* Friendlist */ .peopleListItem_d51464,
+/* Direct Message List Items */ .channel_c91bad,
+/* Member List Items */ .member_a31c43,
+/* Context Menu Items */ .item_d90b3d:not([id="account-info"], [id="account-avatar"]),
+/* Message Profile Pictures */ .avatar_ec86aa.clickable_ec86aa,
+/* Server Channels */ .link_d8bfb3,
+/* Call users */ .content_cdc675,
+/* User bar */ .panels_a4d4d9 .button_dd4f85 path,
 /* Activity Button */ .activity-1gTu-L [type="button"], .userProfileActivity-sal5no [type="button"], .activity-E0U09Y [type="button"]
 {
     transition: var(--EaseType) var(--TransitionTime);
@@ -54,9 +54,9 @@
 }
 
 /* ---- When Active ---- */
-/* Friend list */ .peopleListItem_d14722.active__6b8ff,
-/* Active now */ .outer_a41cf3.active__76f42,
-/* Memberlist */ .member_aa4760.selected__9800b
+/* Friend list */ .peopleListItem_d51464.active_d51464,
+/* Active now */ .outer_c0f6a6.active_c0f6a6,
+/* Memberlist */ .member_a31c43.selected_e9f61e
 {
     transform-origin: center;
     transform: scale(var(--HoverScale));
