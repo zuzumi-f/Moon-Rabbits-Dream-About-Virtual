@@ -1,15 +1,15 @@
 /* Like Another Window */
-#app-mount .withFrame__485f4 {
+#app-mount .typeWindows_a934d8 {
     margin: 24px 24px 0;
 }
-#app-mount .withFrame__485f4::after {
+#app-mount .typeWindows_a934d8::after {
     top: calc(30px + var(--border-width));
     width: calc((100% - var(--border-width)*2) - 24px*2);
 }
-#app-mount .layers_a23c37 > .layer__2efaa:first-child {
+#app-mount .layers_d4b6c5 > .layer_d4b6c5:first-child {
     margin: 0 24px 24px;
 }
-#app-mount .layers_a23c37 > .layer__2efaa:first-child {
+#app-mount .layers_d4b6c5 > .layer_d4b6c5:first-child {
     box-shadow: var(--elevation-high);
 }
 
@@ -21,7 +21,7 @@
     box-shadow: none !important;
 }
 
-#app-mount .typeMacOS-3V4xXE /* MacOS window */ {
+#app-mount .typeMacOS_a934d8 /* MacOS window */ {
     margin-top: 24px;
     margin-left: 24px;
     border-top-left-radius: var(--round-corners);
@@ -29,7 +29,7 @@
     width: calc(100% - (48px + var(--border-width)*2));
 }
 
-.platform-win .container__4bde3 /* Did You Know? Screen */ {
+.platform-win .container_e40c16 /* Did You Know? Screen */ {
     left: var(--border-width);
     width: calc((100% - var(--border-width)*2) - 24px*2);
     height: calc((100% - var(--border-width)) - 24px);
