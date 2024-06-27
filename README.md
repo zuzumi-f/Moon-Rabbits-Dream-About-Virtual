@@ -1,6 +1,6 @@
 ## Moon Rabbits Dream About Virtual
 
-### [Version 3!!!](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/releases)
+### [Version 4!!!](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/releases)
 
 A theme based on the art cover from Tsukino Mito Album Moon Rabbits Dream About Virtual!
 
@@ -14,16 +14,18 @@ Theme by [zuzumi](https://github.com/zuzumi-f)
 ## Preview
 
 ### Dark Mode
-![Discord_ltNKtJlCPF](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/c01cac9d-d24a-4363-8948-c78d446ae312)
-![Discord_AtKAWreXrj](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/90cc6002-5405-457e-835a-8981d0a0a4f7)
-## New Bg Image (In Rework)
-![image](https://user-images.githubusercontent.com/79029257/224162016-7d1bf1b8-3a2b-407f-b725-168d1572ed00.png)
+![image](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/77f3e5eb-e0aa-457e-a1cd-46a1910dc8d3)
+![image](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/93f76a2b-835d-40bf-9ac3-60446d0301cb)
+
+## With Bg Image
+![image](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/0df2525a-95a1-4cc7-8701-c8105c70e101)
 
 ### Light Mode
-![Discord_kX5ftRcVoq](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/5109ead8-7b51-4b5d-892b-b94c0f6c40f1)
-![Discord_0sO2MfNN6B](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/d0340da3-6838-4730-a6b6-47ecb97541a8)
-## New Bg Image (In Rework)
-![image](https://user-images.githubusercontent.com/79029257/224162143-64b25a1b-a8d9-4f86-9fc1-882cda375987.png)
+![image](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/1fb9ae8e-125b-4322-beb2-d660b11927a3)
+![image](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/19afd1e1-369d-4748-b678-38474762c4b8)
+
+## With Bg Image
+![image](https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/assets/79029257/eeeb1277-d139-44db-8089-4efc3d61cc5f)
 
 ## Original Art Cover
 [![moonrabbitsdreamaboutvirtual2-art-scale-2_00x-gigapixel](https://user-images.githubusercontent.com/79029257/132885766-58a204cf-4941-4143-a3d2-7d9eec948c2c.png)](https://youtu.be/5rvzyCed6Bo)
