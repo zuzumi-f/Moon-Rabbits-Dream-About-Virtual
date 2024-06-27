@@ -1,13 +1,13 @@
 /**
  * @name Moon Rabbits Dream About Virtual
  * @description Based in Tsukino Mito Album Presentation
- * @author zuzumi#5335
+ * @author zuzumi-f
  * @authorId 437579806616322049
  * @invite PsNtzGeHuW
- * @donate https://www.paypal.me/hurtyoutube
+ * @donate https://www.paypal.me/konazumi
  * @website https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual
  * @source https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/blob/main/release/tsukino-mito.base.css
- * @version 3
+ * @version 4
 */
 
 /*---------------------------------------------------------------
@@ -73,18 +73,18 @@
     --min-color: #00a0cb;
 
     /* Status Colors */
-    --online-color: #60e046;
-    --idle-color: #ffca3a;
-    --dnd-color: #f73c3c;
-    --offline-color: #707070;
-    --streaming-color: #f066f0;
+    --online-color: #caffbf;
+    --idle-color: #fdffb6;
+    --dnd-color: #ffadad;
+    --offline-color: #d2d2cf;
+    --streaming-color: #bdb2ff;
 
     /* Chatbar Colors */
-    --channeltextarea-background: #F0F2F2;
+    --textarea-background: #F0F2F2;
     --text-color: #313D40;
     --icon-color: var(--text-color);
     --selected-text-bg: var(--text-color);
-    --selected-text-color: var(--channeltextarea-background);
+    --selected-text-color: var(--textarea-background);
     --mentioned-color: 200, 100%, 60%; /* HSL Values Only */
 
     /* Other options */
