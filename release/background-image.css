@@ -1,20 +1,20 @@
 /* Background Image Transparency */
-.container-ZMc96U.themed-Hp1KC_,
-.nowPlayingColumn-1eCBCN,
-.container-1oAagU,
-.chatContent-2O4SXb,
-.container-2vWgD2,
-.member-2iQhp7,
-.members-2y1nVj {
+.container_e44302.themed_e44302,
+.nowPlayingColumn_c2739c,
+.container_bf550a,
+.chatContent_a7d72e,
+.container_cbd271,
+.member_cbd271,
+.members_cbd271 {
     background: transparent;
 }
-.container-2cd8Mz,
-.chat-9g_3Xj {
+.container_c2739c,
+.chat_a7d72e {
     background: var(--background-transparent);
 }
 
 /* Background Image */
-.layer-86YKbF.baseLayer-W6S8cY::before {
+.layer_d4b6c5.baseLayer_d4b6c5::before {
     content: "";
     top: 0;
     left: 0;
@@ -26,7 +26,7 @@
     background-size: cover;
     background-position: center;
 }
-.container-1eFtFS::before {
+.container_a4d4d9::before {
     content: "";
     top: 0;
     left: 0;
