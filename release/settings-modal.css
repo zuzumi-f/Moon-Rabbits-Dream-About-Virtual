@@ -1,11 +1,27 @@
 /* Settings Modal by DevilBro [edited] */
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 {
+    border: var(--border-width) solid var(--border-color) !important;
+}
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5::before {
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
+    display: block;
+    content: "";
+    top: var(--border-width);
+    min-height: 32px;
+    width: 100%;
+    border-bottom: var(--border-width) solid var(--border-color);
+    border-top-left-radius: calc(var(--round-corners) - 3.5px);
+    border-top-right-radius: calc(var(--round-corners) - 3.5px);
+    -webkit-app-region: drag;
+}
+
 :root {
 	--settingswidth_v: 100vh;
 	--settingsheight_v: 85vh;
 	--settingsbackground_v: transparent;
 }
 
-#app-mount .baseLayer__8fda3 {
+#app-mount .baseLayer_d4b6c5 {
 	opacity: 1 !important;
 	transform: unset !important;
 	will-change: unset !important;
@@ -14,7 +30,7 @@
 	transition-property: inherit !important;
 	animation: inherit !important;
 }
-#app-mount .layer__2efaa.stop-animations:first-child::after {
+#app-mount .layer_d4b6c5.stop-animations:first-child::after {
 	content: "" !important;
 	position: fixed !important;
 	background: rgb(0, 0, 0) !important;
@@ -29,14 +45,14 @@
 	pointer-events: none !important;
 }
 
-#app-mount .layer__2efaa ~ .layer__2efaa {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 {
 	position: absolute !important;
 	top: 0 !important;
 	right: 0 !important;
 	bottom: 0 !important;
 	left: 0 !important;
 	background: var(--settingsbackground_v) !important;
-	border-radius: var(--round-corners);
+	border-radius: var(--round-corners) !important;
 	box-shadow: var(--elevation-high) !important;
 	width: var(--settingswidth_v) !important;
 	height: var(--settingsheight_v) !important;
@@ -46,165 +62,64 @@
 	contain: unset !important;
 	z-index: 1000 !important;
 	--settingsiconsadditionalsize: var(--use-settingsicons, 0) * (var(--settingsicons-size, 0px) + var(--settingsicons-gap, 0px));
-
-    border: var(--border-width) solid var(--border-color) !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa::before {
-    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
-    display: block;
-    content: "";
-    top: var(--border-width);
-    min-height: 32px;
-    width: 100%;
-    border-bottom: var(--border-width) solid var(--border-color);
-    border-top-left-radius: calc(var(--round-corners) - 3.5px);
-    border-top-right-radius: calc(var(--round-corners) - 3.5px);
-    -webkit-app-region: drag;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa > div,
-#app-mount .layer__2efaa ~ .layer__2efaa .standardSidebarView__1129a {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 > div,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .standardSidebarView_c25c6d {
 	position: static !important;
-	border-radius: unset !important;
 	width: 100% !important;
 	height: 100% !important;
 	margin: unset !important;
 	padding: unset !important;
 	overflow: hidden !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .sidebarRegion__60457,
-#app-mount .layer__2efaa ~ .layer__2efaa .sidebarRegionScroller__1fa7e {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebarRegion_c25c6d,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebarRegionScroller_c25c6d {
 	flex: 0 0 auto !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .sidebar__9e3e2 {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebar_c25c6d {
 	width: 218px !important;
 	padding: 20px 6px 20px 20px !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .contentColumnDefault_c66386,
-#app-mount .layer__2efaa ~ .layer__2efaa .contentColumnWide_f71d35 {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .contentColumnDefault_c25c6d,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .contentColumnWide_c25c6d {
 	padding: 20px 40px !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .wrapper__61220 {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .wrapper_e5cdf3 {
 	width: calc(var(--settingswidth_v) - 420px - var(--settingsiconsadditionalsize)) !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .repo_k8F4Sd {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .repo_k8F4Sd {
 	max-width: calc(var(--settingswidth_v) - 226px - var(--settingsiconsadditionalsize)) !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .repoHeader_2KfNvH {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .repoHeader_2KfNvH {
 	padding-bottom: 0 !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .repoHeader_2KfNvH .tabBar__35f81 {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .repoHeader_2KfNvH .tabBar_b9fccc {
 	gap: 30px !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .repoHeader_2KfNvH .quickSelectLabel_cf5c1b {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .repoHeader_2KfNvH .quickSelectLabel__79774 {
 	font-size: 12px !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .repoScroller_9JnAPs {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .repoScroller_9JnAPs {
 	padding-top: 0 !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .sidebar_bdf6b7 {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebar_e87574 {
 	height: var(--settingsheight_v) !important;
 }
-#app-mount .layer__2efaa ~ .layer__2efaa .standardSidebarView__1129a .editor {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .standardSidebarView_c25c6d .editor {
 	height: calc(var(--settingsheight_v) - 120px) !important;
 }
-
-#app-mount .layer__2efaa ~ .layer__2efaa .toolsContainer_f5d55d .tools_c0ff70,
-#app-mount .layer__2efaa ~ .layer__2efaa .toolsContainer_f5d55d .container_bb0c52,
-#app-mount .layer__2efaa ~ .layer__2efaa .toolsContainer_f5d55d .closeButton__34341 {
-	width: 12px !important;
-    height: 12px !important;
-    border-radius: 50% !important;
-    flex: 0 0 12px !important;
-    color: var(--close-color) !important;
-    background-color: var(--close-color) !important;
-    -webkit-app-region: no-drag !important;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .toolsContainer_f5d55d .tools_c0ff70:hover,
-#app-mount .layer__2efaa ~ .layer__2efaa .toolsContainer_f5d55d .container_bb0c52:hover,
-#app-mount .layer__2efaa ~ .layer__2efaa .toolsContainer_f5d55d .closeButton__34341:hover {
-    transform: scale(1.045);
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .toolsContainer_f5d55d .closeButton__34341 svg,
-#app-mount .keybind__57645 {
-    visibility: hidden;
-}
-
-#app-mount .layer__2efaa ~ .layer__2efaa .settingsToolbar_wu4yfQ {
-	display: none !important;
-}
-
-#app-mount .layer__2efaa ~ .layer__2efaa .accountProfileCard__22589 {
-	max-width: calc(var(--settingswidth_v) - 332px - var(--settingsiconsadditionalsize)) !important;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434 {
-	gap: 30px !important;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434 .sectionsContainer_cce45e,
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434 .sectionsContainer_a37883,
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434 .editor_bca4e3,
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434 .preview__0c5fe {
-	min-width: calc((var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) / 2) !important;
-	max-width: calc((var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) / 2) !important;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434.tryItOutLayout__6026d .sectionsContainer_cce45e,
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434.tryItOutLayout__6026d .sectionsContainer_a37883,
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434.tryItOutLayout__6026d .editor_bca4e3,
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434.tryItOutLayout__6026d .preview__0c5fe {
-	min-width: calc((var(--settingswidth_v) - 364px - var(--settingsiconsadditionalsize)) / 2) !important;
-	max-width: calc((var(--settingswidth_v) - 364px - var(--settingsiconsadditionalsize)) / 2) !important;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434 .preview__0c5fe .userPopoutOuter_d739b2 {
-	width: calc((var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) / 2) !important;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .baseLayout_b00434.tryItOutLayout__6026d .preview__0c5fe .userPopoutOuter_d739b2 {
-	width: calc((var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) / 2) !important;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434 .preview__0c5fe .userPopoutOuter_d739b2,
-#app-mount .layer__2efaa ~ .layer__2efaa .baseLayout_b00434.tryItOutLayout__6026d .preview__0c5fe .userPopoutOuter_d739b2 {
-	min-width: unset !important;
-	max-width: 340px !important;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .profileCustomizationSection__88eff .baseLayout_b00434 .preview__0c5fe .userPopoutInner_f545a3 {
-	overflow: hidden !important;
-}
-#app-mount .layer__2efaa ~ .layer__2efaa .guildsSection__337a8 {
-	max-width: calc(var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) !important;
-}
-
-#app-mount .root__6d24f {
-	position: fixed !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .tools_c25c6d,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .container_df5532,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .closeButton_df5532 {
+	position: absolute !important;
 	top: 0 !important;
 	right: 0 !important;
 	bottom: 0 !important;
 	left: 0 !important;
-	background: var(--settingsbackground_v) !important;
-	border-radius: 5px !important;
-	box-shadow: var(--elevation-high) !important;
-	width: var(--settingswidth_v) !important;
-	height: var(--settingsheight_v) !important;
-	margin: auto !important;
-	padding: 0 !important;
-	overflow: hidden !important;
-	contain: unset !important;
-	z-index: 1000 !important;
-}
-#app-mount .root__6d24f.enterDone_a21e0b {
-	transform: unset !important;
-}
-#app-mount .root__6d24f .closeIconWrapper_e5c34c,
-#app-mount .root__6d24f .closeIconWrapper_e5c34c .container_bb0c52,
-#app-mount .root__6d24f .closeIconWrapper_e5c34c .closeButton__34341,
-#app-mount .shop_b31ed2 .container_bb0c52,
-#app-mount .shop_b31ed2 .closeButton__34341 {
-	position: fixed !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	z-index: -1 !important;
 	background: transparent !important;
 	border: none !important;
-	border-radius: 0 !important;
+	border-radius: var(--round-corners) !important;
 	width: 100% !important;
 	max-width: unset !important;
 	height: 100% !important;
@@ -214,6 +129,68 @@
 	opacity: 0 !important;
 	cursor: default !important;
 }
-#app-mount .root__6d24f .closeIconWrapper_e5c34c {
-	top: 0px !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d {
+	position: fixed !important;
+	top: 22px !important;
+	z-index: -1 !important;
+}
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .settingsToolbar_wu4yfQ {
+	display: none !important;
+}
+
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .accountProfileCard_b69b77 {
+	max-width: calc(var(--settingswidth_v) - 332px - var(--settingsiconsadditionalsize)) !important;
+}
+
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .guildsSection__337a8 {
+	max-width: calc(var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) !important;
+}
+
+#app-mount .root_f906dd {
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settingsbackground_v) !important;
+	border-radius: var(--round-corners) !important;
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settingswidth_v) !important;
+	height: var(--settingsheight_v) !important;
+	margin: auto !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	contain: unset !important;
+	z-index: 1000 !important;
+}
+#app-mount .root_f906dd.enterDone_f906dd {
+	transform: unset !important;
+}
+#app-mount .root_f906dd .closeIconWrapper_a50853,
+#app-mount .root_f906dd .closeIconWrapper_a50853 .container_df5532,
+#app-mount .root_f906dd .closeIconWrapper_a50853 .closeButton_df5532,
+#app-mount .shop_e77fa3 .container_df5532,
+#app-mount .shop_e77fa3 .closeButton_df5532 {
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	z-index: -1 !important;
+	background: transparent !important;
+	border: none !important;
+	border-radius: var(--round-corners) !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0 !important;
+	cursor: default !important;
+	animation: unset !important;
+	transition: unset !important;
+}
+#app-mount .root_f906dd .closeIconWrapper_a50853 {
+	top: 22px !important;
 }
