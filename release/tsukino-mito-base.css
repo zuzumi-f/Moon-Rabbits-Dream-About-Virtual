@@ -630,6 +630,7 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 /* Chatbar */
+#app-mount .channelTextArea_a7d72e,
 #app-mount .form_a7d72e:before,
 #app-mount .form_a7d72e:after {
     background: transparent;
