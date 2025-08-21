@@ -77,7 +77,33 @@
 ------------------------------------------------------*/
 :root {
     --blurple-50: hsl(var(--H), var(--S), var(--L));
-    --brand-500: hsl(var(--H), var(--S), var(--L));
+    
+    --brand-100: hsl(var(--H), var(--S), calc(2*var(--L)));
+    --brand-130: hsl(var(--H), var(--S), calc(1.92*var(--L)));
+    --brand-160: hsl(var(--H), var(--S), calc(1.85*var(--L)));
+    --brand-200: hsl(var(--H), var(--S), calc(1.78*var(--L)));
+    --brand-230: hsl(var(--H), var(--S), calc(1.71*var(--L)));
+    --brand-260: hsl(var(--H), var(--S), calc(1.63*var(--L)));
+    --brand-300: hsl(var(--H), var(--S), calc(1.56*var(--L)));
+    --brand-330: hsl(var(--H), var(--S), calc(1.49*var(--L)));
+    --brand-345: hsl(var(--H), var(--S), calc(1.42*var(--L)));
+    --brand-360: hsl(var(--H), var(--S), calc(1.35*var(--L)));
+    --brand-400: hsl(var(--H), var(--S), calc(1.28*var(--L)));
+    --brand-430: hsl(var(--H), var(--S), calc(1.21*var(--L)));
+    --brand-460: hsl(var(--H), var(--S), calc(1.14*var(--L)));
+    --brand-500: hsl(var(--H), var(--S), calc(1*var(--L)));
+    --brand-530: hsl(var(--H), calc(0.75*var(--S)), calc(0.99*var(--L)));
+    --brand-560: hsl(var(--H), calc(0.60*var(--S)), calc(0.91*var(--L)));
+    --brand-600: hsl(var(--H), calc(0.54*var(--S)), calc(0.83*var(--L)));
+    --brand-630: hsl(var(--H), calc(0.54*var(--S)), calc(0.74*var(--L)));
+    --brand-660: hsl(var(--H), calc(0.54*var(--S)), calc(0.66*var(--L)));
+    --brand-700: hsl(var(--H), calc(0.54*var(--S)), calc(0.58*var(--L)));
+    --brand-730: hsl(var(--H), calc(0.54*var(--S)), calc(0.49*var(--L)));
+    --brand-760: hsl(var(--H), calc(0.54*var(--S)), calc(0.41*var(--L)));
+    --brand-800: hsl(var(--H), calc(0.54*var(--S)), calc(0.33*var(--L)));
+    --brand-830: hsl(var(--H), calc(0.54*var(--S)), calc(0.24*var(--L)));
+    --brand-860: hsl(var(--H), calc(0.54*var(--S)), calc(0.16*var(--L)));
+    --brand-900: hsl(var(--H), calc(0.54*var(--S)), calc(0*var(--L)));
 }
 
 /* All App */
@@ -175,7 +201,7 @@
     position: fixed;
     left: 12px;
     height: -webkit-fill-available;
-    margin-bottom: 12vh;
+    margin-bottom: 28vh;
 }
 .panels_c48ade {
     position: fixed;
@@ -210,7 +236,7 @@
     border-radius: var(--round-corners);
 }
 
-.content_f75fb0 {
+.content_f75fb0:not(:has(.outer_c0bea0)) {
     flex-direction: row-reverse;
 }
 
@@ -238,6 +264,25 @@
     }
 }
 
+/* Top Icons */
+#app-mount .bar_c38106 .trailing_c38106 {
+    margin-right: 8px;
+}
+#app-mount .bar_c38106 .icon__9293f {
+    color: #fff;
+}
+
+#app-mount .title__85643 svg path {
+    fill: #fff;
+}
+#app-mount .title__85643 svg {
+    transform: scale(1.4);
+}
+#app-mount .title__85643 .text-sm\/medium_cf4812 {
+    font-size: large;
+    color: #fff;
+}
+
 /* Server List */
 #app-mount .wrapper__58105 {
     left: unset;
@@ -249,12 +294,29 @@
     width: 4px;
 }
 
-/* Sidelist */
+/* Bar Alert */
+#app-mount .notice__6e2b9 {
+    border-radius: 100px;
+    width: 50%;
+    justify-self: center;
+    top: calc(13px + (var(--border-width)*2));
+}
+
+/* Channel List */
 #app-mount .scroller__99e7c {
     margin-bottom: 0;
 }
 
+#app-mount .container__2637a {
+    padding-bottom: 0;
+}
+
 /* Mini Profile */
+.content_f75fb0 .outer_c0bea0 {
+    margin: 8px;
+    height: calc(100% - 24px);
+}
+
 .outer_c0bea0::before {
     background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
     display: block;
