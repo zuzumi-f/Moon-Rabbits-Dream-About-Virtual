@@ -201,8 +201,9 @@
     position: fixed;
     left: 12px;
     height: -webkit-fill-available;
-    margin-bottom: 28vh;
+    margin-bottom: calc((var(--custom-app-panels-height, 0) + 16px) + ((var(--border-width)*2)));
 }
+
 .panels_c48ade {
     position: fixed;
 }
