@@ -1,0 +1,534 @@
+/**
+ * @name moonrabbit-code
+ * @description code
+ * @author zuzumi-f
+ * @authorId 437579806616322049
+ * @invite PsNtzGeHuW
+ * @donate https://www.paypal.me/konazumi
+ * @website https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual
+ * @source https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/blob/main/release/tsukino-mito.base.css
+ * @version 5
+*/
+
+/*------------------------------------------------------
+                all the customization
+------------------------------------------------------*/
+:root {
+    /* The text that appear in top, leave it blank ("") if you dont want any */
+    --custom-text: "TSUKINO MITO";
+
+    /* General Colors */
+    --border-color: #da4a60;
+    --drag-gradient1: #e8c4d3;
+    --drag-gradient2: #e39ba7;
+    --name-bg: #d95b72;
+
+    /* Background Colors & BG Image */
+    --bg-gradient1: #e297b2;
+    --bg-gradient2: #c0b4d5;
+    --bg-gradient3: #54b5de;
+    --bg-image: none; /* Write the image url, example url("your url") [none is default]*/
+    --opacity: 0; /* Value in numbers from 0 to 1, but there is a limit */
+    --bg-blur: 6px; /* Value in px */
+
+    /* HSL(Hue, Saturation, Lightness). This values will change the accent color (That blue color in most buttons) */
+    --H: 339; /* Value in numbers [339 is default] */
+    --S: 97%; /* Value in % [97% is default] */
+    --L: 71%; /* Value in % [71% is default] */
+
+    /* HSL DarkTheme */
+    --darkH: 0;     /* Value in numbers [0 is default] */
+    --darkS: 0%;    /* Value in % [0% is default] */
+    --darkL: 16%;   /* Value in % [16% is default] */
+
+    /* Windows Buttons Colors */
+    --close-color: #da5169;
+    --max-color: #ffdf5b;
+    --min-color: #00a0cb;
+
+    /* Status Colors */
+    --online-color: #caffbf;
+    --idle-color: #fdffb6;
+    --dnd-color: #ffadad;
+    --offline-color: #d2d2cf;
+    --streaming-color: #bdb2ff;
+
+    /* Chatbar Colors */
+    --textarea-background: #F0F2F2;
+    --text-color: #313D40;
+    --icon-color: var(--text-color);
+    --selected-text-bg: var(--text-color);
+    --selected-text-color: var(--textarea-background);
+    --mentioned-color: 200, 100%, 60%; /* HSL Values Only */
+
+    /* Other options */
+    --border-width: 3px;
+    --round-corners: 16px;
+}
+
+/* Selection text color */
+::selection {
+    background-color: var(--selected-text-bg); /* text selection*/
+    color: var(--selected-text-color); /* text color */
+}
+
+/*------------------------------------------------------
+                anything else down here
+------------------------------------------------------*/
+
+/* All App */
+#app-mount .bar_c38106:not(.show_c38106) {
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
+    top: var(--border-width);
+    min-height: 36px;
+    border: var(--border-width) solid var(--border-color);
+    border-top-left-radius: var(--round-corners);
+    border-top-right-radius: var(--round-corners);
+}
+
+#app-mount .content_c48ade {
+    margin-top: calc(10px + var(--border-width));
+    border-top: none !important;
+    border: var(--border-width) solid var(--border-color);
+    border-bottom-left-radius: var(--round-corners);
+    border-bottom-right-radius: var(--round-corners);
+}
+
+#app-mount .sidebar_c48ade {
+    border-bottom-right-radius: var(--round-corners);
+}
+#app-mount .page_c48ade {
+    border-bottom-left-radius: var(--round-corners);
+}
+
+/* WinButtons */
+.winButtons_c38106 {
+    position: fixed;
+    left: calc(9px + var(--border-width));
+    top: calc(12px + (var(--border-width)*2));
+    flex-direction: row-reverse;
+    -webkit-app-region: no-drag;
+}
+.winButtonsWithDivider_c38106:before {
+    display: none;
+}
+
+.winButton_c38106 {
+    color: transparent !important;
+    border-radius: 50%;
+    width: 12px !important;
+    height: 12px !important;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.winButton_c38106:nth-child(3) {
+    background: var(--close-color);
+}
+.winButton_c38106:nth-child(2) {
+    background: var(--max-color);
+}
+.winButton_c38106:nth-child(1) {
+    background: var(--min-color);
+}
+
+.winButton_c38106:nth-child(3):hover,
+.winButton_c38106:nth-child(2):hover,
+.winButton_c38106:nth-child(1):hover {
+    transform: scale(1.14);
+}
+
+/* User Bar */
+.panels_c48ade::before {
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
+    display: block;
+    content: "";
+    top: var(--border-width);
+    min-height: 32px;
+    width: 100%;
+    border-bottom: var(--border-width) solid var(--border-color);
+    border-top-left-radius: calc(var(--round-corners) - 3.5px);
+    border-top-right-radius: calc(var(--round-corners) - 3.5px);
+    -webkit-app-region: drag;
+}
+#app-mount .panels_c48ade {
+    width: 36vh;
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--round-corners);
+}
+
+/* Like Another Window */
+#app-mount .base_c48ade {
+    margin: 24px 12px 48px 32vh;
+}
+#app-mount .winButtons_c38106 {
+    left: calc(32vh + (14px + var(--border-width)));
+    top: calc(36px + (var(--border-width)*2));
+}
+
+/* experiment */
+.sidebarList_c48ade {
+    position: fixed;
+    left: 12px;
+    height: -webkit-fill-available;
+    margin-bottom: 12vh;
+}
+.panels_c48ade {
+    position: fixed;
+}
+.content_c48ade {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sidebar_c48ade {
+    width: calc(69px + var(--border-width));
+}
+.wrapper_ef3116 {
+    top: 0px;
+    height: 100%;
+    position: absolute;
+}
+
+.sidebarList_c48ade::before {
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
+    display: block;
+    content: "";
+    top: var(--border-width);
+    min-height: 32px;
+    width: 100%;
+    border-bottom: var(--border-width) solid var(--border-color);
+    border-top-left-radius: calc(var(--round-corners) - 3.5px);
+    border-top-right-radius: calc(var(--round-corners) - 3.5px);
+    -webkit-app-region: drag;
+}
+.sidebarList_c48ade {
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--round-corners);
+}
+
+.content_f75fb0 {
+    flex-direction: row-reverse;
+}
+
+/* Background Gradient */
+.bg__960e4 {
+    background-image: linear-gradient(90deg, var(--bg-gradient1) 0%, var(--bg-gradient2) 50%, var(--bg-gradient3) 100%);
+}
+
+/* Background Animation */
+.bg__960e4 {
+    background-size: 200%;
+}
+.app-focused.full-motion .bg__960e4 {
+    animation: Gradient 9s ease infinite;
+}
+@keyframes Gradient {
+    0% {
+        background-position:0 50%
+    }
+    50% {
+        background-position:100% 50%
+    }
+    100% {
+        background-position:0 50%
+    }
+}
+
+/* Server List */
+#app-mount .wrapper__58105 {
+    left: unset;
+    right: 0;
+}
+#app-mount .wrapper__58105 .item__58105 {
+    border-radius: 4px;
+    margin-left: unset;
+    width: 4px;
+}
+
+/* Sidelist */
+#app-mount .scroller__99e7c {
+    margin-bottom: 0;
+}
+
+/* Mini Profile */
+.outer_c0bea0::before {
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
+    display: block;
+    content: "";
+    top: var(--border-width);
+    min-height: 32px;
+    width: 100%;
+    border-bottom: var(--border-width) solid var(--border-color);
+    border-top-left-radius: calc(var(--round-corners) - 3.5px);
+    border-top-right-radius: calc(var(--round-corners) - 3.5px);
+    -webkit-app-region: drag;
+}
+#app-mount .outer_c0bea0 {
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--round-corners);
+}
+
+:root .custom-user-profile-theme.user-profile-modal,
+:root .custom-user-profile-theme.user-profile-popout {
+    --custom-user-profile-theme-padding: 0 !important;
+}
+
+#app-mount .inner_c0bea0,
+#app-mount .banner__68edb {
+    border-radius: 0;
+}
+
+#app-mount .user-profile-popout .wrapper_da5890 {
+    top: calc(12px + 32px);
+}
+
+/* Big Profile */
+.backgroundImage__9c3be {
+    top: calc(32px + var(--border-width));
+}
+
+/* Discover */
+#app-mount .container_a592e1 {
+    border-top: none;
+}
+
+/* Settings Modal Edited */
+#app-mount .layer__960e4 ~ .layer__960e4::before {
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
+    display: block;
+    content: "";
+    top: var(--border-width);
+    min-height: 32px;
+    width: 100%;
+    border-bottom: var(--border-width) solid var(--border-color);
+    border-top-left-radius: calc(var(--round-corners) - 3.5px);
+    border-top-right-radius: calc(var(--round-corners) - 3.5px);
+    -webkit-app-region: drag;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 {
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--round-corners);
+}
+
+:root {
+	--settingswidth: 		960;
+	--settingsheight: 		80;
+	--settingsbackground: 		transparent;
+
+	
+	--settingswidth_v: 		min(calc(1px * var(--settingswidth_s, var(--settingswidth))), 99vw);
+	--settingsheight_v: 		min(calc(1vh * var(--settingsheight_s, var(--settingsheight))), 99vh);
+	--settingsbackground_v: 	var(--settingsbackground_s, var(--settingsbackground));
+}
+
+#app-mount .baseLayer__960e4 {
+	opacity: 1 !important;
+	transform: unset !important;
+	will-change: unset !important;
+}
+#app-mount .stop-animations * {
+	transition-property: inherit !important;
+	animation: inherit !important;
+}
+#app-mount .layer__960e4.stop-animations:first-child::after {
+	content: "" !important;
+	position: fixed !important;
+	background: rgb(0, 0, 0) !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0.85 !important;
+	z-index: 999 !important;
+	pointer-events: none !important;
+}
+
+#app-mount .layer__960e4 ~ .layer__960e4 {
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settingsbackground_v) !important;
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settingswidth_v) !important;
+	height: var(--settingsheight_v) !important;
+	margin: auto !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	contain: unset !important;
+	z-index: 1000 !important;
+	--settingsiconsadditionalsize: var(--use-settingsicons, 0) * (var(--settingsicons-size, 0px) + var(--settingsicons-gap, 0px));
+}
+#app-mount .layer__960e4 ~ .layer__960e4 > div,
+#app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b {
+	position: static !important;
+	border-radius: unset !important;
+	width: 100% !important;
+	height: 100% !important;
+	margin: unset !important;
+	padding: unset !important;
+	overflow: hidden !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .sidebarRegion__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .sidebarRegionScroller__23e6b {
+	flex: 0 0 auto !important;
+	margin-top: 0 !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .sidebar__23e6b {
+	width: 218px !important;
+	padding: 20px 6px 20px 20px !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .contentColumnDefault__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .contentColumnWide__23e6b {
+	padding: 20px 40px !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .wrapper_e5cdf3 {
+	width: calc(var(--settingswidth_v) - 420px - var(--settingsiconsadditionalsize)) !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .contentRegionScroller__23e6b {
+	margin-top: 0 !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .sidebar_e29cd7 {
+	height: var(--settingsheight_v) !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b .editor {
+	height: calc(var(--settingsheight_v) - 120px) !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b {
+	position: fixed !important;
+	inset: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	z-index: -1 !important;
+	padding-top: 0 !important;
+	opacity: 0 !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .tools__23e6b {
+	width: 100% !important;
+	height: 100% !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .closeButton_c2b141 {
+	border: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	cursor: default !important;
+	flex: unset !important;
+	transition: unset !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .closeButton_c2b141:hover {
+	transition: unset !important;
+	background: unset !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .closeButton_c2b141 > svg {
+	display: none !important;
+}
+#app-mount > .appAsidePanelWrapper_a3002d > .notAppAsidePanel_a3002d .contentRegion__23e6b .toolsContainer__23e6b .container_c2b141 {
+	height: 100% !important;
+}
+#app-mount > .appAsidePanelWrapper_a3002d > .notAppAsidePanel_a3002d .contentRegion__23e6b .toolsContainer__23e6b .keybind_c2b141 {
+	display: none !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .settingsToolbar_8227b0 {
+	display: none !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .accountProfileCard__1fed1 {
+	max-width: calc(var(--settingswidth_v) - 332px - var(--settingsiconsadditionalsize)) !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061 {
+	gap: 30px !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061 .sectionsContainer__722a8,
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061 .sectionsContainer_def11f,
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061 .editor__9d295,
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061 .preview__44061 {
+	min-width: calc((var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) / 2) !important;
+	max-width: calc((var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) / 2) !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061.tryItOutLayout__9d295 .sectionsContainer__722a8,
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061.tryItOutLayout__9d295 .sectionsContainer_def11f,
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061.tryItOutLayout__9d295 .editor__9d295,
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061.tryItOutLayout__9d295 .preview__44061 {
+	min-width: calc((var(--settingswidth_v) - 364px - var(--settingsiconsadditionalsize)) / 2) !important;
+	max-width: calc((var(--settingswidth_v) - 364px - var(--settingsiconsadditionalsize)) / 2) !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061 .preview__44061 .userPopoutOuter_c69a7b {
+	width: calc((var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) / 2) !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .baseLayout__44061.tryItOutLayout__9d295 .preview__44061 .userPopoutOuter_c69a7b {
+	width: calc((var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) / 2) !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061 .preview__44061 .userPopoutOuter_c69a7b,
+#app-mount .layer__960e4 ~ .layer__960e4 .baseLayout__44061.tryItOutLayout__9d295 .preview__44061 .userPopoutOuter_c69a7b {
+	min-width: unset !important;
+	max-width: 340px !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .profileCustomizationSection__44061 .baseLayout__44061 .preview__44061 .userPopoutInner_c69a7b {
+	overflow: hidden !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .guildsSection__337a8 {
+	max-width: calc(var(--settingswidth_v) - 352px - var(--settingsiconsadditionalsize)) !important;
+}
+#app-mount .layer__960e4 ~ .layer__960e4 .container__9293f.headerBar__80679 {
+	position: static !important;
+}
+
+#app-mount .root__5c9fc {
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background: var(--settingsbackground_v) !important;
+	box-shadow: var(--elevation-high) !important;
+	width: var(--settingswidth_v) !important;
+	height: var(--settingsheight_v) !important;
+	margin: auto !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	contain: unset !important;
+	z-index: 1000 !important;
+}
+#app-mount .root__5c9fc.enterDone__5c9fc {
+	transform: unset !important;
+}
+#app-mount .root__5c9fc .closeIconWrapper__6fd0e,
+#app-mount .root__5c9fc .closeIconWrapper__6fd0e .container_c2b141,
+#app-mount .root__5c9fc .closeIconWrapper__6fd0e .closeButton_c2b141,
+#app-mount .layer__960e4 > .shop__6db1d .container_c2b141,
+#app-mount .layer__960e4 > .shop__6db1d .closeButton_c2b141 {
+	position: fixed !important;
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	z-index: -1 !important;
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	max-width: unset !important;
+	height: 100% !important;
+	max-height: unset !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	opacity: 0 !important;
+	cursor: default !important;
+	animation: unset !important;
+	transition: unset !important;
+}
+#app-mount .layer__960e4 > .shop__6db1d .shopHomeLink__80679,
+#app-mount .layer__960e4 > .shop__6db1d .tabs__80679,
+#app-mount .layer__960e4 > .shop__6db1d .shopScroll__08415 {
+	z-index: 2 !important;
+}
+#app-mount .root__5c9fc .closeIconWrapper__6fd0e {
+	top: 22px !important;
+}
