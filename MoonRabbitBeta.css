@@ -75,6 +75,10 @@
 /*------------------------------------------------------
                 anything else down here
 ------------------------------------------------------*/
+:root {
+    --blurple-50: hsl(var(--H), var(--S), var(--L));
+    --brand-500: hsl(var(--H), var(--S), var(--L));
+}
 
 /* All App */
 #app-mount .bar_c38106:not(.show_c38106) {
