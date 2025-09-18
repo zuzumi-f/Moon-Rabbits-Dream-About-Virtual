@@ -64,6 +64,7 @@
     /* Other options */
     --border-width: 3px;
     --round-corners: 16px;
+    --bottom-user-width: 24px;
 }
 
 /* Selection text color */
@@ -182,17 +183,17 @@
     -webkit-app-region: drag;
 }
 #app-mount .panels_c48ade {
-    width: 36vh;
+    width: calc(308px + var(--bottom-user-width));
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
 }
 
 /* Like Another Window */
 #app-mount .base_c48ade {
-    margin: 24px 12px 48px 32vh;
+    margin: 24px 12px 48px calc((308px + (var(--border-width)*2)) + 18px);
 }
 #app-mount .winButtons_c38106 {
-    left: calc(32vh + (14px + var(--border-width)));
+    left: calc(calc((308px + (var(--border-width)*2)) + 18px) + (14px + var(--border-width)));
     top: calc(36px + (var(--border-width)*2));
 }
 
@@ -206,6 +207,7 @@
 
 .panels_c48ade {
     position: fixed;
+    left: 12px;
 }
 .content_c48ade {
     display: flex;
@@ -347,6 +349,11 @@
 
 #app-mount .user-profile-popout .wrapper_da5890 {
     top: calc(12px + 32px);
+}
+
+#app-mount .profileEffects__01370 {
+    height: calc(100% - 32px);
+    top: calc(32px + var(--border-width));
 }
 
 /* Big Profile */
