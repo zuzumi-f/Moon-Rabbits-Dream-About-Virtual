@@ -376,9 +376,10 @@
     position: fixed;
 }
 
-.user-profile-modal-v2 ._9c3bea41fd465666-profile::before {
+.user-profile-modal-v2 ._9c3bea41fd465666-profile::after {
     background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
     display: block;
+    position: absolute;
     content: "";
     top: 0;
     min-height: 32px;
