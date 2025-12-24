@@ -117,7 +117,7 @@
     border-top-right-radius: var(--round-corners);
 }
 
-#app-mount ._5e434347c823b592-content {
+#app-mount ._5e434347c823b592-content:not(:has(.cb9592ad77576717-fullScreen)) {
     margin-top: calc(10px + var(--border-width));
     border-top: none !important;
     border: var(--border-width) solid var(--border-color);
@@ -128,8 +128,31 @@
 #app-mount ._5e434347c823b592-sidebar {
     border-bottom-right-radius: var(--round-corners);
 }
-#app-mount ._5e434347c823b592-page {
+#app-mount ._5e434347c823b592-page:not(:has(.cb9592ad77576717-fullScreen)) {
     border-bottom-left-radius: var(--round-corners);
+}
+
+/* Like Another Window */
+#app-mount ._5e434347c823b592-base:not(:has(.cb9592ad77576717-fullScreen)) {
+    margin: 24px 12px 48px calc((308px + (var(--border-width)*2)) + 18px);
+}
+#app-mount .c38106a3f0c3ca76-winButtons {
+    left: calc(calc((308px + (var(--border-width)*2)) + 18px) + (14px + var(--border-width)));
+    top: calc(36px + (var(--border-width)*2));
+}
+
+/* Fullscreen */
+#app-mount ._5e434347c823b592-content:has(.cb9592ad77576717-fullScreen) {
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--round-corners);
+}
+
+#app-mount ._5e434347c823b592-page:has(.cb9592ad77576717-fullScreen) {
+    border-radius: var(--round-corners);
+}
+
+#app-mount ._5e434347c823b592-base:has(.cb9592ad77576717-fullScreen) {
+    margin: 12px;
 }
 
 /* WinButtons */
@@ -186,15 +209,6 @@
     width: calc(308px + var(--bottom-user-width));
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
-}
-
-/* Like Another Window */
-#app-mount ._5e434347c823b592-base {
-    margin: 24px 12px 48px calc((308px + (var(--border-width)*2)) + 18px);
-}
-#app-mount .c38106a3f0c3ca76-winButtons {
-    left: calc(calc((308px + (var(--border-width)*2)) + 18px) + (14px + var(--border-width)));
-    top: calc(36px + (var(--border-width)*2));
 }
 
 /* experiment */
@@ -306,7 +320,7 @@
 }
 
 /* Bar Alert */
-#app-mount .notice__6e2b9 {
+#app-mount ._6e2b9359c6f84cfd-notice {
     border-radius: 100px;
     width: 50%;
     justify-self: center;
