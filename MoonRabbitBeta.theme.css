@@ -372,7 +372,7 @@
     border-top-right-radius: var(--round-corners);
 }
 
-#app-mount .content__5e434:not(:has(.cb9592ad77576717-fullScreen)) {
+#app-mount .content__5e434:not(:has(.fullScreen_cb9592)) {
     margin-top: calc(10px + var(--border-width));
     border-top: none !important;
     border: var(--border-width) solid var(--border-color);
@@ -383,12 +383,12 @@
 #app-mount .sidebar__5e434 {
     border-bottom-right-radius: var(--round-corners);
 }
-#app-mount .page__5e434:not(:has(.cb9592ad77576717-fullScreen)) {
+#app-mount .page__5e434:not(:has(.fullScreen_cb9592)) {
     border-bottom-left-radius: var(--round-corners);
 }
 
 /* Like Another Window */
-#app-mount .base__5e434:not(:has(.cb9592ad77576717-fullScreen)) {
+#app-mount .base__5e434:not(:has(.fullScreen_cb9592)) {
     margin: 24px 12px 48px calc((308px + (var(--border-width)*2)) + 18px);
 }
 #app-mount .winButtons_c38106 {
@@ -397,16 +397,16 @@
 }
 
 /* Fullscreen */
-#app-mount .content__5e434:has(.cb9592ad77576717-fullScreen) {
+#app-mount .content__5e434:has(.fullScreen_cb9592) {
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
 }
 
-#app-mount .page__5e434:has(.cb9592ad77576717-fullScreen) {
+#app-mount .page__5e434:has(.fullScreen_cb9592) {
     border-radius: var(--round-corners);
 }
 
-#app-mount .base__5e434:has(.cb9592ad77576717-fullScreen) {
+#app-mount .base__5e434:has(.fullScreen_cb9592) {
     margin: 12px;
 }
 
@@ -587,7 +587,7 @@
 }
 
 /* Bar Alert */
-#app-mount ._6e2b9359c6f84cfd-notice {
+#app-mount .notice__6e2b9 {
     border-radius: 100px;
     width: 50%;
     justify-self: center;
@@ -791,7 +791,7 @@
 .chat_f75fb0 .search__49676 .searchBar_c322aa {
     width: 248px;
 }
-.chat_f75fb0 .children__9293f:not(.cb9592ad77576717-noChat .children__9293f, .cb9592ad77576717-fullScreen .children__9293f) {
+.chat_f75fb0 .children__9293f:not(.noChat_cb9592 .children__9293f, .fullScreen_cb9592 .children__9293f) {
     margin-left: calc(248px + 8px);
 }
 
