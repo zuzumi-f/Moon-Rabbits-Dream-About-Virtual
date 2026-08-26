@@ -418,6 +418,7 @@
     flex-direction: row-reverse;
     -webkit-app-region: no-drag;
 }
+.leading_c38106,
 .winButtonsWithDivider_c38106:before {
     display: none;
 }
@@ -493,6 +494,7 @@
     top: 0px;
     height: 100%;
     position: absolute;
+    padding-top: 8px;
 }
 
 .sidebarList__5e434::before {
@@ -547,6 +549,8 @@
 /* Top Icons */
 #app-mount .bar_c38106 .trailing_c38106 {
     margin-right: 8px;
+    right: calc(13px + var(--border-width));
+    position: fixed;
 }
 #app-mount .bar_c38106 svg:not(.winButtons_c38106 svg) {
     color: #fff;
@@ -619,6 +623,11 @@
     height: calc(100% - 24px);
 }
 
+#app-mount .profileEffects__0dd08,
+#app-mount .profileEffects__0dd08 .inner__0dd08 {
+    border-radius: var(--round-corners);
+}
+
 .user-profile-popout::before {
     background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
     display: block;
@@ -641,7 +650,9 @@
     --custom-user-profile-theme-padding: 0 !important;
 }
 
-#app-mount .inner_c0bea0,
+#app-mount .inner_c0bea0 {
+    border-radius: 0 0 var(--round-corners) var(--round-corners);
+}
 #app-mount .banner__68edb {
     border-radius: 0;
 }
@@ -657,7 +668,9 @@
 
 /* Big Profile */
 .user-profile-modal-v2 .profile__9c3be {
+    max-height: 80vh;
     left: -24px;
+    top: 0vh;
     position: fixed;
 }
 
@@ -671,7 +684,7 @@
     max-height: 32px;
     width: 100%;
     border-bottom: var(--border-width) solid var(--border-color);
-    border-radius: 0;
+    border-radius: var(--round-corners) var(--round-corners) 0 0;
     -webkit-app-region: drag;
 }
 #app-mount .user-profile-modal-v2 .profile__9c3be {
@@ -679,12 +692,8 @@
     border-radius: var(--round-corners);
 }
 #app-mount .user-profile-modal-v2 .profileHeader__9c3be {
-    max-height: 500px;
-    margin-top: 28px;
-}
-
-.profileHeader__9c3be {
-    top: calc(32px + var(--border-width));
+    margin-top: calc(32px + var(--border-width));
+    border-radius: 0;
 }
 
 .user-profile-modal-v2::before {
@@ -705,17 +714,68 @@
 }
 
 #app-mount .user-profile-modal-v2 {
-    width: 800px;
-    margin-left: 324px;
+    width: 70%;
+    height: 70vh;
+    margin-left: 340px;
+    top: -67px;
 }
 
-#app-mount .user-profile-modal-v2 .backgroundImage__9c3be {
+#app-mount .user-profile-modal-v2 .inner_c0bea0 {
     height: calc((100% - 32px) - var(--border-width));
-    top: calc(32px + var(--border-width));
+    padding-top: 0;
 }
 
-#app-mount .user-profile-modal-v2 .coverList__9a5c3 {
-    grid-template-columns: repeat(var(--custom-game-cover-grid-row-size, 6), var(--custom-game-cover-width, 88px));
+#app-mount .user-profile-modal-v2 .tabBarPanel__37bfc {
+    padding: 0;
+}
+
+#app-mount .user-profile-modal-v2 .tabBarPanel__37bfc .imageGridPositioner__01fb0 {
+    height: 240px;
+}
+#app-mount .user-profile-modal-v2 .tabBarPanel__37bfc .image__01fb0 {
+    width: auto;
+    height: 100%;
+    right: 0;
+    position: absolute;
+}
+
+#app-mount .layoutContainer__9c3be.editingPanelEnabled__9c3be {
+    display: block;
+    z-index: 9;
+}
+#app-mount .layoutContainer__9c3be.editingPanelEnabled__9c3be .editingPanel__9c3be {
+    position: fixed;
+    right: -88px;
+    top: 40px;
+    margin: 8px 0 8px 8px;
+    height: calc(100% - 22px);
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--round-corners);
+}
+#app-mount .layoutContainer__9c3be.editingPanelEnabled__9c3be .editingPanel__9c3be::before {
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
+    display: block;
+    content: "";
+    top: 0;
+    min-height: 32px;
+    max-height: 32px;
+    width: 100%;
+    border-bottom: var(--border-width) solid var(--border-color);
+    border-top-left-radius: calc(var(--round-corners) - 3.5px);
+    border-top-right-radius: calc(var(--round-corners) - 3.5px);
+    -webkit-app-region: drag;
+}
+#app-mount .layoutContainer__9c3be.editingPanelEnabled__9c3be .editingPanel__9c3be .panelInner_b08638 {
+    padding-top: 32px;
+}
+
+.editingPanelExpandButtonDefaultContainer__9c3be {
+    position: fixed;
+    left: calc(-53px + var(--border-width));
+}
+.modalHeaderButtons_b92f52 {
+    top: -20px;
+    right: -40px;
 }
 
 /* DM profile */
