@@ -617,6 +617,11 @@
     bottom: 0;
 }
 
+/* Browse Channels page */
+.pageBody__41ed7 {
+    max-width: calc(100% - var(--space-16));
+}
+
 /* Mini Profile */
 .layerContainer__59d0d .user-profile-popout {
     margin: 0 26px 0 0;
@@ -745,7 +750,7 @@
 }
 #app-mount .layoutContainer__9c3be.editingPanelEnabled__9c3be .editingPanel__9c3be {
     position: fixed;
-    right: -88px;
+    right: -240px;
     top: 40px;
     margin: 8px 0 8px 8px;
     height: calc(100% - 22px);
@@ -827,19 +832,6 @@
 }
 #app-mount .modalContentInner_e44912:has(.container_abd9a8) {
     height: calc((100% - 32px) - var(--border-width));
-}
-
-/* Settings Profile */
-.profileCustomizationSection__44061 .clickable_d28e10.avatar_d28e10 {
-    top: calc(61px + 32px);
-    inset-inline-start: calc(15px - var(--border-width));
-}
-.profileCustomizationSection__44061 .user-profile-popout .container_ab8609 {
-    inset-inline-start: 105px;
-    top: calc((var(--custom-user-profile-banner-height) - 7px) + 32px);
-}
-.profileCustomizationSection__44061 .user-profile-popout .inner_c0bea0 {
-    gap: 0 !important;
 }
 
 /* Chat */
