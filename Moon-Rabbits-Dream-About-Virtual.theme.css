@@ -4,10 +4,10 @@
  * @author zuzumi-f
  * @authorId 437579806616322049
  * @invite PsNtzGeHuW
- * @donate https://www.paypal.me/konazumi
+ * @donate https://ko-fi.com/sweet_m0chi
  * @website https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual
  * @source https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/blob/main/release/tsukino-mito.base.css
- * @version 4
+ * @version 5
 */
 
 /*---------------------------------------------------------------
@@ -16,25 +16,19 @@
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/tsukino-mito-base.css');
 
 /*---------------------------------------------------------------
-               Make it look Like Another Window
+                    Radial Status by Gibbu
 ---------------------------------------------------------------*/
-@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/window-mode.css');
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/radialstatus.css');
 
 /*---------------------------------------------------------------
                         Custom Settings
 ---------------------------------------------------------------*/
 
-/* Animate the background */
+/* Animate the background gradient */
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-animation.css');
 
-/* Add transparency for background images */
-/* @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-image.css'); */
-
-/* Pop Effect */
-@import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/pop.css");
-
-/* Reverse the position of Server list and members */
-@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/reverse.css');
+/* Enable background images in dms */
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-image.css');
 
 /*------------------------------------------------------
                 all the customization
@@ -53,19 +47,14 @@
     --bg-gradient1: #e297b2;
     --bg-gradient2: #c0b4d5;
     --bg-gradient3: #54b5de;
-    --bg-image: none; /* Write the image url, example url("your url") [none is default]*/
-    --opacity: 0; /* Value in numbers from 0 to 1, but there is a limit */
-    --bg-blur: 6px; /* Value in px */
+    --bg-image: url("https://user-images.githubusercontent.com/79029257/132885766-58a204cf-4941-4143-a3d2-7d9eec948c2c.png"); /* Write the image url, example url("your url") [none is default]*/
+    --bg-opacity: 0.3; /* Value in numbers from 0.0 to 1.0 */
+    --bg-blur: 0px; /* Value in px */
 
     /* HSL(Hue, Saturation, Lightness). This values will change the accent color (That blue color in most buttons) */
     --H: 339; /* Value in numbers [339 is default] */
     --S: 97%; /* Value in % [97% is default] */
     --L: 71%; /* Value in % [71% is default] */
-
-    /* HSL DarkTheme */
-    --darkH: 0;     /* Value in numbers [0 is default] */
-    --darkS: 0%;    /* Value in % [0% is default] */
-    --darkL: 16%;   /* Value in % [16% is default] */
 
     /* Windows Buttons Colors */
     --close-color: #da5169;
@@ -90,6 +79,7 @@
     /* Other options */
     --border-width: 3px;
     --round-corners: 16px;
+    --bottom-user-width: 24px;
 }
 
 /* Selection text color */
