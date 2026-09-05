@@ -1,38 +1,14 @@
-/* Background Image Transparency */
-.container_e44302.themed_e44302,
-.nowPlayingColumn_c2739c,
-.container_bf550a,
-.chatContent_a7d72e,
-.container_cbd271,
-.member_cbd271,
-.members_cbd271 {
-    background: transparent;
-}
-.container_c2739c,
-.chat_a7d72e {
-    background: var(--background-transparent);
-}
-
-/* Background Image */
-.layer_d4b6c5.baseLayer_d4b6c5::before {
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+/* Chat Background */
+#app-mount .chatContent_f75fb0::before {
+    display: block;
     position: absolute;
-    filter: blur(var(--bg-blur));
-    background-image: var(--bg-image);
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: var(--bg-image);
     background-size: cover;
     background-position: center;
-}
-.container_a4d4d9::before {
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: var(--primary-600);
-    opacity: var(--opacity);
+    opacity: var(--bg-opacity);
+    filter: blur(var(--bg-blur));
+    z-index: 0;
 }
