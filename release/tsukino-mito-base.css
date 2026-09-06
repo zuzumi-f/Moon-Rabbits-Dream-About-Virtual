@@ -384,7 +384,7 @@
     -webkit-app-region: drag;
 }
 #app-mount .panels__5e434 {
-    width: calc(308px + var(--bottom-user-width));
+    width: calc(308px + 24px);
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
 }
