@@ -517,6 +517,9 @@
 .header_f37cb1 .name_f37cb1 {
     color: #fff !important;
 }
+.header_f37cb1 .headerChildren_f37cb1 path {
+    fill: #fff !important;
+}
 .header_f37cb1 .guildBadgeAndName_f37cb1::before {
     opacity: 1;
     content: ">";
