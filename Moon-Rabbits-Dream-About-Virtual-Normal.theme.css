@@ -1,0 +1,93 @@
+/**
+ * @name Moon Rabbits Dream About Virtual
+ * @description Based in Tsukino Mito Album Presentation
+ * @author zuzumi-f
+ * @authorId 437579806616322049
+ * @invite PsNtzGeHuW
+ * @donate https://ko-fi.com/sweet_m0chi
+ * @website https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual
+ * @source https://github.com/zuzumi-f/Moon-Rabbits-Dream-About-Virtual/blob/main/release/tsukino-mito.base-normal.css
+ * @version 5
+*/
+
+/*---------------------------------------------------------------
+   Theme Import you can't disable this is the full theme dummy
+---------------------------------------------------------------*/
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/tsukino-mito-base-normal.css');
+
+/*---------------------------------------------------------------
+                    Radial Status by Gibbu
+---------------------------------------------------------------*/
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/radialstatus.css');
+
+/*---------------------------------------------------------------
+                        Custom Settings
+---------------------------------------------------------------*/
+
+/* Animate the background gradient */
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-animation.css');
+
+/* Enable background images in dms */
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-image.css');
+
+/*------------------------------------------------------
+                all the customization
+------------------------------------------------------*/
+:root {
+    /* The text that appear in top, leave it blank ("") if you dont want any */
+    --custom-text: "TSUKINO MITO";
+
+    /* General Colors */
+    --border-color: #da4a60;
+    --drag-gradient1: #e8c4d3;
+    --drag-gradient2: #e39ba7;
+    --name-bg: #d95b72;
+
+    /* Background Colors & BG Image */
+    --bg-gradient1: #e297b2;
+    --bg-gradient2: #c0b4d5;
+    --bg-gradient3: #54b5de;
+    --bg-image: url("https://user-images.githubusercontent.com/79029257/132885766-58a204cf-4941-4143-a3d2-7d9eec948c2c.png"); /* Write the image url, example url("your url") [none is default]*/
+    --bg-opacity: 0.3; /* Value in numbers from 0.0 to 1.0 */
+    --bg-blur: 0px; /* Value in px */
+
+    /* HSL(Hue, Saturation, Lightness). This values will change the accent color (That blue color in most buttons) */
+    --H: 339; /* Value in numbers [339 is default] */
+    --S: 97%; /* Value in % [97% is default] */
+    --L: 71%; /* Value in % [71% is default] */
+
+    /* Windows Buttons Colors */
+    --close-color: #da5169;
+    --max-color: #ffdf5b;
+    --min-color: #00a0cb;
+
+    /* Status Colors */
+    --online-color: #caffbf;
+    --idle-color: #fdffb6;
+    --dnd-color: #ffadad;
+    --offline-color: #d2d2cf;
+    --streaming-color: #bdb2ff;
+
+    /* Chatbar Colors */
+    --textarea-background: #F0F2F2;
+    --text-color: #313D40;
+    --icon-color: var(--text-color);
+    --selected-text-bg: var(--text-color);
+    --selected-text-color: var(--textarea-background);
+    --mentioned-color: 200, 100%, 60%; /* HSL Values Only */
+
+    /* Other options */
+    --border-width: 3px;
+    --round-corners: 16px;
+    --bottom-user-width: 24px;
+}
+
+/* Selection text color */
+::selection {
+    background-color: var(--selected-text-bg); /* text selection*/
+    color: var(--selected-text-color); /* text color */
+}
+
+/*------------------------------------------------------
+                anything else down here
+------------------------------------------------------*/
