@@ -302,19 +302,17 @@
     border-bottom-right-radius: var(--round-corners);
 }
 
-#app-mount .sidebar__5e434 {
-    border-bottom-right-radius: var(--round-corners);
-}
 #app-mount .page__5e434:not(:has(.fullScreen_cb9592)) {
     border-bottom-left-radius: var(--round-corners);
+    border-bottom-right-radius: var(--round-corners);
 }
 
 /* Like Another Window */
 #app-mount .base__5e434:not(:has(.fullScreen_cb9592)) {
-    margin: 24px 12px 48px calc((308px + (var(--border-width)*2)) + 18px);
+    margin: 24px 12px 48px calc(((308px + 72px) + (var(--border-width)*4)) + 24px);
 }
 #app-mount .winButtons_c38106 {
-    left: calc(calc((308px + (var(--border-width)*2)) + 18px) + (14px + var(--border-width)));
+    left: calc(calc(((308px + 72px) + (var(--border-width)*4)) + 24px) + (14px + var(--border-width)));
     top: calc(36px + (var(--border-width)*2));
 }
 
@@ -384,7 +382,7 @@
     -webkit-app-region: drag;
 }
 #app-mount .panels__5e434 {
-    width: calc(308px + 24px);
+    width: calc((306px + 72px + 24px) - var(--border-width));
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
 }
@@ -392,8 +390,9 @@
 /* New Style */
 .sidebarList__5e434 {
     position: fixed;
-    left: 12px;
-    height: -webkit-fill-available;
+    left: calc(72px + (var(--border-width)*4) + 10px);
+    bottom: 0px;
+    height: calc(100% - var(--custom-app-panels-height, 0) - 95px - (var(--border-width)*2));
     width: calc(375px - (40px + 16px*2) - 1px) !important;
     margin-bottom: calc((var(--custom-app-panels-height, 0) + 16px) + ((var(--border-width)*2)));
 }
@@ -407,7 +406,6 @@
 }
 .content__5e434 {
     display: flex;
-    flex-direction: row-reverse;
 }
 .sidebar__5e434 {
     width: calc(69px + var(--border-width));
@@ -416,7 +414,6 @@
     top: 0px;
     height: 100%;
     position: absolute;
-    padding-top: 8px;
 }
 
 .sidebarList__5e434::before {
@@ -427,21 +424,17 @@
     min-height: 32px;
     width: 100%;
     border-bottom: var(--border-width) solid var(--border-color);
-    border-top-left-radius: calc(var(--round-corners) - 3.5px);
     border-top-right-radius: calc(var(--round-corners) - 3.5px);
     -webkit-app-region: drag;
 }
 .sidebarList__5e434 {
     border: var(--border-width) solid var(--border-color) !important;
-    border-radius: var(--round-corners);
+    border-left: none !important;
+    border-radius: 0 var(--round-corners) var(--round-corners) 0;
 }
 
 .bannerVisible_f37cb1 .headerEllipseForeground_f37cb1 {
     display: none;
-}
-
-.content_f75fb0:not(:has(.outer_c0bea0)){
-    flex-direction: row-reverse;
 }
 
 /* Background Gradient */
@@ -480,17 +473,42 @@
     right: 0;
 }
 #app-mount .wrapper_ef3116 .wrapper__58105 {
-    left: 60px;
+    left: 0px;
     flex-direction: row-reverse;
 }
 #app-mount .wrapper_ef3116 .item__58105 {
     border-radius: 4px;
-    margin-left: unset;
     width: 4px;
 }
 
+.guilds__5e434::before {
+    background: linear-gradient(var(--drag-gradient1), var(--drag-gradient2));
+    display: block;
+    content: "";
+    top: 0;
+    min-height: 32px;
+    max-height: 32px;
+    width: 100%;
+    border-bottom: var(--border-width) solid var(--border-color);
+    border-top-left-radius: calc(var(--round-corners) - 3.5px);
+    -webkit-app-region: drag;
+}
+.guilds__5e434 .tree_ef3116 {
+    padding-top: 8px;
+}
+#app-mount .sidebar__5e434 {
+    position: fixed;
+    left: calc(16px + var(--border-width));
+    top: calc(12px + (58px + var(--border-width)));
+    height: calc(100% - (91px - (var(--border-width)*2)) - (var(--custom-app-panels-height, 0) + 16px));
+    border: var(--border-width) solid var(--border-color) !important;
+    border-right: none !important;
+    border-radius: var(--round-corners) 0 0 var(--round-corners);
+}
+
 .sidebar__5e434:after {
-    height: 15px;
+    height: calc(var(--space-8) + 8px);
+    width: 72px;
 }
 
 /* Bar Alert */
@@ -516,9 +534,6 @@
 }
 .header_f37cb1 .name_f37cb1 {
     color: #fff !important;
-}
-.header_f37cb1 .headerChildren_f37cb1 path {
-    fill: #fff !important;
 }
 .header_f37cb1 .guildBadgeAndName_f37cb1::before {
     opacity: 1;
@@ -776,27 +791,6 @@
 #app-mount .modalContentInner_e44912:has(.container_abd9a8) {
     height: calc((100% - 32px) - var(--border-width));
 }
-
-/* Chat */
-.chat_f75fb0 .search__49676 {
-    position: absolute;
-    left: 0;
-    margin: 0 8px;
-}
-.chat_f75fb0 .search__49676 .searchBar_c322aa {
-    width: 248px;
-}
-.chat_f75fb0 .children__9293f:not(.noChat_cb9592 .children__9293f, .fullScreen_cb9592 .children__9293f) {
-    margin-left: calc(248px + 8px);
-}
-
-/*#app-mount .c19a557985eb7793-contents {
-    background: var(--background-base-low);
-    border: 1px solid var(--bg-gradient2);
-    padding: 8px;
-    border-radius: var(--round-corners);
-    width: fit-content;
-}*/
 
 /* Chatbar */
 #app-mount .chatGradient__36d07 {
