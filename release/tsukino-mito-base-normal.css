@@ -309,7 +309,7 @@
 
 /* Like Another Window */
 #app-mount .base__5e434:not(:has(.fullScreen_cb9592)) {
-    margin: 24px 12px 48px calc(((308px + 72px) + (var(--border-width)*4)) + 24px);
+    margin: 24px 12px 48px calc(((308px + 72px) + (var(--border-width)*4)) + 12px);
 }
 #app-mount .winButtons_c38106 {
     left: calc(calc(((308px + 72px) + (var(--border-width)*4)) + 24px) + (14px + var(--border-width)));
@@ -382,7 +382,7 @@
     -webkit-app-region: drag;
 }
 #app-mount .panels__5e434 {
-    width: calc((306px + 72px + 24px) - var(--border-width));
+    width: calc((306px + 72px + 12px) - var(--border-width));
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
 }
@@ -390,7 +390,7 @@
 /* New Style */
 .sidebarList__5e434 {
     position: fixed;
-    left: calc(72px + (var(--border-width)*4) + 10px);
+    left: calc(72px + (var(--border-width)*4) + 2px);
     bottom: 0px;
     height: calc(100% - var(--custom-app-panels-height, 0) - 95px - (var(--border-width)*2));
     width: calc(375px - (40px + 16px*2) - 1px) !important;
@@ -495,10 +495,11 @@
 }
 .guilds__5e434 .tree_ef3116 {
     padding-top: 8px;
+    height: calc(100% - 41px - (var(--border-width)));
 }
 #app-mount .sidebar__5e434 {
     position: fixed;
-    left: calc(16px + var(--border-width));
+    left: calc(8px + var(--border-width));
     top: calc(12px + (58px + var(--border-width)));
     height: calc(100% - (91px - (var(--border-width)*2)) - (var(--custom-app-panels-height, 0) + 16px));
     border: var(--border-width) solid var(--border-color) !important;
@@ -534,9 +535,6 @@
 }
 .header_f37cb1 .name_f37cb1 {
     color: #fff !important;
-}
-.header_f37cb1 .headerChildren_f37cb1 path {
-    fill: #fff !important;
 }
 .header_f37cb1 .guildBadgeAndName_f37cb1::before {
     opacity: 1;
