@@ -843,6 +843,10 @@
     padding: 0;
 }
 
+.chatTypingGradientAtBottom__36d07 {
+    display: none;
+}
+
 /* Settings switch */
 .switchIndicator_a28278[style*="background-color: rgb(88, 101, 242)"] {
     background-color: var(--blue-new-30) !important;
