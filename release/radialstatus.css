@@ -34,17 +34,22 @@
   --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
+/* Stops avatar decorations from being cropped */
 #app-mount .wrapper__44b0c .avatarDecoration__44b0c {
     clip-path: none !important;
 }
 #app-mount .wrapper__44b0c .avatarDecoration__44b0c {
     border-radius: unset !important;
 }
-
+/* Aligns the typing animation to the center */
 #app-mount .wrapper__44b0c .pointerEvents__44b0c[x="14.5"] {
     x: calc(var(--rs-members-width, 6px) / 2 - 2px) !important;
     y: calc(var(--rs-members-width, 2px) / 2) !important;
 }
 #app-mount .wrapper__44b0c .dots__5ad89 {
     transform: translate(calc(var(--rs-members-width, -17px) / 2 - 2px), calc(var(--rs-members-width, -26px) / 2)) translateZ(0);
+}
+/* Aligns the avatar in dms */
+.subtitleContainer_f75fb0 .avatar_f75fb0 {
+    margin: -6px 12px 0 1px;
 }
