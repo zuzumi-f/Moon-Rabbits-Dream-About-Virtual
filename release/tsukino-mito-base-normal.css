@@ -620,6 +620,7 @@
 
 .userTagUsername__26b1f {
     background-color: var(--name-bg);
+    color: #fff;
     border-radius: 2px;
     padding-right: 6px;
     padding-left: 9px;
@@ -760,6 +761,7 @@
 .content_f75fb0 .user-profile-sidebar {
     border: var(--border-width) solid var(--border-color);
     border-radius: var(--round-corners);
+    padding: 0 !important;
 }
 #app-mount .user-profile-sidebar .inner_c0bea0 {
     border-radius: 0 0 var(--round-corners) var(--round-corners);
@@ -825,7 +827,7 @@
     color: var(--text-color);
 }
 
-#app-mount .channelTextArea__74017 svg:not(.stackedBars__74017 svg) {
+#app-mount .channelTextArea__74017 svg:not(.stackedBars__74017 svg):not(.actionBar_aa605f svg) {
     color: var(--icon-color);
 }
 #app-mount .channelTextArea__74017 .spriteGreyscale__04eed {
