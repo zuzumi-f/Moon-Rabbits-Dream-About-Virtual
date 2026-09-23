@@ -40,3 +40,11 @@
 #app-mount .wrapper__44b0c .avatarDecoration__44b0c {
     border-radius: unset !important;
 }
+
+#app-mount .wrapper__44b0c .pointerEvents__44b0c[x="14.5"] {
+    x: calc(var(--rs-members-width, 6px) / 2 - 2px) !important;
+    y: calc(var(--rs-members-width, 2px) / 2) !important;
+}
+#app-mount .wrapper__44b0c .dots__5ad89 {
+    transform: translate(calc(var(--rs-members-width, -17px) / 2 - 2px), calc(var(--rs-members-width, -26px) / 2)) translateZ(0);
+}
