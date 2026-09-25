@@ -314,7 +314,7 @@
     margin: 24px 12px 48px calc((308px + (var(--border-width)*2)) + 18px);
 }
 #app-mount .winButtons_c38106 {
-    left: calc(calc((308px + (var(--border-width)*2)) + 18px) + (14px + var(--border-width)));
+    left: calc(calc((308px + (var(--border-width)*2)) + 16px) + (14px + var(--border-width)));
     top: calc(36px + (var(--border-width)*2));
 }
 
