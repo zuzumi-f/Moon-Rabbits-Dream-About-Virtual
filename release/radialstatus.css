@@ -47,7 +47,7 @@
     y: calc(var(--rs-members-width, 2px) / 2) !important;
 }
 #app-mount .wrapper__44b0c .dots__5ad89 {
-    transform: translate(calc(var(--rs-members-width, -17px) / 2 - 2px), calc(var(--rs-members-width, -26px) / 2)) translateZ(0);
+    transform: translate(calc(var(--rs-members-width, -18px) / 2 - 2px), calc(var(--rs-members-width, -28px) / 2)) translateZ(0);
 }
 /* Aligns the avatar in dms */
 .subtitleContainer_f75fb0 .avatar_f75fb0 {
